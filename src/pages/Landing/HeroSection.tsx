@@ -102,6 +102,8 @@ function HeroSection() {
               mb: 4,
               lineHeight: 1.4,
               wordBreak: "break-word",
+              maxWidth: "800px",
+              mx: "auto",
             }}
           >
             A FLORIDA-BASED GLOBAL REAL ESTATE DEVELOPMENT AND CAPITAL
