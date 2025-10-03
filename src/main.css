@@ -29,6 +29,7 @@
 html {
   body {
     margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
     font-family:
       "SF Pro Text",
       -apple-system,

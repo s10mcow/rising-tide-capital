@@ -1,16 +1,22 @@
 import Layout from "@/components/Layout";
+import BenefitsSection from "./BenefitsSection";
+import CTASection from "./CTASection";
+import FAQSection from "./FAQSection";
 import HeroSection from "./HeroSection";
-import AboutSection from "./AboutSection";
+import ProcessSection from "./ProcessSection";
+import TestimonialsSection from "./TestimonialsSection";
 import WhoWeAreSection from "./WhoWeAreSection";
-import ContactUsSection from "./ContactUsSection";
 
 function Landing() {
   return (
     <Layout>
       <HeroSection />
-      <AboutSection />
+      <BenefitsSection />
+      <ProcessSection />
+      <TestimonialsSection />
       <WhoWeAreSection />
-      <ContactUsSection />
+      <FAQSection />
+      <CTASection />
     </Layout>
   );
 }

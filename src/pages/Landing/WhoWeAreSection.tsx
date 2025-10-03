@@ -1,3 +1,6 @@
+import marco from "@assets/images/marco.jpeg";
+import sten from "@assets/images/sten.jpg";
+import { LinkedIn } from "@mui/icons-material";
 import {
   Avatar,
   Box,
@@ -10,9 +13,6 @@ import {
   Typography,
 } from "@mui/material";
 import { SectionContainer } from "./styles";
-import { LinkedIn } from "@mui/icons-material";
-import sten from "@assets/images/sten.jpg";
-import marco from "@assets/images/marco.jpeg";
 
 function WhoWeAreSection() {
   return (

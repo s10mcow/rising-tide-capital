@@ -2,14 +2,171 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Riding Tide Capital</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Rising Tide Capital Partners - Real Estate Development & Investment</title>
+    <meta name="title" content="Rising Tide Capital Partners - Real Estate Development & Investment" />
+    <meta name="description" content="Florida-based global real estate development and capital investment firm engaged in acquisitions, development and repositioning of land, residential, and commercial properties." />
+    <meta name="keywords" content="real estate development, capital investment, land acquisition, commercial properties, multi-family development, real estate investment, Florida real estate, property development, Rising Tide Capital Partners" />
+    <meta name="author" content="Rising Tide Capital Partners" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://risingtidecapital.us/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://risingtidecapital.us/" />
+    <meta property="og:title" content="Rising Tide Capital Partners - Real Estate Development & Investment" />
+    <meta property="og:description" content="Florida-based global real estate development and capital investment firm engaged in acquisitions, development and repositioning of land, residential, and commercial properties." />
+    <meta property="og:image" content="https://risingtidecapital.us/assets/images/ocean.webp" />
+    <meta property="og:site_name" content="Rising Tide Capital Partners" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://risingtidecapital.us/" />
+    <meta property="twitter:title" content="Rising Tide Capital Partners - Real Estate Development & Investment" />
+    <meta property="twitter:description" content="Florida-based global real estate development and capital investment firm engaged in acquisitions, development and repositioning of land, residential, and commercial properties." />
+    <meta property="twitter:image" content="https://risingtidecapital.us/assets/images/ocean.webp" />
+    
+    <!-- Business Information -->
+    <meta name="geo.region" content="US-FL" />
+    <meta name="geo.placename" content="Florida" />
+    <meta name="geo.position" content="27.7663;-82.6404" />
+    <meta name="ICBM" content="27.7663, -82.6404" />
+    
+    <!-- Preload critical resources with highest priority for LCP -->
+    <link rel="preload" href="/src/assets/images/ocean.webp" as="image" type="image/webp" fetchpriority="high" />
+    <link rel="preload" href="/src/assets/images/ocean.jpg" as="image" type="image/jpeg" fetchpriority="high" />
+    <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Bold.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Regular.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Semibold.otf" as="font" type="font/otf" crossorigin />
+    
+    <!-- Critical CSS for above-the-fold content -->
+    <style>
+        /* Critical CSS for immediate rendering */
+        @font-face {
+            font-family: "SF Pro Text";
+            font-style: normal;
+            font-weight: 400;
+            src: url("/src/assets/fonts/SF-Pro-Text-Regular.otf") format("opentype");
+            font-display: swap;
+        }
+        @font-face {
+            font-family: "SF Pro Text";
+            font-style: normal;
+            font-weight: 700;
+            src: url("/src/assets/fonts/SF-Pro-Text-Bold.otf") format("opentype");
+            font-display: swap;
+        }
+        
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        
+        #root {
+            min-height: 100vh;
+        }
+        
+        /* Critical styles for hero section to prevent layout shift */
+        .hero-section {
+            width: 100%;
+            height: 80vh;
+            background-image: url("/src/assets/images/ocean.webp"), url("/src/assets/images/ocean.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .hero-section {
+                background-attachment: scroll;
+            }
+        }
+    </style>
+    
+    <!-- Preconnect to Google Fonts for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    
+    <!-- Load Google Fonts with font-display: swap to prevent render blocking -->
     <link
-            rel="stylesheet"
-            type="text/css"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons|Montserrat:300,400,500,700"
+            rel="preload"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons|Montserrat:300,400,500,700&display=swap"
     />
+    <noscript>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons|Montserrat:300,400,500,700&display=swap"
+        />
+    </noscript>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Rising Tide Capital Partners",
+      "description": "Florida-based global real estate development and capital investment firm engaged in acquisitions, development and repositioning of land, residential, and commercial properties.",
+      "url": "https://risingtidecapital.us/",
+      "logo": "https://risingtidecapital.us/favicon.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "State",
+          "name": "Florida"
+        }
+      ],
+      "serviceType": [
+        "Real Estate Development",
+        "Capital Investment",
+        "Land Acquisition",
+        "Multi-Family Development",
+        "Commercial Properties",
+        "Investment Opportunities",
+        "Property Development"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Sten Muchow",
+        "jobTitle": "Real Estate Developer and Capital Investor",
+        "description": "Real estate developer and capital investor with expertise in real estate development and capital investment, investing in real estate since 2016.",
+        "sameAs": "https://www.linkedin.com/in/stenmuchow"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
@@ -20,6 +177,44 @@
         <input type="text" name="message"></input>
         <input type="submit" />
     </form>
+    <form name="property-inquiry" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="text" name="phone" />
+        <input type="text" name="propertyCounty" />
+        <input type="text" name="propertyAddress" />
+        <input type="text" name="propertyType" />
+        <input type="text" name="message" />
+        <input type="submit" />
+    </form>
+    <!-- Performance optimization script -->
+    <script>
+      // Preload critical resources as soon as possible
+      (function() {
+        // Create link elements for critical resources
+        const criticalResources = [
+          { href: '/src/assets/images/ocean.webp', as: 'image', type: 'image/webp' },
+          { href: '/src/assets/images/ocean.jpg', as: 'image', type: 'image/jpeg' }
+        ];
+        
+        criticalResources.forEach(function(resource) {
+          const link = document.createElement('link');
+          link.rel = 'preload';
+          link.as = resource.as;
+          link.href = resource.href;
+          if (resource.type) link.type = resource.type;
+          if (resource.as === 'image') link.fetchPriority = 'high';
+          document.head.appendChild(link);
+        });
+        
+        // Optimize font loading
+        if ('fonts' in document) {
+          document.fonts.ready.then(function() {
+            document.documentElement.classList.add('fonts-loaded');
+          });
+        }
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

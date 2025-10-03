@@ -1,7 +1,7 @@
+import { Apartment, Home, Landscape } from "@mui/icons-material";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { SectionContainer } from "./styles";
-import { Apartment, Home, Landscape } from "@mui/icons-material";
 
 const Item = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -49,19 +49,24 @@ function AboutSection() {
   ];
 
   return (
-    <SectionContainer>
+    <SectionContainer component="section" aria-labelledby="about-heading">
       <Container>
         <Grid container>
           <Grid container spacing={2}>
             <Grid xs={12} item>
               <Grid sx={{ textAlign: "center" }}>
-                <Typography variant="h2" gutterBottom>
+                <Typography
+                  component="h2"
+                  variant="h2"
+                  gutterBottom
+                  id="about-heading"
+                >
                   What we do
                 </Typography>
-                <Typography gutterBottom color="grey.600">
+                <Typography component="p" gutterBottom color="grey.600">
                   Rising Tide Capital Partners focuses on investments through
-                  real estate. We have three areas of concern, multi-family,
-                  land, and single family houses.
+                  real estate. We have three areas of focus: multi-family
+                  properties, land development, and single family houses.
                 </Typography>
               </Grid>
             </Grid>
@@ -72,11 +77,11 @@ function AboutSection() {
               <Grid xs={12} sm={12} md={4} key={index} item>
                 <Item>
                   {feature.icon}
-                  <Typography variant="h4" sx={{ mt: 2 }}>
+                  <Typography component="h3" variant="h4" sx={{ mt: 2 }}>
                     {feature.title}
                   </Typography>
                   <Box mt={1.5}>
-                    <Typography color={"rgb(139, 143, 163)"}>
+                    <Typography component="p" color={"rgb(139, 143, 163)"}>
                       {feature.description}
                     </Typography>
                   </Box>
