@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://risingtidecapital.us/sitemap.xml
+
+# Crawl delay (optional - helps prevent overloading server)
+Crawl-delay: 1
