@@ -11,7 +11,7 @@ import WhoWeAreSection from "./WhoWeAreSection";
 function Landing() {
   // Your Google Place ID - Get it from: https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder
   // Search for "Rising Tide Capital Partners" and copy the Place ID
-  const GOOGLE_PLACE_ID = import.meta.env.GOOGLE_PLACE_ID || "";
+  const GOOGLE_PLACE_ID = import.meta.env.NETLIFY_ENV_GOOGLE_PLACE_ID || "";
 
   return (
     <Layout>
