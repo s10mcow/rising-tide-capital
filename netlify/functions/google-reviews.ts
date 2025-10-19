@@ -49,8 +49,8 @@ export default async (request: Request) => {
           message:
             "Missing required environment variables. Please set GOOGLE_PLACES_API_KEY and GOOGLE_PLACE_ID in Netlify.",
           missingVars: {
-            GOOGLE_PLACES_API_KEY: !GOOGLE_API_KEY,
-            GOOGLE_PLACE_ID: !GOOGLE_PLACE_ID,
+            GOOGLE_PLACES_API_KEY: GOOGLE_API_KEY,
+            GOOGLE_PLACE_ID: GOOGLE_PLACE_ID,
           },
         }),
         {
