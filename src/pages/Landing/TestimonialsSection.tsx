@@ -1,141 +1,9 @@
-import { FormatQuote, Star } from "@mui/icons-material";
-import {
-  Avatar,
-  Box,
-  Card,
-  CardContent,
-  Container,
-  Grid,
-  Typography,
-} from "@mui/material";
-import { styled } from "@mui/material/styles";
+import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import { SectionContainer } from "./styles";
 
-const TestimonialCard = styled(Card)(({ theme }) => ({
-  height: "100%",
-  display: "flex",
-  flexDirection: "column",
-  padding: theme.spacing(2),
-  position: "relative",
-  backgroundColor: theme.palette.background.paper,
-  boxShadow: theme.shadows[3],
-  transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
-  [theme.breakpoints.up("sm")]: {
-    padding: theme.spacing(3),
-  },
-  "&:hover": {
-    transform: "translateY(-4px)",
-    boxShadow: theme.shadows[8],
-  },
-}));
-
-const QuoteIcon = styled(FormatQuote)(({ theme }) => ({
-  fontSize: "2rem",
-  color: theme.palette.primary.main,
-  opacity: 0.3,
-  position: "absolute",
-  top: theme.spacing(1),
-  right: theme.spacing(1),
-  [theme.breakpoints.up("sm")]: {
-    fontSize: "3rem",
-    top: theme.spacing(2),
-    right: theme.spacing(2),
-  },
-}));
-
-const StarRating = styled(Box)(({ theme }) => ({
-  display: "flex",
-  justifyContent: "center",
-  marginBottom: theme.spacing(1),
-  [theme.breakpoints.up("sm")]: {
-    marginBottom: theme.spacing(2),
-  },
-  "& svg": {
-    color: "#FFD700",
-    fontSize: "1.2rem",
-    [theme.breakpoints.up("sm")]: {
-      fontSize: "1.5rem",
-    },
-  },
-}));
-
-const ClientAvatar = styled(Avatar)(({ theme }) => ({
-  width: 60,
-  height: 60,
-  margin: "0 auto",
-  marginBottom: theme.spacing(1),
-  backgroundColor: theme.palette.primary.main,
-  fontSize: "1.5rem",
-  fontWeight: "bold",
-}));
-
 function TestimonialsSection() {
-  const testimonials = [
-    {
-      name: "Michael Rodriguez",
-      role: "Land Owner",
-      location: "Texas",
-      rating: 5,
-      text: "Rising Tide Capital Partners made selling our vacant land incredibly smooth. They provided a fair offer and handled all the paperwork. The whole process took just 35 days from start to finish. Couldn't be happier!",
-      initials: "MR",
-    },
-    {
-      name: "Sarah Chen",
-      role: "Property Owner",
-      location: "Colorado",
-      rating: 5,
-      text: "I inherited 20 acres that I didn't know what to do with. Rising Tide Capital Partners gave me a no-obligation offer that was fair and reasonable. They were professional throughout and made the sale stress-free.",
-      initials: "SC",
-    },
-    {
-      name: "David Thompson",
-      role: "Land Seller",
-      location: "Arizona",
-      rating: 5,
-      text: "After years of paying taxes on land I wasn't using, Rising Tide Capital Partners offered a quick solution. They understood the local market and provided an offer that made sense. Great experience overall.",
-      initials: "DT",
-    },
-    {
-      name: "Lisa Martinez",
-      role: "Land Owner",
-      location: "Nevada",
-      rating: 5,
-      text: "I was skeptical about selling to a land buyer, but Rising Tide Capital Partners exceeded my expectations. They were transparent about their process and closed exactly when they said they would - 42 days.",
-      initials: "LM",
-    },
-    {
-      name: "Robert Johnson",
-      role: "Property Seller",
-      location: "New Mexico",
-      rating: 5,
-      text: "Rising Tide Capital Partners' straightforward approach impressed me. No hidden fees, no surprises, just a fair offer and professional service. They made selling my land simple and hassle-free.",
-      initials: "RJ",
-    },
-    {
-      name: "Amanda Foster",
-      role: "First-time Land Seller",
-      location: "Utah",
-      rating: 5,
-      text: "As someone who had never sold land before, I appreciated how Rising Tide Capital Partners explained everything clearly. They answered all my questions and made the entire process easy to understand.",
-      initials: "AF",
-    },
-  ];
-
-  const renderStars = (rating: number) => {
-    return Array.from({ length: 5 }, (_, index) => (
-      <Star
-        key={index}
-        style={{ color: index < rating ? "#FFD700" : "#E0E0E0" }}
-      />
-    ));
-  };
-
   return (
-    <SectionContainer
-      component="section"
-      aria-labelledby="testimonials-heading"
-      sx={{ py: 8 }}
-    >
+    <SectionContainer aria-labelledby="testimonials-heading" sx={{ py: 8 }}>
       <Container>
         <Grid container spacing={2}>
           <Grid item xs={12}>
@@ -172,77 +40,37 @@ function TestimonialsSection() {
               </Typography>
             </Box>
           </Grid>
-
-          {testimonials.map((testimonial, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
-              <TestimonialCard>
-                <QuoteIcon />
-                <CardContent
-                  sx={{
-                    flexGrow: 1,
-                    display: "flex",
-                    flexDirection: "column",
-                    pt: { xs: 2, sm: 4 },
-                  }}
-                >
-                  <StarRating>{renderStars(testimonial.rating)}</StarRating>
-
-                  <Typography
-                    component="p"
-                    variant="body1"
-                    sx={{
-                      flexGrow: 1,
-                      fontStyle: "italic",
-                      mb: { xs: 2, sm: 3 },
-                      lineHeight: 1.5,
-                      fontSize: { xs: "0.85rem", sm: "0.9rem", md: "1rem" },
-                    }}
-                  >
-                    "{testimonial.text}"
-                  </Typography>
-
-                  <Box sx={{ textAlign: "center", mt: "auto" }}>
-                    <ClientAvatar
-                      sx={{
-                        width: { xs: 40, sm: 60 },
-                        height: { xs: 40, sm: 60 },
-                        fontSize: { xs: "1rem", sm: "1.5rem" },
-                      }}
-                    >
-                      {testimonial.initials}
-                    </ClientAvatar>
-                    <Typography
-                      component="h4"
-                      variant="h6"
-                      sx={{
-                        fontWeight: "bold",
-                        mb: 0.5,
-                        fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" },
-                      }}
-                    >
-                      {testimonial.name}
-                    </Typography>
-                    <Typography
-                      component="p"
-                      variant="body2"
-                      color="text.secondary"
-                      sx={{ fontSize: { xs: "0.75rem", sm: "0.875rem" } }}
-                    >
-                      {testimonial.role}
-                    </Typography>
-                    <Typography
-                      component="p"
-                      variant="body2"
-                      color="primary.main"
-                      sx={{ fontSize: { xs: "0.75rem", sm: "0.875rem" } }}
-                    >
-                      {testimonial.location}
-                    </Typography>
-                  </Box>
-                </CardContent>
-              </TestimonialCard>
-            </Grid>
-          ))}
+          <Grid item xs={12} sx={{ textAlign: "center", mt: -4 }}>
+            <Button
+              variant="contained"
+              size="large"
+              href="https://www.google.com/search?sca_esv=a45e90ee3e925b06&sxsrf=AE3TifPptqjEDTCFjxeMp45uPvJoGNOztA:1760904820417&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E7M_pqXec7TPQYykjt-X6xXpRhwCr3x8gvlkJ9syG_qNS3yuGB1AKAhRS2dhRm_OmUEwkWz7LW-TDlJF0WEBD9Tb8d77ygrncK48eWAin8tp7uxIJ8wmI1mQWA89m19C54Vb-VM%3D&q=Rising+Tide+Capital+Partners+LLC+Reviews&sa=X&ved=2ahUKEwiZrrfSibGQAxW8MtAFHZ0iDaIQ0bkNegQIQhAD&cshid=1760904828161162&biw=2514&bih=1178&dpr=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                px: 6,
+                py: 2,
+                fontSize: "1.1rem",
+                fontWeight: 600,
+                background: "linear-gradient(135deg, #1976d2 0%, #42a5f5 100%)",
+                boxShadow: "0 8px 24px rgba(25, 118, 210, 0.4)",
+                borderRadius: 2,
+                textTransform: "none",
+                transition: "all 0.3s ease",
+                "&:hover": {
+                  background:
+                    "linear-gradient(135deg, #1565c0 0%, #1976d2 100%)",
+                  boxShadow: "0 12px 32px rgba(25, 118, 210, 0.6)",
+                  transform: "translateY(-2px)",
+                },
+                "&:active": {
+                  transform: "translateY(0px)",
+                },
+              }}
+            >
+              View Our Google Reviews ⭐⭐⭐⭐⭐
+            </Button>
+          </Grid>
         </Grid>
 
         {/* Trust Indicators */}
