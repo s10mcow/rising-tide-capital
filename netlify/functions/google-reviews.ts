@@ -2,7 +2,7 @@
  * Serverless function to fetch Google Reviews
  * This keeps your API key secure on the backend
  *
- * Deploy this as a serverless function (AWS Lambda, Vercel, Netlify, etc.)
+ * Uses Netlify Functions 2.0 format (returns Response object)
  */
 
 interface GooglePlaceDetailsResponse {
@@ -22,22 +22,20 @@ interface GooglePlaceDetailsResponse {
   status: string;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export async function handler(event: any) {
-  // Handle CORS
-  const headers = {
+export default async (request: Request) => {
+  // CORS headers
+  const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Headers": "Content-Type",
     "Access-Control-Allow-Methods": "GET, OPTIONS",
   };
 
-  // Handle OPTIONS request for CORS
-  if (event.httpMethod === "OPTIONS") {
-    return {
-      statusCode: 200,
-      headers,
-      body: "",
-    };
+  // Handle OPTIONS request for CORS preflight
+  if (request.method === "OPTIONS") {
+    return new Response(null, {
+      status: 204,
+      headers: corsHeaders,
+    });
   }
 
   try {
@@ -45,7 +43,24 @@ export async function handler(event: any) {
     const GOOGLE_PLACE_ID = process.env.GOOGLE_PLACE_ID;
 
     if (!GOOGLE_API_KEY || !GOOGLE_PLACE_ID) {
-      throw new Error("Missing required environment variables");
+      return new Response(
+        JSON.stringify({
+          error: "Configuration error",
+          message:
+            "Missing required environment variables. Please set GOOGLE_PLACES_API_KEY and GOOGLE_PLACE_ID in Netlify.",
+          missingVars: {
+            GOOGLE_PLACES_API_KEY: !GOOGLE_API_KEY,
+            GOOGLE_PLACE_ID: !GOOGLE_PLACE_ID,
+          },
+        }),
+        {
+          status: 500,
+          headers: {
+            ...corsHeaders,
+            "Content-Type": "application/json",
+          },
+        },
+      );
     }
 
     // Fetch reviews from Google Places API
@@ -64,32 +79,36 @@ export async function handler(event: any) {
     }
 
     // Return reviews
-    return {
-      statusCode: 200,
-      headers: {
-        ...headers,
-        "Content-Type": "application/json",
-        "Cache-Control": "public, max-age=3600", // Cache for 1 hour
-      },
-      body: JSON.stringify({
+    return new Response(
+      JSON.stringify({
         reviews: data.result.reviews || [],
         rating: data.result.rating,
         totalReviews: data.result.user_ratings_total,
       }),
-    };
+      {
+        status: 200,
+        headers: {
+          ...corsHeaders,
+          "Content-Type": "application/json",
+          "Cache-Control": "public, max-age=3600", // Cache for 1 hour
+        },
+      },
+    );
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error("Error fetching Google reviews:", error);
-    return {
-      statusCode: 500,
-      headers,
-      body: JSON.stringify({
+    return new Response(
+      JSON.stringify({
         error: "Failed to fetch reviews",
         message: error instanceof Error ? error.message : "Unknown error",
       }),
-    };
+      {
+        status: 500,
+        headers: {
+          ...corsHeaders,
+          "Content-Type": "application/json",
+        },
+      },
+    );
   }
-}
-
-// For Netlify Functions, export as default
-export default handler;
+};

@@ -13,11 +13,12 @@
   status = 301
   force = true
 
-# SPA fallback
+# SPA fallback - Must not interfere with Netlify Functions
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  force = false
 
 # Headers for security and performance
 [[headers]]
