@@ -5,21 +5,29 @@
  * Uses Netlify Functions 2.0 format (returns Response object)
  */
 
-interface GooglePlaceDetailsResponse {
-  result: {
-    reviews: Array<{
-      author_name: string;
-      author_url: string;
-      profile_photo_url: string;
-      rating: number;
-      text: string;
-      time: number;
-      relative_time_description: string;
-    }>;
+// Google Places API v1 Response Interface
+interface GooglePlaceV1Response {
+  reviews?: Array<{
+    name: string;
+    relativePublishTimeDescription: string;
     rating: number;
-    user_ratings_total: number;
-  };
-  status: string;
+    text: {
+      text: string;
+      languageCode: string;
+    };
+    originalText: {
+      text: string;
+      languageCode: string;
+    };
+    authorAttribution: {
+      displayName: string;
+      uri: string;
+      photoUri: string;
+    };
+    publishTime: string;
+  }>;
+  rating?: number;
+  userRatingCount?: number;
 }
 
 export default async (request: Request) => {
@@ -49,8 +57,8 @@ export default async (request: Request) => {
           message:
             "Missing required environment variables. Please set GOOGLE_PLACES_API_KEY and GOOGLE_PLACE_ID in Netlify.",
           missingVars: {
-            GOOGLE_PLACES_API_KEY: GOOGLE_API_KEY,
-            GOOGLE_PLACE_ID: GOOGLE_PLACE_ID,
+            GOOGLE_PLACES_API_KEY: !GOOGLE_API_KEY,
+            GOOGLE_PLACE_ID: !GOOGLE_PLACE_ID,
           },
         }),
         {
@@ -62,28 +70,40 @@ export default async (request: Request) => {
         },
       );
     }
-
-    // Fetch reviews from Google Places API
+    // Fetch reviews from Google Places API v1
+    // Fields: reviews, rating, userRatingCount
     const response = await fetch(
-      `https://maps.googleapis.com/maps/api/place/details/json?place_id=${GOOGLE_PLACE_ID}&fields=reviews,rating,user_ratings_total&key=${GOOGLE_API_KEY}`,
+      `https://places.googleapis.com/v1/places/${GOOGLE_PLACE_ID}?fields=reviews,rating,userRatingCount&key=${GOOGLE_API_KEY}`,
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      },
     );
-
     if (!response.ok) {
-      throw new Error(`Google API error: ${response.status}`);
+      const errorText = await response.text();
+      throw new Error(`Google API error: ${response.status} - ${errorText}`);
     }
 
-    const data: GooglePlaceDetailsResponse = await response.json();
+    const data: GooglePlaceV1Response = await response.json();
 
-    if (data.status !== "OK") {
-      throw new Error(`Google API returned status: ${data.status}`);
-    }
+    // Transform v1 API response to match our component's expected format
+    const transformedReviews = (data.reviews || []).map((review) => ({
+      author_name: review.authorAttribution.displayName,
+      author_url: review.authorAttribution.uri,
+      profile_photo_url: review.authorAttribution.photoUri,
+      rating: review.rating,
+      text: review.text.text || review.originalText.text,
+      time: new Date(review.publishTime).getTime() / 1000, // Convert to Unix timestamp
+      relative_time_description: review.relativePublishTimeDescription,
+    }));
 
-    // Return reviews
+    // Return reviews in the format our component expects
     return new Response(
       JSON.stringify({
-        reviews: data.result.reviews || [],
-        rating: data.result.rating,
-        totalReviews: data.result.user_ratings_total,
+        reviews: transformedReviews,
+        rating: data.rating || 0,
+        totalReviews: data.userRatingCount || 0,
       }),
       {
         status: 200,

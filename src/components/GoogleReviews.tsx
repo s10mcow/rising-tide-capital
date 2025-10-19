@@ -142,6 +142,8 @@ function GoogleReviews({
       }
     };
 
+    //maps.googleapis.com/maps/api/place/details/json?place_id=ChIJ5wSN9-0beYgR9Dc3OjBZNXA&fields=reviews,rating,user_ratings_total&key=AIzaSyAzJ7F84wyb7nEZCQqW_uDyxTyHfYH-rqI
+
     fetchGoogleReviews();
   }, [apiEndpoint]);
 
