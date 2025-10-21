@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export const ImageWrapper = styled(Box)({
   width: "100%",
-  height: "80vh",
+  minHeight: "80vh",
   // Use WebP with fallback to JPEG
   backgroundImage: `url(${heroWebp}), url(${hero})`,
   backgroundColor: "#2c3e50", // Better fallback color
