@@ -60,61 +60,31 @@ const Footer = () => {
             </Typography>
           </Box>
 
-          {/* Quick Links */}
-          <Box>
-            <Typography variant="h6" sx={{ mb: 2, fontWeight: "bold" }}>
-              Quick Links
-            </Typography>
-            <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
-              <Typography
-                variant="body2"
-                component="a"
-                href="#benefits-heading"
-                sx={{
-                  color: "inherit",
-                  textDecoration: "none",
-                  "&:hover": { textDecoration: "underline" },
+          {/* BBB Badge */}
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: { xs: "center", md: "flex-start" },
+              alignItems: { xs: "center", md: "flex-start" },
+            }}
+          >
+            <a
+              href="https://www.bbb.org/us/fl/flagler-beach/profile/real-estate/rising-tide-capital-partners-0403-236031027/#sealclick"
+              target="_blank"
+              rel="nofollow noreferrer"
+              style={{ border: 0, display: "inline-block" }}
+            >
+              <img
+                src="https://seal-northeastflorida.bbb.org/seals/blue-seal-69-145-bbb-236031027.png"
+                style={{
+                  border: 0,
+                  maxWidth: "100%",
+                  height: "auto",
+                  display: "block",
                 }}
-              >
-                Why Choose Us
-              </Typography>
-              <Typography
-                variant="body2"
-                component="a"
-                href="#process-heading"
-                sx={{
-                  color: "inherit",
-                  textDecoration: "none",
-                  "&:hover": { textDecoration: "underline" },
-                }}
-              >
-                How It Works
-              </Typography>
-              <Typography
-                variant="body2"
-                component="a"
-                href="#testimonials-heading"
-                sx={{
-                  color: "inherit",
-                  textDecoration: "none",
-                  "&:hover": { textDecoration: "underline" },
-                }}
-              >
-                Testimonials
-              </Typography>
-              <Typography
-                variant="body2"
-                component="a"
-                href="#faq-heading"
-                sx={{
-                  color: "inherit",
-                  textDecoration: "none",
-                  "&:hover": { textDecoration: "underline" },
-                }}
-              >
-                FAQ
-              </Typography>
-            </Box>
+                alt="Rising Tide Capital Partners BBB Business Review"
+              />
+            </a>
           </Box>
         </Box>
 

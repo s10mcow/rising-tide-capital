@@ -19,6 +19,7 @@ export const ImageWrapper = styled(Box)({
   justifyContent: "center",
   alignItems: "center",
   position: "relative",
+  overflow: "visible",
   // Optimize for LCP - ensure image loads quickly
   willChange: "transform",
   "&:before": {
@@ -36,7 +37,7 @@ export const ImageWrapper = styled(Box)({
   "@media (max-width: 768px)": {
     backgroundAttachment: "scroll",
     // Reduce height on mobile for better performance
-    minHeight: "70vh",
+    minHeight: "calc(100vh - 72px)",
   },
   // Preload hint for better performance
   "&::after": {
@@ -61,7 +62,15 @@ function HeroSection() {
     <>
       <ContactModal isOpen={open} handleClose={() => setOpen(false)} />
       <ImageWrapper component="section" role="banner" aria-label="Hero section">
-        <Box sx={{ zIndex: 1, width: "100%", px: { xs: 2, sm: 4, md: 6 } }}>
+        <Box
+          sx={{
+            zIndex: 1,
+            width: "100%",
+            px: { xs: 2, sm: 4, md: 6 },
+            pb: { xs: 4, sm: 6 },
+            overflow: "visible",
+          }}
+        >
           <Typography
             component="h1"
             variant="h2"
@@ -210,6 +219,36 @@ function HeroSection() {
             >
               View Our Google Reviews ⭐⭐⭐⭐⭐
             </Button>
+          </Box>
+          <Box
+            sx={{
+              textAlign: "center",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              px: { xs: 1, sm: 0 },
+              mt: 2,
+              pb: 4,
+              overflow: "visible",
+            }}
+          >
+            <a
+              href="https://www.bbb.org/us/fl/flagler-beach/profile/real-estate/rising-tide-capital-partners-0403-236031027/#sealclick"
+              target="_blank"
+              rel="nofollow noreferrer"
+              style={{ border: 0, display: "inline-block" }}
+            >
+              <img
+                src="https://seal-northeastflorida.bbb.org/seals/blue-seal-160-82-bbb-236031027.png"
+                style={{
+                  border: 0,
+                  maxWidth: "100%",
+                  height: "auto",
+                  display: "block",
+                }}
+                alt="Rising Tide Capital Partners BBB Business Review"
+              />
+            </a>
           </Box>
         </Box>
       </ImageWrapper>
