@@ -36,7 +36,6 @@ export const ImageWrapper = styled(Box)({
   // Performance optimization for mobile
   "@media (max-width: 768px)": {
     backgroundAttachment: "scroll",
-    // Reduce height on mobile for better performance
     minHeight: "calc(100vh - 72px)",
   },
   // Preload hint for better performance
@@ -77,6 +76,7 @@ function HeroSection() {
             align="center"
             paragraph
             sx={{
+              mt: { xs: 5, lg: 0 },
               color: "white",
               px: { xs: 1, sm: 2 },
               fontSize: {
@@ -118,28 +118,6 @@ function HeroSection() {
             A FLORIDA-BASED GLOBAL REAL ESTATE DEVELOPMENT AND CAPITAL
             INVESTMENT FIRM ENGAGED IN ACQUISITIONS, DEVELOPMENT AND
             REPOSITIONING OF LAND, RESIDENTIAL, AND COMMERCIAL PROPERTIES.
-          </Typography>
-
-          <Typography
-            component="p"
-            variant="h6"
-            align="center"
-            sx={{
-              color: "white",
-              px: { xs: 1, sm: 2 },
-              fontSize: {
-                xs: "0.8rem",
-                sm: "1rem",
-                md: "1.3rem",
-              },
-              mb: 4,
-              fontWeight: "medium",
-              lineHeight: 1.4,
-              wordBreak: "break-word",
-            }}
-          >
-            ✓ Multi-Family Development ✓ Land Acquisition ✓ Commercial
-            Properties ✓ Investment Opportunities
           </Typography>
 
           <Box
