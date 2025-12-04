@@ -36,7 +36,7 @@ export const ImageWrapper = styled(Box)({
   // Performance optimization for mobile
   "@media (max-width: 768px)": {
     backgroundAttachment: "scroll",
-    minHeight: "calc(100vh - 72px)",
+    minHeight: "calc(100vh - 56px)",
   },
   // Preload hint for better performance
   "&::after": {

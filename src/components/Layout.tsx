@@ -133,7 +133,7 @@ const Layout = ({ children }: LayoutProps) => {
           display: "grid",
           gridTemplateColumns: "1fr",
           gridTemplateRows: "1fr auto",
-          paddingTop: "64px", // Account for fixed header
+          paddingTop: "56px", // Account for fixed header
         }}
       >
         <Box component="main" role="main">
