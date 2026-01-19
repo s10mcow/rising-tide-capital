@@ -169,7 +169,7 @@ export default function EmailSourceModal() {
           />
           <FormControlLabel
             control={<Checkbox id="acceptTerms" name="acceptTerms" />}
-            label="I concent to receive text messages from San and Stone"
+            label="I consent to receive text messages from our team"
           />
 
           <Box
