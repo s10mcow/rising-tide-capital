@@ -172,9 +172,36 @@ export default function QRSourceModal() {
             label="I concent to receive text messages from San and Stone"
           />
 
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              mt: 2,
+              mb: 1,
+            }}
+          >
+            <a
+              href="https://www.bbb.org/us/fl/flagler-beach/profile/real-estate/rising-tide-capital-partners-0403-236031027/#sealclick"
+              target="_blank"
+              rel="nofollow noreferrer"
+              style={{ border: 0, display: "inline-block" }}
+            >
+              <img
+                src="https://seal-northeastflorida.bbb.org/seals/blue-seal-160-82-bbb-236031027.png"
+                style={{
+                  border: 0,
+                  maxWidth: "100%",
+                  height: "auto",
+                  display: "block",
+                }}
+                alt="Rising Tide Capital Partners BBB Business Review"
+              />
+            </a>
+          </Box>
+
           <DialogActions>
             <Button onClick={handleClose}>Cancel</Button>
-            <Button type="submit" disabled={loading}>
+            <Button variant="contained" type="submit" disabled={loading}>
               Send
             </Button>
           </DialogActions>
