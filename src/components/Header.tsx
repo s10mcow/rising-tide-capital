@@ -1,13 +1,7 @@
 import { Phone } from "@mui/icons-material";
-import {
-  AppBar,
-  Box,
-  Button,
-  Container,
-  Toolbar,
-  Typography,
-} from "@mui/material";
+import { AppBar, Box, Button, Container, Toolbar } from "@mui/material";
 import { styled } from "@mui/material/styles";
+import { Link, useLocation } from "react-router-dom";
 
 const StyledAppBar = styled(AppBar)(({ theme }) => ({
   backgroundColor: "rgba(255, 255, 255, 0.95)",
@@ -19,37 +13,21 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
 const Logo = styled(Box)(() => ({
   display: "flex",
   alignItems: "center",
-  flexGrow: 1,
   cursor: "pointer",
-  minWidth: 0, // Allow shrinking
-  overflow: "hidden",
 }));
 
-const LogoImage = styled("img")(({ theme }) => ({
+const LogoImage = styled("img")(() => ({
   height: "40px",
   width: "40px",
-  marginRight: theme.spacing(2),
 }));
 
-const LogoText = styled(Typography)({
-  fontFamily: "SF Pro Text, Arial, sans-serif",
-  fontWeight: "bold",
-  fontSize: { xs: "0.7rem", sm: "0.8rem", md: "1rem" },
-  textTransform: "uppercase",
-  textDecoration: "none",
-  color: "black",
-  whiteSpace: "nowrap",
-  overflow: "hidden",
-  textOverflow: "ellipsis",
-  maxWidth: { xs: "100px", sm: "120px", md: "none" },
-  "&:hover": {
-    textDecoration: "none",
-  },
-});
-
 const NavButton = styled(Button)(({ theme }) => ({
-  marginLeft: theme.spacing(2),
+  marginLeft: theme.spacing(1),
   color: theme.palette.text.primary,
+  whiteSpace: "nowrap",
+  fontSize: "0.85rem",
+  padding: "6px 12px",
+  minWidth: "auto",
   "&:hover": {
     backgroundColor: theme.palette.primary.light,
     color: "white",
@@ -57,15 +35,21 @@ const NavButton = styled(Button)(({ theme }) => ({
 }));
 
 const PhoneButton = styled(Button)(({ theme }) => ({
-  marginLeft: theme.spacing(2),
+  marginLeft: theme.spacing(1.5),
   backgroundColor: theme.palette.primary.main,
   color: "white",
+  whiteSpace: "nowrap",
+  fontSize: "0.85rem",
+  padding: "6px 12px",
   "&:hover": {
     backgroundColor: theme.palette.primary.dark,
   },
 }));
 
 function Header() {
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -77,31 +61,56 @@ function Header() {
     <StyledAppBar position="fixed">
       <Container maxWidth="lg">
         <Toolbar disableGutters>
-          <Logo onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          <Logo component={Link} to="/" sx={{ textDecoration: "none" }}>
             <LogoImage
               src="/favicon.png"
               alt="Rising Tide Capital Partners Logo"
             />
-            <LogoText>Rising Tide Capital Partners</LogoText>
           </Logo>
 
           <Box
-            sx={{ display: { xs: "none", md: "flex" }, alignItems: "center" }}
+            sx={{
+              display: { xs: "none", md: "flex" },
+              alignItems: "center",
+              ml: "auto",
+            }}
           >
-            <NavButton onClick={() => scrollToSection("benefits-heading")}>
-              Benefits
-            </NavButton>
-            <NavButton onClick={() => scrollToSection("process-heading")}>
-              How It Works
-            </NavButton>
-            <NavButton onClick={() => scrollToSection("testimonials-heading")}>
-              Testimonials
-            </NavButton>
-            <NavButton onClick={() => scrollToSection("faq-heading")}>
-              FAQ
-            </NavButton>
-            <NavButton onClick={() => scrollToSection("cta-heading")}>
-              Contact
+            {isHomePage ? (
+              <>
+                <NavButton onClick={() => scrollToSection("benefits-heading")}>
+                  Benefits
+                </NavButton>
+                <NavButton onClick={() => scrollToSection("process-heading")}>
+                  How It Works
+                </NavButton>
+                <NavButton
+                  onClick={() => scrollToSection("testimonials-heading")}
+                >
+                  Testimonials
+                </NavButton>
+                <NavButton onClick={() => scrollToSection("faq-heading")}>
+                  FAQ
+                </NavButton>
+                <NavButton onClick={() => scrollToSection("cta-heading")}>
+                  Contact
+                </NavButton>
+              </>
+            ) : (
+              <NavButton component={Link} to="/">
+                Home
+              </NavButton>
+            )}
+            <NavButton
+              component={Link}
+              to="/closing-process"
+              sx={{
+                backgroundColor:
+                  location.pathname === "/closing-process"
+                    ? "rgba(61, 108, 69, 0.1)"
+                    : "transparent",
+              }}
+            >
+              Closing Process
             </NavButton>
             <PhoneButton
               variant="contained"
@@ -113,17 +122,34 @@ function Header() {
             </PhoneButton>
           </Box>
 
-          {/* Mobile menu - simplified for now */}
+          {/* Mobile menu */}
           <Box
             sx={{
               display: { xs: "flex", md: "none" },
               alignItems: "center",
-              flexShrink: 0,
-              minWidth: 0,
+              gap: 1,
+              ml: "auto",
             }}
           >
+            <NavButton
+              component={Link}
+              to="/closing-process"
+              size="small"
+              sx={{
+                fontSize: "0.75rem",
+                px: 1.5,
+                py: 0.5,
+                backgroundColor:
+                  location.pathname === "/closing-process"
+                    ? "rgba(61, 108, 69, 0.1)"
+                    : "transparent",
+              }}
+            >
+              Closing Process
+            </NavButton>
             <PhoneButton
               variant="contained"
+              startIcon={<Phone />}
               size="small"
               href="tel:+19043256275"
               sx={{
