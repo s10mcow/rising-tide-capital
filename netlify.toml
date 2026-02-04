@@ -6,6 +6,11 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# Edge function for dynamic OG meta tags
+[[edge_functions]]
+  path = "/closing-process"
+  function = "og-tags"
+
 # Redirect all traffic to HTTPS
 [[redirects]]
   from = "http://risingtidecapital.us/*"
