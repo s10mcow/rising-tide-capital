@@ -1,5 +1,13 @@
 import { Phone } from "@mui/icons-material";
-import { AppBar, Box, Button, Container, Toolbar } from "@mui/material";
+import {
+  AppBar,
+  Box,
+  BoxProps,
+  Button,
+  ButtonProps,
+  Container,
+  Toolbar,
+} from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { Link, useLocation } from "react-router-dom";
 
@@ -10,7 +18,9 @@ const StyledAppBar = styled(AppBar)(({ theme }) => ({
   color: theme.palette.text.primary,
 }));
 
-const Logo = styled(Box)(() => ({
+const Logo = styled(Box)<
+  BoxProps & { component?: React.ElementType; to?: string }
+>(() => ({
   display: "flex",
   alignItems: "center",
   cursor: "pointer",
@@ -21,7 +31,9 @@ const LogoImage = styled("img")(() => ({
   width: "40px",
 }));
 
-const NavButton = styled(Button)(({ theme }) => ({
+const NavButton = styled(Button)<
+  ButtonProps & { component?: React.ElementType; to?: string }
+>(({ theme }) => ({
   marginLeft: theme.spacing(1),
   color: theme.palette.text.primary,
   whiteSpace: "nowrap",
