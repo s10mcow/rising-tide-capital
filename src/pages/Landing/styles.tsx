@@ -1,7 +1,9 @@
 import { styled } from "@mui/material/styles";
-import { Grid } from "@mui/material";
+import { Grid, GridProps } from "@mui/material";
 
-export const SectionContainer = styled(Grid)(({ theme }) => ({
+export const SectionContainer = styled(Grid)<
+  GridProps & { component?: React.ElementType }
+>(({ theme }) => ({
   marginTop: "3.75rem",
 
   [theme.breakpoints.up("md")]: {
