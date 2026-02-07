@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import { Box, Typography } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -104,7 +105,31 @@ const Footer = () => {
             © {new Date().getFullYear()} Rising Tide Capital Partners. All
             rights reserved.
           </Typography>
-          <Box sx={{ display: "flex", gap: 2 }}>
+          <Box sx={{ display: "flex", gap: 3 }}>
+            <Typography
+              variant="body2"
+              component={Link}
+              to="/privacy"
+              sx={{
+                color: "rgba(255,255,255,0.7)",
+                textDecoration: "none",
+                "&:hover": { color: "white" },
+              }}
+            >
+              Privacy Policy
+            </Typography>
+            <Typography
+              variant="body2"
+              component={Link}
+              to="/terms"
+              sx={{
+                color: "rgba(255,255,255,0.7)",
+                textDecoration: "none",
+                "&:hover": { color: "white" },
+              }}
+            >
+              Terms & Conditions
+            </Typography>
             <Typography
               variant="body2"
               component="a"
