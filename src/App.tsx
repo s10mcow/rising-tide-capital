@@ -3,7 +3,6 @@ import { LoadingScreen } from "@/components/LoadingScreen";
 import QRSourceModal from "@/components/QRSourceModal";
 import ClosingProcess from "@/pages/ClosingProcess/ClosingProcess";
 import HomePage from "@/pages/Landing/Landing";
-import Grind from "@/pages/Grind/Grind";
 import Privacy from "@/pages/Privacy/Privacy";
 import Terms from "@/pages/Terms/Terms";
 import { Suspense } from "react";
@@ -18,7 +17,6 @@ export default function App() {
           <Route path="/closing-process" element={<ClosingProcess />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
-          <Route path="/grind" element={<Grind />} />
         </Routes>
         <QRSourceModal />
         <EmailSourceModal />
