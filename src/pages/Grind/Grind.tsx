@@ -36,7 +36,7 @@ function Grind() {
           mb: 2,
         }}
       >
-        We Work All Night
+        We Work 24 Hours A Day
       </Typography>
       <Typography
         variant="body1"
