@@ -67,3 +67,9 @@
     Access-Control-Allow-Headers = "Content-Type"
     Access-Control-Allow-Methods = "GET, OPTIONS"
 
+
+# SPA fallback for all routes
+[[redirects]]
+  from = "/sms-optin"
+  to = "/index.html"
+  status = 200
