@@ -18,6 +18,16 @@ export default function ContactModal({
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
+
+    const name = data.get("name")?.toString().trim();
+    const email = data.get("email")?.toString().trim();
+    const phone = data.get("phone")?.toString().trim();
+
+    if (!name || !email || !phone) {
+      alert("Please fill in all required fields (name, email, and phone).");
+      return;
+    }
+
     setLoading(true);
     fetch("/", {
       method: "POST",
@@ -25,11 +35,26 @@ export default function ContactModal({
       // @ts-ignore
       body: new URLSearchParams(data).toString(),
     })
-      // eslint-disable-next-line
-      .then(() => console.log("Form successfully submitted"))
-      .catch((error) => alert(error));
-    setLoading(false);
-    handleClose(); // Close the modal upon form submission
+      .then(() => {
+        // eslint-disable-next-line
+        console.log("Form successfully submitted");
+        window.gtag?.("event", "form_submit", {
+          form_name: "contact",
+          source: "modal",
+        });
+        alert("Thank you! We'll get back to you within 24 hours.");
+        handleClose();
+      })
+      .catch((error) => {
+        // eslint-disable-next-line
+        console.error("Form submission error:", error);
+        alert(
+          "There was an error submitting your form. Please try again or call us directly.",
+        );
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   };
 
   return (

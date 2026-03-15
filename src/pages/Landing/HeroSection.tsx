@@ -135,7 +135,10 @@ function HeroSection() {
               size="large"
               variant="contained"
               color="primary"
-              onClick={() => setOpen(true)}
+              onClick={() => {
+                window.gtag?.("event", "modal_open", { source: "hero_cta" });
+                setOpen(true);
+              }}
               aria-label="Contact Rising Tide Capital Partners"
               sx={{
                 minWidth: { xs: "100%", sm: "200px" },
@@ -150,6 +153,9 @@ function HeroSection() {
             <Button
               size="large"
               variant="outlined"
+              onClick={() =>
+                window.gtag?.("event", "phone_call_click", { location: "hero" })
+              }
               href="tel:+19043256275"
               sx={{
                 minWidth: { xs: "100%", sm: "200px" },
@@ -186,6 +192,9 @@ function HeroSection() {
               href="https://www.google.com/search?sca_esv=a45e90ee3e925b06&sxsrf=AE3TifPptqjEDTCFjxeMp45uPvJoGNOztA:1760904820417&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E7M_pqXec7TPQYykjt-X6xXpRhwCr3x8gvlkJ9syG_qNS3yuGB1AKAhRS2dhRm_OmUEwkWz7LW-TDlJF0WEBD9Tb8d77ygrncK48eWAin8tp7uxIJ8wmI1mQWA89m19C54Vb-VM%3D&q=Rising+Tide+Capital+Partners+LLC+Reviews&sa=X&ved=2ahUKEwiZrrfSibGQAxW8MtAFHZ0iDaIQ0bkNegQIQhAD&cshid=1760904828161162&biw=2514&bih=1178&dpr=1"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() =>
+                window.gtag?.("event", "reviews_click", { location: "hero" })
+              }
               sx={{
                 minWidth: { xs: "100%", sm: "200px" },
                 maxWidth: { xs: "250px", sm: "none" },

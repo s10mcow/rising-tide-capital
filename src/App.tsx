@@ -1,13 +1,16 @@
-import EmailSourceModal from "@/components/EmailSourceModal";
 import { LoadingScreen } from "@/components/LoadingScreen";
-import QRSourceModal from "@/components/QRSourceModal";
-import ClosingProcess from "@/pages/ClosingProcess/ClosingProcess";
 import HomePage from "@/pages/Landing/Landing";
 import Privacy from "@/pages/Privacy/Privacy";
 import SmsOptin from "@/pages/SmsOptin/SmsOptin";
 import Terms from "@/pages/Terms/Terms";
-import { Suspense } from "react";
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+const ClosingProcess = lazy(
+  () => import("@/pages/ClosingProcess/ClosingProcess"),
+);
+const QRSourceModal = lazy(() => import("@/components/QRSourceModal"));
+const EmailSourceModal = lazy(() => import("@/components/EmailSourceModal"));
 
 export default function App() {
   return (

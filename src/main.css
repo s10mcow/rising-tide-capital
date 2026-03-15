@@ -2,28 +2,32 @@
   font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 400;
-  src: url("./assets/fonts/SF-Pro-Text-Regular.otf") format("opentype");
+  src: url("./assets/fonts/SF-Pro-Text-Regular.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 600;
-  src: url("./assets/fonts/SF-Pro-Text-Semibold.otf") format("opentype");
+  src: url("./assets/fonts/SF-Pro-Text-Semibold.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 700;
-  src: url("./assets/fonts/SF-Pro-Text-Bold.otf") format("opentype");
+  src: url("./assets/fonts/SF-Pro-Text-Bold.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
-  src: url("./assets/fonts/SF-Pro-Text-Heavy.otf") format("opentype");
+  src: url("./assets/fonts/SF-Pro-Text-Heavy.woff2") format("woff2");
+  font-display: swap;
 }
 
 html {

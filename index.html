@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2CWQD1Q1T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-K2CWQD1Q1T');
+    </script>
+
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -55,9 +64,8 @@
     <!-- Preload critical resources with highest priority for LCP -->
     <link rel="preload" href="/src/assets/images/ocean.webp" as="image" type="image/webp" fetchpriority="high" />
     <link rel="preload" href="/src/assets/images/ocean.jpg" as="image" type="image/jpeg" fetchpriority="high" />
-    <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Bold.otf" as="font" type="font/otf" crossorigin />
-    <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Regular.otf" as="font" type="font/otf" crossorigin />
-    <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Semibold.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Bold.woff2" as="font" type="font/woff2" crossorigin />
     
     <!-- Critical CSS for above-the-fold content -->
     <style>
@@ -66,14 +74,14 @@
             font-family: "SF Pro Text";
             font-style: normal;
             font-weight: 400;
-            src: url("/src/assets/fonts/SF-Pro-Text-Regular.otf") format("opentype");
+            src: url("/src/assets/fonts/SF-Pro-Text-Regular.woff2") format("woff2");
             font-display: swap;
         }
         @font-face {
             font-family: "SF Pro Text";
             font-style: normal;
             font-weight: 700;
-            src: url("/src/assets/fonts/SF-Pro-Text-Bold.otf") format("opentype");
+            src: url("/src/assets/fonts/SF-Pro-Text-Bold.woff2") format("woff2");
             font-display: swap;
         }
         
@@ -119,27 +127,9 @@
         }
     </style>
     
-    <!-- Preconnect to Google Fonts for faster loading -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
-    <!-- DNS prefetch for external resources -->
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-    
-    <!-- Load Google Fonts with font-display: swap to prevent render blocking -->
-    <link
-            rel="preload"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons|Montserrat:300,400,500,700&display=swap"
-    />
-    <noscript>
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons|Montserrat:300,400,500,700&display=swap"
-        />
-    </noscript>
+    <!-- Preconnect to Google Analytics -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
