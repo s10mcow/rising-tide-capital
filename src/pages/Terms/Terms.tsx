@@ -4,10 +4,14 @@ import { Box, Container, Typography } from "@mui/material";
 function Terms() {
   return (
     <Layout>
-      <Box sx={{ py: 8, backgroundColor: "background.primary" }}>
+      <Box
+        className="legal-page"
+        sx={{ py: 8, backgroundColor: "background.primary" }}
+      >
         <Container maxWidth="md">
           <Typography
             variant="h3"
+            component="h1"
             sx={{ mb: 4, fontWeight: "bold", color: "text.primary" }}
           >
             Terms &amp; Conditions
@@ -27,10 +31,11 @@ function Terms() {
 
           <Section title="2. About Our Services">
             Rising Tide Capital Partners LLC is a Florida-based real estate
-            investment company engaged in the acquisition of land and properties.
-            We contact property owners to make purchase offers and facilitate
-            real estate transactions. Our services include property acquisition
-            inquiries via text message, phone, email, and direct mail.
+            investment company engaged in the acquisition of land and
+            properties. We contact property owners to make purchase offers and
+            facilitate real estate transactions. Our services include property
+            acquisition inquiries via text message, phone, email, and direct
+            mail.
           </Section>
 
           <Section title="3. Text Messaging Program">
@@ -55,8 +60,8 @@ function Terms() {
               Message Frequency
             </Typography>
             <Typography variant="body1" sx={{ mb: 2, lineHeight: 1.8 }}>
-              Message frequency varies. You may receive initial outreach messages
-              and follow-up communications based on your property and
+              Message frequency varies. You may receive initial outreach
+              messages and follow-up communications based on your property and
               engagement. We will not send more than 10 messages per month
               unless you are actively engaged in a conversation with us.
             </Typography>
@@ -109,9 +114,9 @@ function Terms() {
           <Section title="5. Not Professional Advice">
             Our communications do not constitute legal, financial, tax, or real
             estate advice. We recommend consulting with appropriate
-            professionals before making decisions regarding your property. We are
-            real estate investors, not licensed real estate agents or brokers
-            (unless otherwise stated).
+            professionals before making decisions regarding your property. We
+            are real estate investors, not licensed real estate agents or
+            brokers (unless otherwise stated).
           </Section>
 
           <Section title="6. Property Information">
@@ -163,7 +168,8 @@ function Terms() {
 
           <Section title="12. Contact Us">
             <Typography variant="body1">
-              If you have questions about these Terms and Conditions, contact us:
+              If you have questions about these Terms and Conditions, contact
+              us:
             </Typography>
             <Box sx={{ mt: 2, pl: 2 }}>
               <Typography variant="body1">
@@ -175,9 +181,7 @@ function Terms() {
               <Typography variant="body1">
                 Email: hello@risingtidecapital.us
               </Typography>
-              <Typography variant="body1">
-                Phone: (904) 325-6275
-              </Typography>
+              <Typography variant="body1">Phone: (904) 325-6275</Typography>
             </Box>
           </Section>
         </Container>

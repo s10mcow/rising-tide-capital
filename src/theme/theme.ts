@@ -3,47 +3,47 @@ import { ThemeOptions, createTheme } from "@mui/material/styles";
 const themeOptions: ThemeOptions = {
   palette: {
     text: {
-      primary: "#171F46",
-      secondary: "#232C2E",
+      primary: "#102d40",
+      secondary: "#415864",
       button: "#fff",
-      grey: "#8B8FA3",
+      grey: "#65747b",
     },
-    icon: "#171F46",
+    icon: "#102d40",
     primary: {
-      main: "#000000",
+      main: "#102d40",
     },
     secondary: {
-      main: "#232C2E",
+      main: "#415864",
     },
     green: {
-      primary: "#8CE21E",
-      secondary: "#3D6C45",
+      primary: "#9edbd3",
+      secondary: "#137d7e",
     },
     grey: {
       700: "#7E858E",
-      600: "#8B8FA3",
+      600: "#65747b",
       500: "#F4F4F4",
-      400: "#F9FAFB",
-      300: "#E5E5E5",
-      200: "#F9FAFB",
+      400: "#f7f6f1",
+      300: "#f0f0e9",
+      200: "#f7f6f1",
     },
     error: {
       main: "#FF0005",
     },
-    divider: "#8B8FA3",
+    divider: "#65747b",
     background: {
       primary: "#fff",
-      secondary: "#F9FAFB",
-      default: "#E5E5E5",
+      secondary: "#f7f6f1",
+      default: "#f0f0e9",
       error: "#FF0B37",
     },
     button: {
-      primary: "#3D6C45",
+      primary: "#137d7e",
       secondary: "white",
     },
   },
   typography: {
-    fontFamily: "",
+    fontFamily: '"SF Pro Text", Arial, sans-serif',
     h1: {
       fontSize: "4.75rem",
       fontWeight: 800,
@@ -132,7 +132,7 @@ const themeOptions: ThemeOptions = {
             "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'",
           WebkitFontSmoothing: "antialiased",
           MozOsxFontSmoothing: "grayscale",
-          backgroundColor: "#fff",
+          backgroundColor: "#f7f6f1",
         },
         a: {
           textDecoration: "none",
@@ -144,7 +144,7 @@ const themeOptions: ThemeOptions = {
         {
           props: { variant: "outlined" },
           style: {
-            borderRadius: 10,
+            borderRadius: 4,
             padding: "12px 20px",
             "@media (max-width:600px)": {
               padding: "8px 10px",
@@ -155,9 +155,9 @@ const themeOptions: ThemeOptions = {
           props: { variant: "primary" },
           style: {
             color: "#000",
-            backgroundColor: "#fff",
+            backgroundColor: "#f7f6f1",
             textTransform: "none",
-            borderRadius: 10,
+            borderRadius: 4,
             padding: "12px 20px",
             "&:hover": {
               backgroundColor: "#ffffff",
@@ -168,12 +168,12 @@ const themeOptions: ThemeOptions = {
           props: { variant: "secondary" },
           style: {
             color: "#000",
-            backgroundColor: "#8CE21E",
+            backgroundColor: "#9edbd3",
             textTransform: "none",
-            borderRadius: 10,
+            borderRadius: 4,
             padding: "12px 20px",
             "&:hover": {
-              backgroundColor: "#8CE21E",
+              backgroundColor: "#9edbd3",
             },
           },
         },
@@ -222,16 +222,16 @@ const themeOptions: ThemeOptions = {
       styleOverrides: {
         valueLabel: {
           borderRadius: "10px",
-          backgroundColor: "#3D6C45",
+          backgroundColor: "#137d7e",
           "&:before": {
             width: 0,
           },
         },
         thumb: {
-          backgroundColor: "#3D6C45",
+          backgroundColor: "#137d7e",
         },
         track: {
-          backgroundColor: "#3D6C45",
+          backgroundColor: "#137d7e",
           border: "none",
         },
       },
@@ -245,12 +245,12 @@ const themeOptions: ThemeOptions = {
         },
         groupedHorizontal: {
           "&&:not(:first-child)": {
-            borderLeft: "1px solid #171F46",
-            borderRight: "1px solid #171F46",
+            borderLeft: "1px solid #102d40",
+            borderRight: "1px solid #102d40",
           },
           "&&:first-child": {
-            borderRight: "1px solid #171F46",
-            borderLeft: "1px solid #171F46",
+            borderRight: "1px solid #102d40",
+            borderLeft: "1px solid #102d40",
           },
         },
       },
@@ -258,7 +258,7 @@ const themeOptions: ThemeOptions = {
     MuiCheckbox: {
       styleOverrides: {
         root: {
-          "input:checked + svg": { fill: "#3D6C45" },
+          "input:checked + svg": { fill: "#137d7e" },
           "input + svg": { fill: "#DADADA" },
         },
       },
@@ -272,24 +272,24 @@ const themeOptions: ThemeOptions = {
           textTransform: "none",
           borderRadius: 8,
           height: 42,
-          border: "1px solid #171F46",
+          border: "1px solid #102d40",
           width: "auto",
           paddingTop: 5,
           paddingBottom: 5,
           paddingLeft: 25,
           paddingRight: 25,
-          color: "#171F46",
+          color: "#102d40",
           "&$selected": {
-            backgroundColor: "#3D6C45",
+            backgroundColor: "#137d7e",
             color: "#fff",
             "&&:hover": {
-              backgroundColor: "#3D6C45",
+              backgroundColor: "#137d7e",
               color: "#fff",
             },
           },
           "&&:hover": {
             backgroundColor: "#FFF",
-            color: "#171F46",
+            color: "#102d40",
           },
         },
       },

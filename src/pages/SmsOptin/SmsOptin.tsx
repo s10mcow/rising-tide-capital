@@ -1,180 +1,57 @@
 import Layout from "@/components/Layout";
-import {
-  Box,
-  Button,
-  Checkbox,
-  Container,
-  FormControlLabel,
-  TextField,
-  Typography,
-  Alert,
-} from "@mui/material";
-import { useState } from "react";
-
-function SmsOptin() {
-  const [phone, setPhone] = useState("");
-  const [name, setName] = useState("");
-  const [consent, setConsent] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!phone || !consent) return;
-    // In production this would POST to an API
-    setSubmitted(true);
-  };
-
+import { Link } from "react-router-dom";
+export default function SmsOptin() {
   return (
     <Layout>
-      <Box
-        sx={{ py: 8, backgroundColor: "background.primary", minHeight: "80vh" }}
-      >
-        <Container maxWidth="sm">
-          <Typography
-            variant="h3"
-            sx={{ mb: 2, fontWeight: "bold", color: "text.primary" }}
-          >
-            SMS Updates
-          </Typography>
-
-          <Typography variant="body1" sx={{ mb: 4, color: "text.secondary" }}>
-            Sign up to receive text messages from Rising Tide Capital Partners
-            regarding property purchase inquiries and real estate opportunities.
-          </Typography>
-
-          {submitted ? (
-            <Alert severity="success" sx={{ mb: 4 }}>
-              <Typography variant="body1" sx={{ fontWeight: "bold" }}>
-                You're signed up!
-              </Typography>
-              <Typography variant="body2">
-                You may receive text messages from Rising Tide Capital Partners
-                at the number provided. Message frequency varies. Message and
-                data rates may apply. Reply STOP at any time to opt out. Reply
-                HELP for assistance.
-              </Typography>
-            </Alert>
-          ) : (
-            <Box
-              component="form"
-              onSubmit={handleSubmit}
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                gap: 3,
-                backgroundColor: "background.paper",
-                p: 4,
-                borderRadius: 2,
-                border: "1px solid",
-                borderColor: "divider",
-              }}
-            >
-              <TextField
-                label="Full Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                fullWidth
-                variant="outlined"
-              />
-
-              <TextField
-                label="Phone Number"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                fullWidth
-                required
-                variant="outlined"
-                placeholder="(555) 123-4567"
-                type="tel"
-              />
-
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    checked={consent}
-                    onChange={(e) => setConsent(e.target.checked)}
-                    required
-                  />
-                }
-                label={
-                  <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                    I agree to receive text messages from Rising Tide Capital
-                    Partners LLC regarding property purchase inquiries. Message
-                    frequency varies. Message and data rates may apply. Reply
-                    STOP to opt out at any time. Reply HELP for help. View our{" "}
-                    <a href="/privacy" style={{ color: "#1976d2" }}>
-                      Privacy Policy
-                    </a>{" "}
-                    and{" "}
-                    <a href="/terms" style={{ color: "#1976d2" }}>
-                      Terms of Service
-                    </a>
-                    .
-                  </Typography>
-                }
-              />
-
-              <Button
-                type="submit"
-                variant="contained"
-                size="large"
-                disabled={!phone || !consent}
-                sx={{ py: 1.5 }}
-              >
-                Sign Up for SMS Updates
-              </Button>
-
-              <Typography
-                variant="caption"
-                sx={{ color: "text.secondary", textAlign: "center" }}
-              >
-                By submitting this form, you expressly consent to receive
-                recurring text messages from Rising Tide Capital Partners LLC at
-                the phone number provided. Consent is not a condition of
-                purchase. Message frequency varies. Message and data rates may
-                apply. Reply STOP to cancel. Reply HELP for help.
-              </Typography>
-            </Box>
-          )}
-
-          <Box sx={{ mt: 6 }}>
-            <Typography
-              variant="h6"
-              sx={{ mb: 2, fontWeight: "bold", color: "text.primary" }}
-            >
-              How It Works
-            </Typography>
-            <Typography variant="body2" sx={{ mb: 1, color: "text.secondary" }}>
-              • We may contact property owners via text message to inquire about
-              purchasing their land.
-            </Typography>
-            <Typography variant="body2" sx={{ mb: 1, color: "text.secondary" }}>
-              • Messages include property purchase inquiries and follow-up
-              conversations.
-            </Typography>
-            <Typography variant="body2" sx={{ mb: 1, color: "text.secondary" }}>
-              • You can opt in by texting <strong>START</strong> to{" "}
-              <strong>(904) 906-9630</strong> or by completing this form.
-            </Typography>
-            <Typography variant="body2" sx={{ mb: 1, color: "text.secondary" }}>
-              • To stop receiving messages, reply <strong>STOP</strong> at any
-              time.
-            </Typography>
-            <Typography variant="body2" sx={{ color: "text.secondary" }}>
-              • For help, reply <strong>HELP</strong> or contact us at{" "}
-              <a
-                href="mailto:hello@risingtidecapital.us"
-                style={{ color: "#1976d2" }}
-              >
-                hello@risingtidecapital.us
-              </a>
-              .
-            </Typography>
-          </Box>
-        </Container>
-      </Box>
+      <section className="utility-page">
+        <div className="utility-content">
+          <p className="eyebrow">STAY IN TOUCH</p>
+          <h1>SMS updates.</h1>
+          <p>
+            Receive text messages from Rising Tide Capital Partners about
+            property purchase inquiries and follow-up conversations.
+          </p>
+          <div className="sms-panel">
+            <span className="eyebrow">SIGN UP FROM YOUR PHONE</span>
+            <h2>
+              Text START to
+              <br />
+              (904) 906-9630.
+            </h2>
+            <p>
+              Send the message from the phone number where you want to receive
+              updates.
+            </p>
+            <a className="site-button dark" href="sms:+19049069630?body=START">
+              Open your messaging app ↗
+            </a>
+            <p className="form-note">
+              Opening your messaging app does not sign you up. Send START to
+              request text updates.
+            </p>
+          </div>
+          <p className="sms-disclosure">
+            By texting START, you consent to receive recurring text messages
+            from Rising Tide Capital Partners LLC regarding property purchase
+            inquiries. Consent is not a condition of purchase. Message frequency
+            varies. Message and data rates may apply. Reply STOP to opt out at
+            any time or HELP for help.
+          </p>
+          <p className="utility-links">
+            <Link to="/privacy">Privacy policy</Link>
+            <Link to="/terms">Terms of service</Link>
+          </p>
+          <hr />
+          <h2>Need a hand?</h2>
+          <p>
+            Email{" "}
+            <a className="text-link" href="mailto:hello@risingtidecapital.us">
+              hello@risingtidecapital.us
+            </a>{" "}
+            or reply HELP to a message.
+          </p>
+        </div>
+      </section>
     </Layout>
   );
 }
-
-export default SmsOptin;

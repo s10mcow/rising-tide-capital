@@ -83,7 +83,8 @@ export default function QRSourceModal() {
       // @ts-ignore
       body: new URLSearchParams(data).toString(),
     })
-      .then(() => {
+      .then((response) => {
+        if (!response.ok) throw new Error("Message was not accepted");
         // eslint-disable-next-line
         console.log("Form successfully submitted");
         window.gtag?.("event", "form_submit", {

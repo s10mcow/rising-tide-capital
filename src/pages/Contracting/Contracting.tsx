@@ -44,14 +44,6 @@ export default function Contracting() {
           aria-labelledby="contracting-heading"
         >
           <div className="contracting-container">
-            <div className="contracting-brand">
-              <span className="contracting-brand-mark" aria-hidden="true">
-                ↗
-              </span>
-              <span>
-                RISING TIDE<span>CONTRACTING</span>
-              </span>
-            </div>
             <div className="contracting-hero-grid">
               <div className="contracting-hero-copy">
                 <p className="contracting-eyebrow">

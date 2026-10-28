@@ -2,10 +2,22 @@ export const SITE_URL = "https://risingtidecapital.us";
 export const DEFAULT_META = {
   title: "Rising Tide Capital Partners - Real Estate Development & Investment",
   description:
-    "Rising Tide Capital Partners LLC - Premier Florida real estate development and investment firm specializing in land acquisition, commercial properties, and multi-family development opportunities.",
+    "Florida-based real estate investment and land acquisition, with general contracting for mobile and manufactured-home projects in North Central Florida.",
   image: `${SITE_URL}/og-image.jpg`,
 };
 export const PAGE_METADATA: Record<string, typeof DEFAULT_META> = {
+  "/privacy": {
+    ...DEFAULT_META,
+    title: "Privacy Policy | Rising Tide Capital Partners",
+  },
+  "/terms": {
+    ...DEFAULT_META,
+    title: "Terms & Conditions | Rising Tide Capital Partners",
+  },
+  "/sms-optin": {
+    ...DEFAULT_META,
+    title: "SMS Updates | Rising Tide Capital Partners",
+  },
   "/closing-process": {
     title:
       "What to Expect from the Closing Process - Rising Tide Capital Partners",

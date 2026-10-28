@@ -1,241 +1,71 @@
-import { Menu as MenuIcon, Phone } from "@mui/icons-material";
-import {
-  AppBar,
-  Box,
-  BoxProps,
-  Button,
-  ButtonProps,
-  Container,
-  IconButton,
-  Menu,
-  MenuItem,
-  Toolbar,
-} from "@mui/material";
-import { styled } from "@mui/material/styles";
-import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import { Link, useLocation } from "react-router-dom";
+import Brand from "./Brand";
 
-const StyledAppBar = styled(AppBar)(({ theme }) => ({
-  backgroundColor: "rgba(255, 255, 255, 0.95)",
-  backdropFilter: "blur(10px)",
-  boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
-  color: theme.palette.text.primary,
-}));
-
-const Logo = styled(Box)<
-  BoxProps & { component?: React.ElementType; to?: string }
->(() => ({
-  display: "flex",
-  alignItems: "center",
-  cursor: "pointer",
-}));
-
-const LogoImage = styled("img")(() => ({
-  height: "40px",
-  width: "40px",
-}));
-
-const NavButton = styled(Button)<
-  ButtonProps & { component?: React.ElementType; to?: string }
->(({ theme }) => ({
-  marginLeft: theme.spacing(1),
-  color: theme.palette.text.primary,
-  whiteSpace: "nowrap",
-  fontSize: "0.85rem",
-  padding: "6px 12px",
-  minWidth: "auto",
-  "&:hover": {
-    backgroundColor: theme.palette.primary.light,
-    color: "white",
-  },
-}));
-
-const PhoneButton = styled(Button)(({ theme }) => ({
-  marginLeft: theme.spacing(1.5),
-  backgroundColor: theme.palette.primary.main,
-  color: "white",
-  whiteSpace: "nowrap",
-  fontSize: "0.85rem",
-  padding: "6px 12px",
-  "&:hover": {
-    backgroundColor: theme.palette.primary.dark,
-  },
-}));
-
-function Header() {
-  const location = useLocation();
-  const isHomePage = location.pathname === "/";
-  const [menuAnchor, setMenuAnchor] = useState<null | HTMLElement>(null);
-
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
+const links = [
+  { to: "/#our-work", label: "Our work" },
+  { to: "/contracting", label: "Contracting" },
+  { to: "/#about", label: "Our team" },
+  { to: "/closing-process", label: "Closing guide" },
+];
+export default function Header() {
+  const { pathname } = useLocation();
+  const [anchor, setAnchor] = useState<HTMLElement | null>(null);
   return (
-    <StyledAppBar position="fixed">
-      <Container maxWidth="lg">
-        <Toolbar disableGutters>
-          <Logo component={Link} to="/" sx={{ textDecoration: "none" }}>
-            <LogoImage
-              src="/favicon.png"
-              alt="Rising Tide Capital Partners Logo"
-            />
-          </Logo>
-
-          <Box
-            sx={{
-              display: { xs: "none", lg: "flex" },
-              alignItems: "center",
-              ml: "auto",
-            }}
-          >
-            {isHomePage ? (
-              <>
-                <NavButton onClick={() => scrollToSection("benefits-heading")}>
-                  Benefits
-                </NavButton>
-                <NavButton onClick={() => scrollToSection("process-heading")}>
-                  How It Works
-                </NavButton>
-                <NavButton
-                  onClick={() => scrollToSection("testimonials-heading")}
-                >
-                  Testimonials
-                </NavButton>
-                <NavButton onClick={() => scrollToSection("faq-heading")}>
-                  FAQ
-                </NavButton>
-                <NavButton onClick={() => scrollToSection("cta-heading")}>
-                  Contact
-                </NavButton>
-              </>
-            ) : (
-              <NavButton component={Link} to="/">
-                Home
-              </NavButton>
-            )}
-            <NavButton
+    <header className="site-header">
+      <div className="site-container header-inner">
+        <Link to="/" className="brand-link" aria-label="Rising Tide home">
+          <Brand contracting={pathname.startsWith("/contracting")} />
+        </Link>
+        <nav className="desktop-nav" aria-label="Main navigation">
+          {links.map(({ to, label }) => (
+            <Link
+              key={to}
+              to={to}
+              aria-current={pathname === to ? "page" : undefined}
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
+        <Link to="/#contact" className="site-button header-contact">
+          Let’s talk <span aria-hidden="true">↗</span>
+        </Link>
+        <button
+          className="menu-toggle"
+          aria-label="Open navigation menu"
+          aria-haspopup="menu"
+          aria-expanded={Boolean(anchor)}
+          aria-controls={anchor ? "site-mobile-nav" : undefined}
+          onClick={(event) => setAnchor(event.currentTarget)}
+        >
+          <span />
+          <span />
+        </button>
+        <Menu
+          id="site-mobile-nav"
+          anchorEl={anchor}
+          open={Boolean(anchor)}
+          onClose={() => setAnchor(null)}
+        >
+          {[
+            { to: "/", label: "Home" },
+            ...links,
+            { to: "/#contact", label: "Contact" },
+          ].map(({ to, label }) => (
+            <MenuItem
+              key={to}
               component={Link}
-              to="/contracting"
-              aria-current={
-                location.pathname.startsWith("/contracting")
-                  ? "page"
-                  : undefined
-              }
-              sx={{ color: "#137d7e", fontWeight: 700 }}
+              to={to}
+              onClick={() => setAnchor(null)}
             >
-              Contracting
-            </NavButton>
-            <NavButton
-              component={Link}
-              to="/closing-process"
-              sx={{
-                backgroundColor:
-                  location.pathname === "/closing-process"
-                    ? "rgba(61, 108, 69, 0.1)"
-                    : "transparent",
-              }}
-            >
-              Closing Process
-            </NavButton>
-            <PhoneButton
-              variant="contained"
-              startIcon={<Phone />}
-              href="tel:+19043256275"
-              size="small"
-            >
-              (904) 325-6275
-            </PhoneButton>
-          </Box>
-
-          {/* Mobile menu */}
-          <Box
-            sx={{
-              display: { xs: "flex", lg: "none" },
-              alignItems: "center",
-              gap: 1,
-              ml: "auto",
-            }}
-          >
-            <NavButton
-              component={Link}
-              to="/contracting"
-              size="small"
-              aria-current={
-                location.pathname.startsWith("/contracting")
-                  ? "page"
-                  : undefined
-              }
-              sx={{
-                fontSize: "0.75rem",
-                px: 1.5,
-                py: 0.5,
-                backgroundColor: location.pathname.startsWith("/contracting")
-                  ? "rgba(61, 108, 69, 0.1)"
-                  : "transparent",
-              }}
-            >
-              Contracting
-            </NavButton>
-            <PhoneButton
-              variant="contained"
-              startIcon={<Phone />}
-              size="small"
-              href="tel:+19043256275"
-              sx={{
-                fontSize: "0.75rem",
-                px: 1.5,
-                py: 0.5,
-                minWidth: "auto",
-              }}
-            >
-              Call
-            </PhoneButton>
-            <IconButton
-              aria-label="Open navigation menu"
-              aria-controls={menuAnchor ? "mobile-navigation" : undefined}
-              aria-haspopup="true"
-              aria-expanded={Boolean(menuAnchor)}
-              onClick={(event) => setMenuAnchor(event.currentTarget)}
-            >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="mobile-navigation"
-              anchorEl={menuAnchor}
-              open={Boolean(menuAnchor)}
-              onClose={() => setMenuAnchor(null)}
-            >
-              <MenuItem
-                component={Link}
-                to="/"
-                onClick={() => setMenuAnchor(null)}
-              >
-                Home
-              </MenuItem>
-              <MenuItem
-                component={Link}
-                to="/contracting"
-                onClick={() => setMenuAnchor(null)}
-              >
-                Contracting
-              </MenuItem>
-              <MenuItem
-                component={Link}
-                to="/closing-process"
-                onClick={() => setMenuAnchor(null)}
-              >
-                Closing Process
-              </MenuItem>
-            </Menu>
-          </Box>
-        </Toolbar>
-      </Container>
-    </StyledAppBar>
+              {label}
+            </MenuItem>
+          ))}
+        </Menu>
+      </div>
+    </header>
   );
 }
-
-export default Header;
