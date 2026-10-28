@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import BenefitsSection from "./BenefitsSection";
 import CTASection from "./CTASection";
+import ContractingSection from "./ContractingSection";
 import FAQSection from "./FAQSection";
 import HeroSection from "./HeroSection";
 import ProcessSection from "./ProcessSection";
@@ -14,6 +15,7 @@ function Landing() {
   return (
     <Layout>
       <HeroSection />
+      <ContractingSection />
       <BenefitsSection />
       <ProcessSection />
       <TestimonialsSection />

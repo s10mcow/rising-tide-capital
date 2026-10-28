@@ -38,6 +38,18 @@ const Footer = () => {
               investment firm engaged in acquisitions, development and
               repositioning of land, residential, and commercial properties.
             </Typography>
+            <Typography
+              component={Link}
+              to="/contracting"
+              variant="body2"
+              sx={{
+                color: "#92dcd2",
+                textDecoration: "underline",
+                textUnderlineOffset: "4px",
+              }}
+            >
+              Explore our contracting services →
+            </Typography>
           </Box>
 
           {/* Contact Info */}
@@ -105,7 +117,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Rising Tide Capital Partners. All
             rights reserved.
           </Typography>
-          <Box sx={{ display: "flex", gap: 3 }}>
+          <Box sx={{ display: "flex", gap: 3, flexWrap: "wrap" }}>
             <Typography
               variant="body2"
               component={Link}
@@ -158,7 +170,7 @@ const Layout = ({ children }: LayoutProps) => {
           display: "grid",
           gridTemplateColumns: "1fr",
           gridTemplateRows: "1fr auto",
-          paddingTop: "56px", // Account for fixed header
+          paddingTop: { xs: "56px", sm: "64px" }, // Match the fixed MUI toolbar
         }}
       >
         <Box component="main" role="main">
