@@ -17,7 +17,7 @@
     <!-- Primary Meta Tags -->
     <title>Rising Tide Capital Partners - Real Estate Development & Investment</title>
     <meta name="title" content="Rising Tide Capital Partners - Real Estate Development & Investment" />
-    <meta name="description" content="Rising Tide Capital Partners LLC - Premier Florida real estate development and investment firm specializing in land acquisition, commercial properties, and multi-family development opportunities." />
+    <meta name="description" content="Florida-based real estate investment and land acquisition, with general contracting for mobile and manufactured-home projects in North Central Florida." />
     <meta name="keywords" content="real estate development, capital investment, land acquisition, commercial properties, multi-family development, real estate investment, Florida real estate, property development, Rising Tide Capital Partners" />
     <meta name="author" content="Rising Tide Capital Partners" />
     <meta name="publisher" content="Rising Tide Capital Partners LLC" />
@@ -36,7 +36,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://risingtidecapital.us/" />
     <meta property="og:title" content="Rising Tide Capital Partners - Real Estate Development & Investment" />
-    <meta property="og:description" content="Rising Tide Capital Partners LLC - Premier Florida real estate development and investment firm specializing in land acquisition, commercial properties, and multi-family development opportunities." />
+    <meta property="og:description" content="Florida-based real estate investment and land acquisition, with general contracting for mobile and manufactured-home projects in North Central Florida." />
     <meta property="og:image" content="https://risingtidecapital.us/og-image.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
@@ -49,7 +49,7 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://risingtidecapital.us/" />
     <meta property="twitter:title" content="Rising Tide Capital Partners - Real Estate Development & Investment" />
-    <meta property="twitter:description" content="Rising Tide Capital Partners LLC - Premier Florida real estate development and investment firm specializing in land acquisition, commercial properties, and multi-family development opportunities." />
+    <meta property="twitter:description" content="Florida-based real estate investment and land acquisition, with general contracting for mobile and manufactured-home projects in North Central Florida." />
     <meta property="twitter:image" content="https://risingtidecapital.us/og-image.jpg" />
     <meta property="twitter:image:alt" content="Rising Tide Capital Partners - Real Estate Development & Investment" />
     <meta property="twitter:site" content="@risingtidecapital" />
@@ -62,8 +62,6 @@
     <meta name="ICBM" content="27.7663, -82.6404" />
     
     <!-- Preload critical resources with highest priority for LCP -->
-    <link rel="preload" href="/src/assets/images/ocean.webp" as="image" type="image/webp" fetchpriority="high" />
-    <link rel="preload" href="/src/assets/images/ocean.jpg" as="image" type="image/jpeg" fetchpriority="high" />
     <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Regular.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/src/assets/fonts/SF-Pro-Text-Bold.woff2" as="font" type="font/woff2" crossorigin />
     
@@ -96,19 +94,6 @@
         }
         
         /* Critical styles for hero section to prevent layout shift */
-        .hero-section {
-            width: 100%;
-            height: 80vh;
-            background-image: url("/src/assets/images/ocean.webp"), url("/src/assets/images/ocean.jpg");
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-        }
         
         .hero-section::before {
             content: "";
@@ -121,9 +106,6 @@
         }
         
         @media (max-width: 768px) {
-            .hero-section {
-                background-attachment: scroll;
-            }
         }
     </style>
     
@@ -137,9 +119,9 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Rising Tide Capital Partners LLC",
-      "description": "Premier Florida real estate development and investment firm specializing in land acquisition, commercial properties, and multi-family development opportunities.",
+      "description": "Florida-based real estate investment and land acquisition, with general contracting for mobile and manufactured-home projects in North Central Florida.",
       "url": "https://risingtidecapital.us/",
-      "logo": "https://risingtidecapital.us/favicon.png",
+      "logo": "https://risingtidecapital.us/rising-tide-logo-reference.png",
       "address": {
         "@type": "PostalAddress",
         "addressRegion": "FL",
@@ -193,6 +175,8 @@
         <input name="utm_campaign" />
     </form>
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="form-name" value="contact" />
+        <input name="bot-field" />
         <input type="text" name="name" />
         <input type="email" name="email" />
         <input type="text" name="phone" />
@@ -209,34 +193,6 @@
         <input type="text" name="message" />
         <input type="submit" />
     </form>
-    <!-- Performance optimization script -->
-    <script>
-      // Preload critical resources as soon as possible
-      (function() {
-        // Create link elements for critical resources
-        const criticalResources = [
-          { href: '/src/assets/images/ocean.webp', as: 'image', type: 'image/webp' },
-          { href: '/src/assets/images/ocean.jpg', as: 'image', type: 'image/jpeg' }
-        ];
-        
-        criticalResources.forEach(function(resource) {
-          const link = document.createElement('link');
-          link.rel = 'preload';
-          link.as = resource.as;
-          link.href = resource.href;
-          if (resource.type) link.type = resource.type;
-          if (resource.as === 'image') link.fetchPriority = 'high';
-          document.head.appendChild(link);
-        });
-        
-        // Optimize font loading
-        if ('fonts' in document) {
-          document.fonts.ready.then(function() {
-            document.documentElement.classList.add('fonts-loaded');
-          });
-        }
-      })();
-    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

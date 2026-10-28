@@ -4,10 +4,14 @@ import { Box, Container, Typography } from "@mui/material";
 function Privacy() {
   return (
     <Layout>
-      <Box sx={{ py: 8, backgroundColor: "background.primary" }}>
+      <Box
+        className="legal-page"
+        sx={{ py: 8, backgroundColor: "background.primary" }}
+      >
         <Container maxWidth="md">
           <Typography
             variant="h3"
+            component="h1"
             sx={{ mb: 4, fontWeight: "bold", color: "text.primary" }}
           >
             Privacy Policy
@@ -59,8 +63,8 @@ function Privacy() {
           <Section title="4. Text Messaging (SMS/MMS)">
             <Typography variant="body1" sx={{ mb: 2 }}>
               Rising Tide Capital Partners may send text messages to property
-              owners to inquire about purchasing their land. By engaging with our
-              text messages, you acknowledge the following:
+              owners to inquire about purchasing their land. By engaging with
+              our text messages, you acknowledge the following:
             </Typography>
             <BulletList
               items={[
@@ -78,14 +82,15 @@ function Privacy() {
             We obtain property owner contact information from publicly available
             sources, including but not limited to county property records, tax
             assessor databases, and publicly recorded deeds. This information is
-            used solely for the purpose of making legitimate real estate purchase
-            inquiries.
+            used solely for the purpose of making legitimate real estate
+            purchase inquiries.
           </Section>
 
           <Section title="6. Information Sharing">
             <Typography variant="body1" sx={{ mb: 1 }}>
               We do not sell, rent, or trade your personal information to third
-              parties for marketing purposes. We may share your information with:
+              parties for marketing purposes. We may share your information
+              with:
             </Typography>
             <BulletList
               items={[
@@ -126,8 +131,8 @@ function Privacy() {
           </Section>
 
           <Section title="10. Changes to This Policy">
-            We may update this Privacy Policy from time to time. Any changes will
-            be posted on this page with an updated "Last Updated" date. We
+            We may update this Privacy Policy from time to time. Any changes
+            will be posted on this page with an updated "Last Updated" date. We
             encourage you to review this policy periodically.
           </Section>
 
@@ -146,9 +151,7 @@ function Privacy() {
               <Typography variant="body1">
                 Email: hello@risingtidecapital.us
               </Typography>
-              <Typography variant="body1">
-                Phone: (904) 325-6275
-              </Typography>
+              <Typography variant="body1">Phone: (904) 325-6275</Typography>
             </Box>
           </Section>
         </Container>
