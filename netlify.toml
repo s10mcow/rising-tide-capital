@@ -11,6 +11,14 @@
   path = "/closing-process"
   function = "og-tags"
 
+[[edge_functions]]
+  path = "/contracting"
+  function = "og-tags"
+
+[[edge_functions]]
+  path = "/contracting/"
+  function = "og-tags"
+
 # Redirect all traffic to HTTPS
 [[redirects]]
   from = "http://risingtidecapital.us/*"

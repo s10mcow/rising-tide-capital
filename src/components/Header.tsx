@@ -1,4 +1,4 @@
-import { Phone } from "@mui/icons-material";
+import { Menu as MenuIcon, Phone } from "@mui/icons-material";
 import {
   AppBar,
   Box,
@@ -6,10 +6,14 @@ import {
   Button,
   ButtonProps,
   Container,
+  IconButton,
+  Menu,
+  MenuItem,
   Toolbar,
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
 
 const StyledAppBar = styled(AppBar)(({ theme }) => ({
   backgroundColor: "rgba(255, 255, 255, 0.95)",
@@ -61,6 +65,7 @@ const PhoneButton = styled(Button)(({ theme }) => ({
 function Header() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+  const [menuAnchor, setMenuAnchor] = useState<null | HTMLElement>(null);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -82,7 +87,7 @@ function Header() {
 
           <Box
             sx={{
-              display: { xs: "none", md: "flex" },
+              display: { xs: "none", lg: "flex" },
               alignItems: "center",
               ml: "auto",
             }}
@@ -114,6 +119,18 @@ function Header() {
             )}
             <NavButton
               component={Link}
+              to="/contracting"
+              aria-current={
+                location.pathname.startsWith("/contracting")
+                  ? "page"
+                  : undefined
+              }
+              sx={{ color: "#137d7e", fontWeight: 700 }}
+            >
+              Contracting
+            </NavButton>
+            <NavButton
+              component={Link}
               to="/closing-process"
               sx={{
                 backgroundColor:
@@ -137,7 +154,7 @@ function Header() {
           {/* Mobile menu */}
           <Box
             sx={{
-              display: { xs: "flex", md: "none" },
+              display: { xs: "flex", lg: "none" },
               alignItems: "center",
               gap: 1,
               ml: "auto",
@@ -145,19 +162,23 @@ function Header() {
           >
             <NavButton
               component={Link}
-              to="/closing-process"
+              to="/contracting"
               size="small"
+              aria-current={
+                location.pathname.startsWith("/contracting")
+                  ? "page"
+                  : undefined
+              }
               sx={{
                 fontSize: "0.75rem",
                 px: 1.5,
                 py: 0.5,
-                backgroundColor:
-                  location.pathname === "/closing-process"
-                    ? "rgba(61, 108, 69, 0.1)"
-                    : "transparent",
+                backgroundColor: location.pathname.startsWith("/contracting")
+                  ? "rgba(61, 108, 69, 0.1)"
+                  : "transparent",
               }}
             >
-              Closing Process
+              Contracting
             </NavButton>
             <PhoneButton
               variant="contained"
@@ -173,6 +194,43 @@ function Header() {
             >
               Call
             </PhoneButton>
+            <IconButton
+              aria-label="Open navigation menu"
+              aria-controls={menuAnchor ? "mobile-navigation" : undefined}
+              aria-haspopup="true"
+              aria-expanded={Boolean(menuAnchor)}
+              onClick={(event) => setMenuAnchor(event.currentTarget)}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="mobile-navigation"
+              anchorEl={menuAnchor}
+              open={Boolean(menuAnchor)}
+              onClose={() => setMenuAnchor(null)}
+            >
+              <MenuItem
+                component={Link}
+                to="/"
+                onClick={() => setMenuAnchor(null)}
+              >
+                Home
+              </MenuItem>
+              <MenuItem
+                component={Link}
+                to="/contracting"
+                onClick={() => setMenuAnchor(null)}
+              >
+                Contracting
+              </MenuItem>
+              <MenuItem
+                component={Link}
+                to="/closing-process"
+                onClick={() => setMenuAnchor(null)}
+              >
+                Closing Process
+              </MenuItem>
+            </Menu>
           </Box>
         </Toolbar>
       </Container>
