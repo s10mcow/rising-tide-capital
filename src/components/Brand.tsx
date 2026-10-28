@@ -11,12 +11,7 @@ export default function Brand({
       }`}
     >
       <span className="brand-symbol" aria-hidden="true">
-        <img
-          src="/rising-tide-logo-reference.png"
-          alt=""
-          width={271}
-          height={59}
-        />
+        <img src="/rising-tide-wave.svg" alt="" width={68} height={46} />
       </span>
       <span className="brand-type">
         RISING TIDE
