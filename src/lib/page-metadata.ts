@@ -3,7 +3,7 @@ import {
   getHomeById,
   homes,
   type HomeListing,
-} from "../data/homes";
+} from "../data/homes.ts";
 
 export const SITE_URL = "https://risingtidecapital.us";
 export const DEFAULT_META = {

@@ -25,15 +25,30 @@ jobs:
         run: yarn lint
       - name: Typecheck
         run: yarn typecheck
+      - name: Check for AWS credentials
+        id: aws
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          if [ -n "$AWS_ACCESS_KEY_ID" ] && [ -n "$AWS_SECRET_ACCESS_KEY" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "AWS credentials are not configured for this pull request. Skipping the preview deploy."
+          fi
       - name: Configure AWS Credentials
+        if: steps.aws.outputs.configured == 'true'
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-2
       - name: Install Pulumi
+        if: steps.aws.outputs.configured == 'true'
         uses: pulumi/actions@v4
       - name: Ensure stack is unlocked
+        if: steps.aws.outputs.configured == 'true'
         run: |
           pulumi login s3://react-material-starter-v2-pulumi
           (
@@ -46,6 +61,7 @@ jobs:
         env:
           PULUMI_CONFIG_PASSPHRASE_FILE: "./.passphrase"
       - name: Deploy Infrastructure
+        if: steps.aws.outputs.configured == 'true'
         uses: pulumi/actions@v4
         with:
           cloud-url: s3://react-material-starter-v2-pulumi
@@ -59,6 +75,7 @@ jobs:
         env:
           PULUMI_CONFIG_PASSPHRASE_FILE: "./.passphrase"
       - name: Invalidate Cache
+        if: steps.aws.outputs.configured == 'true'
         uses: chetan/invalidate-cloudfront-action@master
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
