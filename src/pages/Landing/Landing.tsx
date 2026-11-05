@@ -50,12 +50,15 @@ export default function Landing() {
                 <em>Build what’s next.</em>
               </h1>
               <p className="hero-lede">
-                Real estate investment and hands-on contracting, brought
-                together by a Florida-based team.
+                Real estate investment, licensed home sales, and hands-on
+                contracting, brought together by a Florida-based team.
               </p>
               <div className="site-actions">
                 <Link className="site-button" to="/contracting">
                   Explore contracting <span aria-hidden="true">↗</span>
+                </Link>
+                <Link className="text-link light" to="/homes-for-sale">
+                  Homes for sale <span aria-hidden="true">↗</span>
                 </Link>
                 <a className="text-link light" href="#land">
                   Have land to sell? <span aria-hidden="true">↗</span>
@@ -84,6 +87,7 @@ export default function Landing() {
           <div className="site-container">
             <span>Land acquisition</span>
             <span>Property investment</span>
+            <span>Homes for sale</span>
             <span>General contracting</span>
           </div>
         </div>
@@ -94,7 +98,7 @@ export default function Landing() {
         >
           <div className="section-intro">
             <div>
-              <p className="eyebrow">ONE TEAM. TWO WAYS FORWARD.</p>
+              <p className="eyebrow">ONE TEAM. A CLEAR NEXT STEP.</p>
               <h2 id="work-heading">
                 The right people.
                 <br />
@@ -102,9 +106,9 @@ export default function Landing() {
               </h2>
             </div>
             <p>
-              Whether you’re ready to sell a property or bring a land-home
-              project to life, start with a conversation with the people doing
-              the work.
+              Whether you’re ready to sell a property, looking at a mobile or
+              manufactured home, or bringing a land-home project to life, start
+              with a conversation with the people doing the work.
             </p>
           </div>
           <div className="work-grid">
@@ -156,6 +160,30 @@ export default function Landing() {
               </ul>
               <Link className="text-link light" to="/contracting">
                 Explore our GC services <span aria-hidden="true">↗</span>
+              </Link>
+            </article>
+            <article className="work-panel homes-panel">
+              <div className="panel-top">
+                <span>03 / LICENSED HOME DEALER</span>
+                <span aria-hidden="true">↗</span>
+              </div>
+              <h3>
+                Homes for sale.
+                <br />
+                Ask us what’s next.
+              </h3>
+              <p>
+                Rising Tide Capital Partners is a licensed Florida mobile and
+                manufactured home dealer. Visit the homes page for current
+                listings, or contact us while new inventory is on the way.
+              </p>
+              <ul className="line-list">
+                <li>Mobile & manufactured homes</li>
+                <li>Details confirmed at sale</li>
+                <li>Talk with our team directly</li>
+              </ul>
+              <Link className="text-link" to="/homes-for-sale">
+                Browse homes for sale <span aria-hidden="true">↗</span>
               </Link>
             </article>
           </div>
@@ -308,8 +336,8 @@ export default function Landing() {
                 plans in motion.
               </h2>
               <p>
-                A property to sell. A project to build. A question to work
-                through. We’d like to hear it.
+                A property to sell. A home to ask about. A project to build.
+                We’d like to hear it.
               </p>
               <div className="site-actions">
                 <button
@@ -318,6 +346,9 @@ export default function Landing() {
                 >
                   Tell us about your property <span aria-hidden="true">↗</span>
                 </button>
+                <Link className="text-link light" to="/homes-for-sale">
+                  Homes for sale ↗
+                </Link>
                 <Link
                   className="text-link light"
                   to="/contracting#project-inquiry"
