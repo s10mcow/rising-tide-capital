@@ -764,29 +764,6 @@ summary:focus-visible {
   line-height: 1.85;
   margin-top: 12px;
 }
-.resource-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
-  margin-top: 40px;
-}
-.resource-grid > a {
-  border-top: 1px solid #b9cbc7;
-  padding-top: 26px;
-}
-.resource-grid > a > span {
-  font-size: 0.64rem;
-  letter-spacing: 0.1em;
-  color: var(--teal);
-  font-weight: 700;
-}
-.resource-grid h3 {
-  margin: 15px 0 !important;
-}
-.resource-grid p {
-  font-size: 0.87rem;
-  color: var(--muted);
-}
 .closing-contact {
   text-align: center;
 }
@@ -1396,10 +1373,6 @@ summary:focus-visible {
   }
   .closing-timeline li {
     gap: 22px;
-  }
-  .resource-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
   }
   .closing-contact {
     text-align: left;
