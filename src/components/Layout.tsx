@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { Link } from "react-router-dom";
+import { DEALER_LICENSE_LINE } from "@/lib/dealer-license";
 import Brand from "./Brand";
 import Header from "./Header";
 
@@ -24,10 +25,12 @@ export default function Layout({ children }: { children: ReactNode }) {
                 Florida roots. A practical approach to land, homes, and what
                 comes next.
               </p>
+              <p className="dealer-license">{DEALER_LICENSE_LINE}</p>
             </div>
             <div>
               <h2>Explore</h2>
               <Link to="/#our-work">Land & property</Link>
+              <Link to="/homes-for-sale">Homes for sale</Link>
               <Link to="/contracting">General contracting</Link>
               <Link to="/closing-process">Closing guide</Link>
               <Link to="/#about">Meet our team</Link>

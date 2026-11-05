@@ -220,6 +220,9 @@ summary:focus-visible {
 .closing-page h1,
 .closing-page h2,
 .closing-page h3,
+.homes-page h1,
+.homes-page h2,
+.homes-page h3,
 .utility-page h1,
 .utility-page h2 {
   letter-spacing: -0.045em;
@@ -228,16 +231,19 @@ summary:focus-visible {
   font-weight: 700;
 }
 .home-page h2,
-.closing-page h2 {
+.closing-page h2,
+.homes-page h2 {
   font-size: clamp(2.1rem, 3.65vw, 3.4rem);
 }
 .home-page h3,
-.closing-page h3 {
+.closing-page h3,
+.homes-page h3 {
   font-size: 1.4rem;
   letter-spacing: -0.035em;
 }
 .home-page p,
-.closing-page p {
+.closing-page p,
+.homes-page p {
   margin: 0;
 }
 .home-page figure {
@@ -373,7 +379,7 @@ summary:focus-visible {
 }
 .work-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
 }
 .work-panel {
@@ -442,6 +448,10 @@ summary:focus-visible {
 }
 .contracting-panel li:before {
   color: var(--mint);
+}
+.homes-panel {
+  background: #fff;
+  border: 1px solid var(--line);
 }
 .process-band {
   background: #eaece4;
@@ -616,6 +626,14 @@ summary:focus-visible {
   max-width: 250px;
   margin-top: 25px;
 }
+.footer-intro > p.dealer-license {
+  max-width: 360px;
+  margin-top: 18px;
+  color: #e7fff9;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
 .footer-grid h2 {
   font-size: 0.65rem;
   letter-spacing: 0.1em;
@@ -675,6 +693,15 @@ summary:focus-visible {
   line-height: 1.85;
   color: #c8d9df;
   margin-top: 24px;
+}
+.page-hero > .site-container > p.dealer-license {
+  color: var(--mint);
+  font-weight: 700;
+  font-size: 1.02rem;
+  max-width: 46rem;
+}
+.page-hero .site-actions {
+  margin-top: 28px;
 }
 .timeline-note {
   display: flex;
@@ -1238,7 +1265,8 @@ summary:focus-visible {
     margin-bottom: 16px !important;
   }
   .home-page h2,
-  .closing-page h2 {
+  .closing-page h2,
+  .homes-page h2 {
     font-size: 2.3rem;
   }
   .work-grid {
@@ -1459,5 +1487,188 @@ summary:focus-visible {
   }
   .site-button:hover {
     transform: none;
+  }
+}
+.listing-hero h1 {
+  font-size: clamp(2.2rem, 4vw, 3.6rem);
+  max-width: 20ch;
+}
+.homes-page .homes-disclaimer {
+  margin: 0 0 28px;
+  padding: 16px 18px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+.homes-empty {
+  background: #eaece4;
+  border-radius: 3px;
+  padding: 42px 40px;
+  max-width: 760px;
+}
+.homes-empty p:not(.eyebrow) {
+  margin-top: 16px;
+  color: var(--muted);
+  max-width: 46rem;
+}
+.homes-empty .site-actions {
+  margin-top: 26px;
+}
+.homes-empty .homes-disclaimer {
+  margin: 28px 0 0;
+}
+.listing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+.listing-card a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.listing-card a:hover {
+  border-color: var(--teal);
+}
+.listing-card img,
+.listing-photo-fallback {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background: #eaece4;
+}
+.listing-photo-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.listing-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  padding: 22px 22px 26px;
+}
+.listing-status {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.listing-location {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.listing-price {
+  color: var(--navy);
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+}
+.listing-specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 20px;
+  margin: 8px 0 0;
+}
+.listing-specs div {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+.listing-specs dt {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--teal);
+  font-weight: 700;
+}
+.listing-specs dd {
+  margin: 4px 0 0;
+  font-size: 1rem;
+}
+.listing-card .text-link {
+  margin-top: auto;
+  padding-top: 8px;
+}
+.listing-detail-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 48px;
+  align-items: start;
+}
+.listing-gallery {
+  display: grid;
+  gap: 12px;
+}
+.listing-gallery img {
+  width: 100%;
+  height: auto;
+  max-height: 460px;
+  object-fit: cover;
+  border-radius: 2px;
+  background: #eaece4;
+}
+.listing-detail-grid .listing-photo-fallback {
+  min-height: 220px;
+}
+.listing-description {
+  margin-top: 12px;
+  max-width: 65ch;
+  line-height: 1.75;
+}
+.listing-detail-grid h2 + .listing-description,
+.listing-detail-grid .listing-specs + h2 {
+  margin-top: 28px;
+}
+.homes-inquiry {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 48px;
+  align-items: start;
+}
+.homes-inquiry > div > p:not(.eyebrow) {
+  margin-top: 16px;
+  color: var(--muted);
+  max-width: 42rem;
+}
+.homes-direct-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 22px;
+}
+.homes-direct-contact a {
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.homes-page .form-note {
+  margin: 18px 0 24px;
+}
+.homes-page .form-error {
+  margin-top: 16px;
+}
+@media (max-width: 800px) {
+  .listing-detail-grid,
+  .homes-inquiry,
+  .listing-specs {
+    grid-template-columns: 1fr;
+  }
+  .homes-empty {
+    padding: 28px 22px;
   }
 }

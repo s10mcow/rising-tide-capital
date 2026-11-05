@@ -6,10 +6,18 @@ import Brand from "./Brand";
 
 const links = [
   { to: "/#our-work", label: "Our work" },
+  { to: "/homes-for-sale", label: "Homes for sale" },
   { to: "/contracting", label: "Contracting" },
   { to: "/#about", label: "Our team" },
   { to: "/closing-process", label: "Closing guide" },
 ];
+
+function navCurrent(pathname: string, to: string) {
+  if (to.includes("#")) return undefined;
+  return pathname === to || pathname.startsWith(`${to}/`)
+    ? ("page" as const)
+    : undefined;
+}
 export default function Header() {
   const { pathname } = useLocation();
   const [anchor, setAnchor] = useState<HTMLElement | null>(null);
@@ -21,11 +29,7 @@ export default function Header() {
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map(({ to, label }) => (
-            <Link
-              key={to}
-              to={to}
-              aria-current={pathname === to ? "page" : undefined}
-            >
+            <Link key={to} to={to} aria-current={navCurrent(pathname, to)}>
               {label}
             </Link>
           ))}
@@ -59,6 +63,7 @@ export default function Header() {
               key={to}
               component={Link}
               to={to}
+              aria-current={navCurrent(pathname, to)}
               onClick={() => setAnchor(null)}
             >
               {label}
