@@ -140,4 +140,15 @@ describe("homes for sale metadata", () => {
       ]).image,
     ).toBe("https://example.com/test-home.jpg");
   });
+
+  it("does not publish floor-plan catalog metadata", () => {
+    const source = readFileSync("index.html", "utf8");
+    expect(renderPageMetadata(source, "/homes")).toBe(source);
+    expect(getPageMetadata("/homes").title).toBe(DEFAULT_META.title);
+    const edge = readFileSync("netlify/edge-functions/og-tags.ts", "utf8");
+    const metadata = readFileSync("src/lib/page-metadata.ts", "utf8");
+    expect(metadata).not.toContain("catalog");
+    expect(metadata).toContain("../data/homes.ts");
+    expect(edge).toContain("../../src/lib/page-metadata.ts");
+  });
 });

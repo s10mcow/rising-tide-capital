@@ -29,3 +29,6 @@ tsconfig.tsbuildinfo
 
 # Local Netlify folder
 .netlify
+
+# Internal floor-plan reference data. Never commit prices, images, or records.
+internal-catalog-data/
