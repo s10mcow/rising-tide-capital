@@ -6,6 +6,7 @@ import Brand from "./Brand";
 
 const links = [
   { to: "/#our-work", label: "Our work" },
+  { to: "/homes", label: "Floor plans" },
   { to: "/homes-for-sale", label: "Homes for sale" },
   { to: "/contracting", label: "Contracting" },
   { to: "/#about", label: "Our team" },

@@ -141,14 +141,36 @@ describe("homes for sale metadata", () => {
     ).toBe("https://example.com/test-home.jpg");
   });
 
-  it("does not publish floor-plan catalog metadata", () => {
+  it("uses the matched local photo for a floor-plan detail page", () => {
+    const meta = getPageMetadata(
+      "/homes/clayton-tru-series-cedar-42trt28563ch",
+    );
+    expect(meta.title).toBe(
+      "Cedar | Floor Plans | Rising Tide Capital Partners",
+    );
+    expect(meta.description).toContain("not an in-stock home");
+    expect(meta.description).not.toContain("DH/1154962");
+    expect(meta.image).toBe(
+      "https://risingtidecapital.us/catalog-media/clayton-tru-series-cedar-42trt28563ch.webp",
+    );
+  });
+
+  it("renders floor-plan metadata without a license number", () => {
     const source = readFileSync("index.html", "utf8");
-    expect(renderPageMetadata(source, "/homes")).toBe(source);
-    expect(getPageMetadata("/homes").title).toBe(DEFAULT_META.title);
+    const doc = new DOMParser().parseFromString(
+      renderPageMetadata(source, "/homes"),
+      "text/html",
+    );
+    expect(doc.title).toBe("Floor Plans | Rising Tide Capital Partners");
+    expect(doc.title).not.toContain("DH/1154962");
+    expect(
+      doc.querySelector('meta[name="description"]')?.getAttribute("content"),
+    ).toContain("not homes in stock");
     const edge = readFileSync("netlify/edge-functions/og-tags.ts", "utf8");
     const metadata = readFileSync("src/lib/page-metadata.ts", "utf8");
-    expect(metadata).not.toContain("catalog");
+    expect(metadata).toContain("../data/catalog.ts");
     expect(metadata).toContain("../data/homes.ts");
     expect(edge).toContain("../../src/lib/page-metadata.ts");
+    expect(metadata).not.toContain("sliceoflife");
   });
 });

@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 
@@ -12,34 +12,25 @@ function walk(dir: string, found: string[] = []): string[] {
   return found;
 }
 
-describe("public catalog privacy", () => {
-  it("keeps reference data out of the public app and gitignore", () => {
+describe("competitor reference data stays private", () => {
+  it("does not put Slice of Life prices in the public catalog", () => {
     const gitignore = readFileSync(".gitignore", "utf8");
     expect(gitignore).toContain("internal-catalog-data/");
-    expect(existsSync("src/data/catalog.ts")).toBe(false);
-    expect(existsSync("src/pages/Catalog")).toBe(false);
+    const catalog = readFileSync("src/data/catalog.ts", "utf8");
+    expect(catalog.toLowerCase()).not.toContain("sliceoflife");
+    expect(catalog).not.toContain("DH/1154962");
     const app = readFileSync("src/App.tsx", "utf8");
-    expect(app).not.toContain('path="/homes"');
-    expect(app).not.toContain("CatalogRoute");
-    const header = readFileSync("src/components/Header.tsx", "utf8");
-    expect(header).not.toContain('to: "/homes"');
-    const metadata = readFileSync("src/lib/page-metadata.ts", "utf8");
-    expect(metadata).not.toContain("catalog");
-    const netlify = readFileSync("netlify.toml", "utf8");
-    expect(netlify).not.toContain('path = "/homes"');
-    expect(netlify).not.toContain('path = "/homes/*"');
+    expect(app).toContain('path="/homes"');
   });
 
-  it("does not ship reference records in a production build", () => {
+  it("does not ship Slice of Life material in a production build", () => {
     const files = walk("dist").filter((file) =>
       /\.(js|css|html|json|map)$/.test(file),
     );
     if (files.length === 0) return;
     const bundled = files.map((file) => readFileSync(file, "utf8")).join("\n");
-    expect(bundled).not.toContain("sliceoflifehomes.com");
+    expect(bundled.toLowerCase()).not.toContain("sliceoflife");
     expect(bundled).not.toContain("SENTINEL-PRICE");
-    expect(bundled).not.toContain("42TRT28563CH");
-    expect(bundled).not.toContain("Crestpointe H4684A");
     expect(bundled).not.toContain("internal-catalog-data");
   });
 });

@@ -1,10 +1,13 @@
 import type { ReactNode } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { DEALER_LICENSE_LINE } from "@/lib/dealer-license";
 import Brand from "./Brand";
 import Header from "./Header";
 
 export default function Layout({ children }: { children: ReactNode }) {
+  const { pathname } = useLocation();
+  const floorPlanCatalog =
+    pathname === "/homes" || pathname.startsWith("/homes/");
   return (
     <>
       <a href="#main-content" className="skip-link">
@@ -25,11 +28,14 @@ export default function Layout({ children }: { children: ReactNode }) {
                 Florida roots. A practical approach to land, homes, and what
                 comes next.
               </p>
-              <p className="dealer-license">{DEALER_LICENSE_LINE}</p>
+              {floorPlanCatalog ? null : (
+                <p className="dealer-license">{DEALER_LICENSE_LINE}</p>
+              )}
             </div>
             <div>
               <h2>Explore</h2>
               <Link to="/#our-work">Land & property</Link>
+              <Link to="/homes">Floor plans</Link>
               <Link to="/homes-for-sale">Homes for sale</Link>
               <Link to="/contracting">General contracting</Link>
               <Link to="/closing-process">Closing guide</Link>

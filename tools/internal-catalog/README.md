@@ -1,11 +1,13 @@
 # Internal floor-plan reference
 
-This tool is for local study on this machine. It is not part of the public
-site, and it is not deployed to Netlify.
+The public site lists orderable floor plans at `/homes`. This tool is separate.
+It is for local study on this machine, it is not linked from the public site,
+and it is not deployed to Netlify.
 
-Reference records, prices, and images belong in `internal-catalog-data/`,
-which is gitignored. Do not copy that directory into `src/`, `public/`,
-`dist/`, or a pull request.
+Anything placed in `internal-catalog-data/` is gitignored. Do not copy that
+directory into `src/`, `public/`, `dist/`, or a pull request. Slice of Life
+Homes prices stay in that private folder. They are not RTC quotes and they
+are not published on `/homes`.
 
 ## Start
 

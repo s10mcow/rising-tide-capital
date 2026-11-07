@@ -182,9 +182,14 @@ export default function Landing() {
                 <li>Details confirmed at sale</li>
                 <li>Talk with our team directly</li>
               </ul>
-              <Link className="text-link" to="/homes-for-sale">
-                Browse homes for sale <span aria-hidden="true">↗</span>
-              </Link>
+              <div className="panel-links">
+                <Link className="text-link" to="/homes">
+                  Browse floor plans <span aria-hidden="true">↗</span>
+                </Link>
+                <Link className="text-link" to="/homes-for-sale">
+                  Browse homes for sale <span aria-hidden="true">↗</span>
+                </Link>
+              </div>
             </article>
           </div>
         </section>
