@@ -1,4 +1,13 @@
 import {
+  catalog,
+  formatBaths,
+  getPlanBySlug,
+  isManufacturerId,
+  manufacturerById,
+  planDimensions,
+  type CatalogPlan,
+} from "../data/catalog.ts";
+import {
   absolutePhotoUrl,
   getHomeById,
   homes,
@@ -44,6 +53,36 @@ export const PAGE_METADATA: Record<string, typeof DEFAULT_META> = {
       "Rising Tide Capital Partners is a licensed Florida mobile and manufactured home dealer. See current homes for sale, or contact us while new inventory is on the way.",
     image: `${SITE_URL}/og-image.jpg`,
   },
+  "/homes": {
+    title: "Floor Plans | Rising Tide Capital Partners",
+    description:
+      "Floor plans published by Clayton, Cavco, Palm Harbor, and Champion. These are model references, not homes in stock. Call for pricing.",
+    image: `${SITE_URL}/og-image.jpg`,
+  },
+  "/homes/clayton": {
+    title: "Clayton Floor Plans | Rising Tide Capital Partners",
+    description:
+      "Clayton floor plans published by the manufacturer. These are model references, not homes in stock. Call for pricing.",
+    image: `${SITE_URL}/og-image.jpg`,
+  },
+  "/homes/cavco": {
+    title: "Cavco Floor Plans | Rising Tide Capital Partners",
+    description:
+      "Cavco floor plans published by the manufacturer. These are model references, not homes in stock. Call for pricing.",
+    image: `${SITE_URL}/og-image.jpg`,
+  },
+  "/homes/palm-harbor": {
+    title: "Palm Harbor Floor Plans | Rising Tide Capital Partners",
+    description:
+      "Palm Harbor floor plans published by the manufacturer. These are model references, not homes in stock. Call for pricing.",
+    image: `${SITE_URL}/og-image.jpg`,
+  },
+  "/homes/champion": {
+    title: "Champion Floor Plans | Rising Tide Capital Partners",
+    description:
+      "Champion floor plans published by the manufacturer. These are model references, not homes in stock. Call for pricing.",
+    image: `${SITE_URL}/og-image.jpg`,
+  },
 };
 
 function normalizePath(pathname: string): string {
@@ -58,6 +97,46 @@ export function homeListingIdFromPath(pathname: string): string | null {
   } catch {
     return match[1];
   }
+}
+
+export function catalogSlugFromPath(pathname: string): string | null {
+  const match = /^\/homes\/([^/]+)$/.exec(normalizePath(pathname));
+  if (!match) return null;
+  let slug = match[1];
+  try {
+    slug = decodeURIComponent(slug);
+  } catch {
+    /* Keep the raw segment. */
+  }
+  return isManufacturerId(slug) ? null : slug;
+}
+
+function planImage(plan: CatalogPlan): string {
+  const candidates = [...plan.photos];
+  if (plan.floorPlanImage) candidates.push(plan.floorPlanImage);
+  for (const photo of candidates) {
+    const absolute = absolutePhotoUrl(photo, SITE_URL);
+    if (absolute) return absolute;
+  }
+  return DEFAULT_META.image;
+}
+
+function metadataForPlan(plan: CatalogPlan, path: string) {
+  const maker = manufacturerById(plan.manufacturer).name;
+  const dimensions = planDimensions(plan);
+  const description = `${plan.model} by ${maker}, ${plan.series}. ${
+    plan.beds
+  } bedrooms, ${formatBaths(plan.baths)} bathrooms, ${plan.sqft} sq ft${
+    dimensions ? `, ${dimensions}` : ""
+  }${
+    plan.sectionLabel ? `, ${plan.sectionLabel}` : ""
+  }. Manufacturer floor plan, not an in-stock home. Call for pricing.`;
+  return {
+    title: `${plan.model} | Floor Plans | Rising Tide Capital Partners`,
+    description,
+    image: planImage(plan),
+    url: `${SITE_URL}${path}`,
+  };
 }
 
 function listingImage(home: HomeListing): string {
@@ -87,6 +166,18 @@ export function getPageMetadata(
   const path = normalizePath(pathname);
   const staticMeta = PAGE_METADATA[path];
   if (staticMeta) return { ...staticMeta, url: `${SITE_URL}${path}` };
+  const planSlug = catalogSlugFromPath(path);
+  if (planSlug) {
+    const plan = getPlanBySlug(planSlug, catalog);
+    if (plan) return metadataForPlan(plan, path);
+    return {
+      title: "Floor plan not found | Rising Tide Capital Partners",
+      description:
+        "That floor plan is not listed. These pages show orderable manufacturer models, not homes in stock.",
+      image: DEFAULT_META.image,
+      url: `${SITE_URL}${path}`,
+    };
+  }
   const id = homeListingIdFromPath(path);
   if (id) {
     const home = getHomeById(id, listings);
@@ -108,6 +199,8 @@ export function shouldRewriteMetadata(
 ): boolean {
   const path = normalizePath(pathname);
   if (PAGE_METADATA[path]) return true;
+  const planSlug = catalogSlugFromPath(path);
+  if (planSlug && getPlanBySlug(planSlug, catalog)) return true;
   const id = homeListingIdFromPath(path);
   return Boolean(id && getHomeById(id, listings));
 }

@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import { homes, type HomeListing } from "@/data/homes";
 import { DEALER_LICENSE_LINE } from "@/lib/dealer-license";
+import { Link } from "react-router-dom";
 import HomeContactSection from "./HomeContactSection";
 import ListingCard from "./ListingCard";
 import { HOME_SALES_DISCLAIMER } from "./listing-format";
@@ -79,6 +80,9 @@ export default function HomesForSale() {
               <a className="site-button" href="#home-inquiry">
                 Contact us about a home <span aria-hidden="true">↗</span>
               </a>
+              <Link className="text-link light" to="/homes">
+                Floor plans
+              </Link>
               <a className="text-link light" href="tel:+19043256275">
                 Call (904) 325-6275
               </a>

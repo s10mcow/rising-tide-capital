@@ -10,6 +10,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 const Contracting = lazy(() => import("@/pages/Contracting/Contracting"));
 const HomesForSale = lazy(() => import("@/pages/Homes/HomesForSale"));
 const HomeListingPage = lazy(() => import("@/pages/Homes/HomeListingPage"));
+const FloorPlans = lazy(() => import("@/pages/Catalog/CatalogRoute"));
 
 const ClosingProcess = lazy(
   () => import("@/pages/ClosingProcess/ClosingProcess"),
@@ -36,6 +37,8 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/closing-process" element={<ClosingProcess />} />
           <Route path="/contracting" element={<Contracting />} />
+          <Route path="/homes" element={<FloorPlans />} />
+          <Route path="/homes/:slug" element={<FloorPlans />} />
           <Route path="/homes-for-sale" element={<HomesForSale />} />
           <Route path="/homes-for-sale/:id" element={<HomeListingPage />} />
           <Route path="/privacy" element={<Privacy />} />

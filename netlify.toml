@@ -31,6 +31,18 @@
   path = "/homes-for-sale/*"
   function = "og-tags"
 
+[[edge_functions]]
+  path = "/homes"
+  function = "og-tags"
+
+[[edge_functions]]
+  path = "/homes/"
+  function = "og-tags"
+
+[[edge_functions]]
+  path = "/homes/*"
+  function = "og-tags"
+
 # Redirect all traffic to HTTPS
 [[redirects]]
   from = "http://risingtidecapital.us/*"

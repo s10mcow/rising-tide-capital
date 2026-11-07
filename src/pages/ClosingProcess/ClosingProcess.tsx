@@ -11,7 +11,7 @@ const steps = [
   },
   {
     title: "Identity Verification",
-    text: "Completed via ClosingLock or later with a notary.",
+    text: "Completed with the title company, or later with a notary.",
   },
   {
     title: "Documents Sent",
@@ -23,7 +23,7 @@ const steps = [
   },
   {
     title: "Return Documents",
-    text: "Documents returned to Steel City Title.",
+    text: "Documents are returned to the title company.",
   },
   { title: "Closing", text: "Closing takes place on the following Monday." },
   {
@@ -89,32 +89,6 @@ export default function ClosingProcess() {
               </li>
             ))}
           </ol>
-        </section>
-        <section className="process-band">
-          <div className="site-container">
-            <p className="eyebrow">HELPFUL RESOURCES</p>
-            <h2>Your closing team.</h2>
-            <div className="resource-grid">
-              <a
-                href="https://steelcitytitle.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span>THE TITLE COMPANY ↗</span>
-                <h3>Steel City Title</h3>
-                <p>Title work and transaction coordination.</p>
-              </a>
-              <a
-                href="https://closinglock.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span>IDENTITY VERIFICATION ↗</span>
-                <h3>ClosingLock</h3>
-                <p>Secure identity verification during closing.</p>
-              </a>
-            </div>
-          </div>
         </section>
         <section className="site-section site-container closing-contact">
           <p className="eyebrow">WE’RE HERE TO HELP</p>

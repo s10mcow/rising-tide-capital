@@ -1,0 +1,1552 @@
+{
+  "total": 344,
+  "photos": 289,
+  "floorPlans": 199,
+  "missing": [
+    {
+      "slug": "cavco-iron-ranch-16603a",
+      "model": "Iron Ranch 16603A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-iron-ranch-16603a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-edge-general-16763a",
+      "model": "General 16763A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-general-16763a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-timberline-elite-wall-16401a",
+      "model": "Wall 16401A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-wall-16401a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-timberline-elite-taylor-16562a",
+      "model": "Taylor 16562A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-timberline-elite-16562a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-timberline-elite-homer-16542a",
+      "model": "Homer 16542A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-timberline-elite-16542a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-edge-28483a",
+      "model": "Edge 28483A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-edge-28483a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-edge-captain-28764a",
+      "model": "Captain 28764A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-edge-28764a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-timberline-elite-borden-16663a",
+      "model": "Borden 16663A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-timberline-elite-16663a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-alpha-atmos-28603n",
+      "model": "Atmos 28603N",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-atmos-28603n",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "cavco-lifestyle-28603a",
+      "model": "Lifestyle 28603A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-lifestyle-28603a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-the-gulf-gulf-32583a",
+      "model": "Gulf 32583A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-gulf-32583a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-providence-bermuda-28523a",
+      "model": "Bermuda 28523A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-providence-28523a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-timberline-elite-heath-24382a",
+      "model": "Heath 24382A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-heath-24382a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "cavco-the-gulf-gulf-32663a",
+      "model": "Gulf 32663A",
+      "manufacturer": "cavco",
+      "sourceUrl": "https://www.cavcohomes.com/our-homes/cavcodotcom/standard/us/588-gulf-32663a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "palm-harbor-alpha-helix-16763n",
+      "model": "Helix 16763N",
+      "manufacturer": "palm-harbor",
+      "sourceUrl": "https://www.palmharbor.com/our-homes/us/34-helix-16763n/34-helix-16763n",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "palm-harbor-craft-select-15602a",
+      "model": "Craft Select 15602A",
+      "manufacturer": "palm-harbor",
+      "sourceUrl": "https://www.palmharbor.com/our-homes/us/34-craft-select-15602a/34-craft-select-15602a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "palm-harbor-craft-select-15663a",
+      "model": "Craft Select 15663A",
+      "manufacturer": "palm-harbor",
+      "sourceUrl": "https://www.palmharbor.com/our-homes/us/34-craft-select-15663a/34-craft-select-15663a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "palm-harbor-craft-select-15763a",
+      "model": "Craft Select 15763A",
+      "manufacturer": "palm-harbor",
+      "sourceUrl": "https://www.palmharbor.com/our-homes/us/34-craft-select-15763a/34-craft-select-15763a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "palm-harbor-elite-carter-24402a",
+      "model": "Carter 24402A",
+      "manufacturer": "palm-harbor",
+      "sourceUrl": "https://www.palmharbor.com/our-homes/us/34-carter-24402a/34-carter-24402a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "palm-harbor-elite-reed-28482c",
+      "model": "Reed 28482C",
+      "manufacturer": "palm-harbor",
+      "sourceUrl": "https://www.palmharbor.com/our-homes/us/34-reed-28482c/34-reed-28482c",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "palm-harbor-elite-reed-28482c",
+      "model": "Reed 28482C",
+      "manufacturer": "palm-harbor",
+      "sourceUrl": "https://www.palmharbor.com/our-homes/us/34-reed-28482c/34-reed-28482c",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "palm-harbor-palm-harbor-ll-jenkins-28522a",
+      "model": "Jenkins 28522A",
+      "manufacturer": "palm-harbor",
+      "sourceUrl": "https://www.palmharbor.com/our-homes/us/34-jenkins-28522a-7505/34-jenkins-28522a-7505",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-grand-043",
+      "model": "Prime Grand 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-grand-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-brave-the-aaron",
+      "model": "The Aaron",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/the-aaron",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-vertex-043",
+      "model": "Prime Vertex 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-vertex-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-brave-the-chipper",
+      "model": "The Chipper",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/the-chipper",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-liberty-2876489",
+      "model": "Liberty 2876489",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/liberty-2876489",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-apex-261",
+      "model": "Prime Apex 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-apex-261",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-apex-261",
+      "model": "Prime Apex 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-apex-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-brave-the-justice",
+      "model": "The Justice",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/the-justice",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-3260h32p03",
+      "model": "Lake Manor 3260H32P03",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-3260h32p03",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-embrace-serenity-261",
+      "model": "Embrace Serenity 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/embrace-serenity-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-ridge-043",
+      "model": "Prime Ridge 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-ridge-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-embrace-sunlight-052",
+      "model": "Embrace Sunlight 052",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/embrace-sunlight-052",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-homes-of-merit-community-homc-4563e",
+      "model": "HOMC 4563E",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/homc-4563e",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-homes-of-merit-community-homc-4563e",
+      "model": "HOMC 4563E",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/homc-4563e",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-embrace-opportunity-261",
+      "model": "Embrace Opportunity 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/embrace-opportunity-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-cypress-manor-4563e",
+      "model": "Cypress Manor 4563E",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-4563e",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-signature-community-signature-3442a",
+      "model": "Signature 3442A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/signature-3442a",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-embrace-daylight",
+      "model": "Embrace Daylight",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/embrace-daylight",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-bravo-iris",
+      "model": "Iris",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/iris",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-waycross-express-3272537-cottonwood",
+      "model": "Waycross Express 3272537 Cottonwood",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express-3272537-cottonwood",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-icon-2876-talladega",
+      "model": "Icon 2876 Talladega",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/icon-2876-talladega",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-providence-3264543-wisdom",
+      "model": "Providence 3264543 Wisdom",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/providence-3264543-wisdom",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-breathitt-261",
+      "model": "Prime Breathitt 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-breathitt-261",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-breathitt-261",
+      "model": "Prime Breathitt 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-breathitt-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-brave-the-maddux",
+      "model": "The Maddux",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/the-maddux",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-brave-the-maddux",
+      "model": "The Maddux",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/the-maddux",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-waycross-express-2852477",
+      "model": "Waycross Express 2852477",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express-2852477",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5012",
+      "model": "Silver Springs 5012",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5012",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-vertex-261",
+      "model": "Prime Vertex 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-vertex-261",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-vertex-261",
+      "model": "Prime Vertex 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-vertex-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-home-run-1456194",
+      "model": "Home Run 1456194",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1456194",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-pine-manor-0764d",
+      "model": "Pine Manor 0764D",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/pine-manor-0764d",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-pine-manor-0764d",
+      "model": "Pine Manor 0764D",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/pine-manor-0764d",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-cypress-manor-0764e",
+      "model": "Cypress Manor 0764E",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-0764e",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-home-run-1466208",
+      "model": "Home Run 1466208",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1466208",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-yellowstone-the-big-john",
+      "model": "The Big John",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/the-big-john",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-freedom-3276552",
+      "model": "Freedom 3276552",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/freedom-3276552",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-3276h53502",
+      "model": "Lake Manor 3276H53502",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-3276h53502",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-winston-shade-ridge",
+      "model": "Shade Ridge",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/shade-ridge",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-yellowstone-bozeman",
+      "model": "Bozeman",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/bozeman",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-yellowstone-bozeman",
+      "model": "Bozeman",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/bozeman",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-silver-spring",
+      "model": "Silver Spring",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-spring",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-legend-3276502-sinclair",
+      "model": "Legend 3276502 Sinclair",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/legend-3276502-sinclair",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-liberty-3276536",
+      "model": "Liberty 3276536",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/liberty-3276536",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-freedom-3276527",
+      "model": "Freedom 3276527",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/freedom-3276527",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-taylor-261",
+      "model": "Prime Taylor 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-taylor-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-cypress-manor-c0723c",
+      "model": "Cypress Manor C0723C",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-c0723c",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-elite-6400",
+      "model": "Silver Springs Elite 6400",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-elite-6400",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-home-run-3272228",
+      "model": "Home Run 3272228",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-3272228",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-cypress-manor-0683b",
+      "model": "Cypress Manor 0683B",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-0683b",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-cypress-manor-0683b",
+      "model": "Cypress Manor 0683B",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-0683b",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-pinnacle-261",
+      "model": "Prime Pinnacle 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-pinnacle-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-pinnacle-043",
+      "model": "Prime Pinnacle 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-pinnacle-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-freedom-3266553",
+      "model": "Freedom 3266553",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/freedom-3266553",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-juniper-springs",
+      "model": "Juniper Springs",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/juniper-springs",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-home-run-2876322",
+      "model": "Home Run 2876322",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-2876322",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-homes-of-merit-community-homc-4562g",
+      "model": "HOMC 4562G",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/homc-4562g",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-legend-2876526",
+      "model": "Legend 2876526",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/legend-2876526",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-liberty-3264528-admiral",
+      "model": "Liberty 3264528 Admiral",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/liberty-3264528-admiral",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-2876h53p01",
+      "model": "Lake Manor 2876H53P01",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2876h53p01",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-grand-261",
+      "model": "Prime Grand 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-grand-261",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-grand-261",
+      "model": "Prime Grand 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-grand-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-crestpointe-h4684a",
+      "model": "Crestpointe H4684A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/crestpointe-h4684a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-crestpointe-h4684a",
+      "model": "Crestpointe H4684A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/crestpointe-h4684a",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-trinity-rh4684a",
+      "model": "RH4684A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/rh4684a",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-2868h42p01",
+      "model": "Lake Manor 2868H42P01",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2868h42p01",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-riverview-4684a",
+      "model": "Riverview 4684A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/riverview-4684a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-providence-3256542-fortune",
+      "model": "Providence 3256542 Fortune",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/providence-3256542-fortune",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-elite-pm-6480",
+      "model": "Silver Springs Elite PM 6480",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-elite-pm-6480",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5354",
+      "model": "Silver Springs 5354",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5354",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-grand-slam-2862306",
+      "model": "Grand Slam 2862306",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2862306",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-minor-league-pelican",
+      "model": "Pelican",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/pelican",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-key-largo-3252h32g01",
+      "model": "Key Largo 3252H32G01",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/key-largo-3252h32g01",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5333",
+      "model": "Silver Springs 5333",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5333",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-alexander-spring",
+      "model": "Alexander Spring",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/alexander-spring",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5361",
+      "model": "Silver Springs 5361",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5361",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-signature-community-signature-4563c",
+      "model": "Signature 4563C",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/signature-4563c",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-crestpointe-pursuit-261",
+      "model": "Pursuit 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/pursuit-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-crown-261",
+      "model": "Prime Crown 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-crown-261",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-crown-261",
+      "model": "Prime Crown 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-crown-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-crown-043",
+      "model": "Prime Crown 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-crown-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-embrace-sunlight-261",
+      "model": "Embrace Sunlight 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/embrace-sunlight-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-apex-043",
+      "model": "Prime Apex 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-apex-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-key-largo-2856h32a1c",
+      "model": "Key Largo 2856H32A1C",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/key-largo-2856h32a1c",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-key-largo-2854h32g01",
+      "model": "Key Largo 2854H32G01",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/key-largo-2854h32g01",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-coral-haven",
+      "model": "Coral Haven",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/coral-haven",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-pine-manor-0483a",
+      "model": "Pine Manor 0483A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/pine-manor-0483a",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-pine-manor-0483a",
+      "model": "Pine Manor 0483A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/pine-manor-0483a",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-champion-community-series-champion-community-2856443",
+      "model": "Champion Community 2856443",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2856443",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-home-run-2856353",
+      "model": "Home Run 2856353",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-2856353",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5355",
+      "model": "Silver Springs 5355",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5355",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5351",
+      "model": "Silver Springs 5351",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5351",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-winston-marsh-ridge",
+      "model": "Marsh Ridge",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/marsh-ridge",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5360",
+      "model": "Silver Springs 5360",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5360",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-legend-3248501",
+      "model": "Legend 3248501",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/legend-3248501",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5042a",
+      "model": "Silver Springs 5042A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5042a",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-signature-community-signature-4523e",
+      "model": "Signature 4523E",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/signature-4523e",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-cypress-manor-the-carlee",
+      "model": "The Carlee",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/the-carlee",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5001a",
+      "model": "Silver Springs 5001A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5001a",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-waycross-express-2856492",
+      "model": "Waycross Express 2856492",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express-2856492",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-legend-2852479",
+      "model": "Legend 2852479",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/legend-2852479",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5035",
+      "model": "Silver Springs 5035",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5035",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-key-largo-2856h32a8g",
+      "model": "Key Largo 2856H32A8G",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/key-largo-2856h32a8g",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-churchill-043",
+      "model": "Prime Churchill 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-churchill-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-embrace-cherish-261",
+      "model": "Embrace Cherish 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/embrace-cherish-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-grand-slam-2456341",
+      "model": "Grand Slam 2456341",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2456341",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-champion-community-series-champion-community-2848441",
+      "model": "Champion Community 2848441",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2848441",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-home-run-2848229",
+      "model": "Home Run 2848229",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-2848229",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-legend-2848510",
+      "model": "Legend 2848510",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/legend-2848510",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-estill-043",
+      "model": "Prime Estill 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-estill-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-grand-slam-2452445",
+      "model": "Grand Slam 2452445",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2452445",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-5081",
+      "model": "Silver Springs 5081",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5081",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-floyd-043",
+      "model": "Prime Floyd 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-floyd-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-monte-043",
+      "model": "Prime Monte 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-monte-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-minor-league-firefly",
+      "model": "Firefly",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/firefly",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-embrace-simplicity-261",
+      "model": "Embrace Simplicity 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/embrace-simplicity-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-monte-261",
+      "model": "Prime Monte 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-monte-261",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-monte-261",
+      "model": "Prime Monte 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-monte-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-somerset-043",
+      "model": "Prime Somerset 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-somerset-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-home-run-2844402",
+      "model": "Home Run 2844402",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-2844402",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-2844h32p01",
+      "model": "Lake Manor 2844H32P01",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2844h32p01",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-silver-springs-4801",
+      "model": "Silver Springs 4801",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4801",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-brave-the-murphy",
+      "model": "The Murphy",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/the-murphy",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-icon-1676",
+      "model": "Icon 1676",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/icon-1676",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-icon-1676",
+      "model": "Icon 1676",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/icon-1676",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-waycross-express-1676531-azalea",
+      "model": "Waycross Express 1676531 Azalea",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express-1676531-azalea",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-plateau-261",
+      "model": "Prime Plateau 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-plateau-261",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-plateau-261",
+      "model": "Prime Plateau 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-plateau-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-bardstown-043",
+      "model": "Prime Bardstown 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-bardstown-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-2848h32p02",
+      "model": "Lake Manor 2848H32P02",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2848h32p02",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-ballard-043",
+      "model": "Prime Ballard 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-ballard-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-4893",
+      "model": "Silver Springs 4893",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4893",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-trinity-rh2682a",
+      "model": "RH2682A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/rh2682a",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-trinity-rh2683d",
+      "model": "RH2683D",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/rh2683d",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-2846h22140",
+      "model": "Lake Manor 2846H22140",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2846h22140",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-2444h22036",
+      "model": "Lake Manor 2444H22036",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2444h22036",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-hickman-043",
+      "model": "Prime Hickman 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-hickman-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-champion-community-series-champion-community-2444437",
+      "model": "Champion Community 2444437",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2444437",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-grand-slam-1666323",
+      "model": "Grand Slam 1666323",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1666323",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-grand-slam-1666354",
+      "model": "Grand Slam 1666354",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1666354",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-2840h32p01",
+      "model": "Lake Manor 2840H32P01",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2840h32p01",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-champion-community-series-champion-community-2836447",
+      "model": "Champion Community 2836447",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2836447",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-1666h32p01",
+      "model": "Lake Manor 1666H32P01",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-1666h32p01",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-spire-043",
+      "model": "Prime Spire 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-spire-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-legend-1660390-frederica",
+      "model": "Legend 1660390 Frederica",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/legend-1660390-frederica",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-4892",
+      "model": "Silver Springs 4892",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4892",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-home-run-1660304",
+      "model": "Home Run 1660304",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1660304",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-legend-1660522",
+      "model": "Legend 1660522",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/legend-1660522",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-zenith-261",
+      "model": "Prime Zenith 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-zenith-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-zenith-043",
+      "model": "Prime Zenith 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-zenith-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-barkley-043",
+      "model": "Prime Barkley 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-barkley-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-lake-manor-2440h22036",
+      "model": "Lake Manor 2440H22036",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2440h22036",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-home-run-1656280",
+      "model": "Home Run 1656280",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1656280",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-champion-community-series-champion-community-2436456",
+      "model": "Champion Community 2436456",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2436456",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-crest-261",
+      "model": "Prime Crest 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-crest-261",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-crest-261",
+      "model": "Prime Crest 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-crest-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-4800",
+      "model": "Silver Springs 4800",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4800",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-prime-crest-043",
+      "model": "Prime Crest 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-crest-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-palm-bay-2714b",
+      "model": "Palm Bay 2714B",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2714b",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-peak-043",
+      "model": "Prime Peak 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-peak-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-winston-tidehaven",
+      "model": "Tidehaven",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/tidehaven",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-grand-slam-1640409",
+      "model": "Grand Slam 1640409",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1640409",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-pike-043",
+      "model": "Prime Pike 043",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-pike-043",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-trinity-rh1381a",
+      "model": "RH1381A",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/rh1381a",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-palm-bay-2641c",
+      "model": "Palm Bay 2641C",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2641c",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-palm-bay-2641c",
+      "model": "Palm Bay 2641C",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2641c",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-palm-bay-2622c",
+      "model": "Palm Bay 2622C",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2622c",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-palm-bay-2625",
+      "model": "Palm Bay 2625",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2625",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-prime-daybreak-261",
+      "model": "Prime Daybreak 261",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/prime-daybreak-261",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-palm-bay-2660b",
+      "model": "Palm Bay 2660B",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2660b",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-palm-bay-2622b",
+      "model": "Palm Bay 2622B",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2622b",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-palm-bay-2621b",
+      "model": "Palm Bay 2621B",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2621b",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-palm-bay-2621b",
+      "model": "Palm Bay 2621B",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2621b",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-palm-bay-2621c",
+      "model": "Palm Bay 2621C",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2621c",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-silver-springs-4301n",
+      "model": "Silver Springs 4301N",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4301n",
+      "error": "no matched photo"
+    },
+    {
+      "slug": "champion-legend-1435454",
+      "model": "Legend 1435454",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/legend-1435454",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-winston-shorebreak",
+      "model": "Shorebreak",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/shorebreak",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    },
+    {
+      "slug": "champion-winston-palmview",
+      "model": "Palmview",
+      "manufacturer": "champion",
+      "sourceUrl": "https://www.championhomes.com/models/palmview",
+      "error": "no matched floor plan",
+      "kind": "floorPlan"
+    }
+  ]
+}
