@@ -1,0 +1,19 @@
+{
+  "source": "Virtual Tours - Lake City.xlsx",
+  "tours": [
+    {
+      "model_name_on_sheet": "PM4523A",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=yi5zTEPwc8D",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=yi5zTEPwc8D' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>"
+    },
+    {
+      "model_name_on_sheet": "Pine Manor 4523A",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=e4nZkXWSJLT",
+      "embed": "<iframe width=\"853\" height=\"480\" src=\"https://my.matterport.com/show/?m=e4nZkXWSJLT\" frameborder=\"0\" allowfullscreen allow=\"autoplay; fullscreen; web-share; xr-spatial-tracking;\"></iframe>"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-exterior-1.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-exterior-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 73418,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model2-exterior.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Lake Manor/LM2856H42383/WEB/261-lake-manor-2856h4283-model2-exterior.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 74502,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model2-kitchen-staged.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/LM2856H42383/WEB/261-lake-manor-2856h4283-model2-kitchen-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 53012,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-kitchen-staged.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-kitchen-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 35808,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model2-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/LM2856H42383/WEB/261-lake-manor-2856h4283-model2-kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 35338,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 37650,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 31614,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model2-living-room-staged.webp",
+    "role": "living",
+    "source": "Homes of Merit/Lake Manor/LM2856H42383/WEB/261-lake-manor-2856h4283-model2-living-room-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 57972,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-living-room-staged.webp",
+    "role": "living",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-living-room-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 47078,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model2-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Lake Manor/LM2856H42383/WEB/261-lake-manor-2856h4283-model2-living-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 49410,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model2-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Lake Manor/LM2856H42383/WEB/261-lake-manor-2856h4283-model2-living-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 39616,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model2-dining-area-staged.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Lake Manor/LM2856H42383/WEB/261-lake-manor-2856h4283-model2-dining-area-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 60296,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-living-dining-room-staged.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-living-dining-room-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34216,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model2-dining-area.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Lake Manor/LM2856H42383/WEB/261-lake-manor-2856h4283-model2-dining-area.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 53118,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-primary-bedroom-staged.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-primary-bedroom-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 47862,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-primary-bedroom-3.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-primary-bedroom-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 23398,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-primary-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-primary-bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 22794,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-primary-bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 24262,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-primary-bath-staged.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-primary-bath-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 39098,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/lake-manor-2856h4283-model1-primary-bath-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Lake Manor/Lake Manor 2856H42383/WEB/261-lake-manor-2856h4283-model1-primary-bath-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 32376,
+    "format": "webp"
+  }
+]

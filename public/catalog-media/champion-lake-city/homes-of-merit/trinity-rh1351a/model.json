@@ -1,0 +1,32 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Trinity",
+  "series_slug": "trinity",
+  "model_name": "Trinity RH1351A",
+  "model_number": "RH1351A",
+  "marketing_name": null,
+  "slug": "trinity-rh1351a",
+  "beds": 1,
+  "baths": 1,
+  "sqft": 467,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Trinity Series/RH1351A-Blackline.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Trinity/RH1351A",
+    "Homes of Merit/Trinity/RH1351A - 2025 Tampa RV Supershow",
+    "Homes of Merit/Trinity/RH1351A - Torrey Trails",
+    "Homes of Merit/Trinity/RH1351A [2025]"
+  ],
+  "hero_source": "Homes of Merit/Trinity/RH1351A/WEB/RH1351A-Exterior-7.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Trinity Series/RH1351A-Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 4,
+  "video_count": 11,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Trinity Series/TRINITY Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

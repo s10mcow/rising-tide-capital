@@ -1,0 +1,30 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Homes of Merit Community",
+  "series_slug": "homc",
+  "model_name": "Homes of Merit Community HC4522A",
+  "model_number": "HC4522A",
+  "marketing_name": null,
+  "slug": "homc-hc4522a",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Homes of Merit Community/HC4522A [2017]",
+    "Homes of Merit/Homes of Merit Community/HC4522A"
+  ],
+  "hero_source": "Homes of Merit/Homes of Merit Community/HC4522A [2017]/WEB/HC4522A-Exterior-2.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Homes Of Merit Community (HOMC) Series/28' WIDES/HC4522A Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 1,
+  "video_count": 0,
+  "gallery_count": 19,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Homes Of Merit Community (HOMC) Series/HOMCS Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

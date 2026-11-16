@@ -1,0 +1,172 @@
+[
+  {
+    "file": "gallery/embrace-simplicity-261-exterior2.webp",
+    "role": "exterior",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-exterior2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 49928,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-exterior3.webp",
+    "role": "exterior",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-exterior3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 53846,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-kitchen4.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-kitchen4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 36086,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-kitchen3.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-kitchen3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34700,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-kitchen.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-kitchen.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 35120,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-kitchen2.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-kitchen2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 33500,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-living-room3.webp",
+    "role": "living",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-living-room3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 60346,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-living-room2.webp",
+    "role": "living",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-living-room2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 49772,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-living-room4.webp",
+    "role": "living",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-living-room4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 50442,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-living-room5.webp",
+    "role": "living",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-living-room5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 49864,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-primary-bedroom3.webp",
+    "role": "bedroom",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-primary-bedroom3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 47660,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-primary-bedroom.webp",
+    "role": "bedroom",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-primary-bedroom.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 38948,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-primary-bedroom2.webp",
+    "role": "bedroom",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-primary-bedroom2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34426,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-bedroom3.webp",
+    "role": "bedroom",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-bedroom3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34390,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-primary-bath.webp",
+    "role": "bath",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-primary-bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 30214,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-primary-bath4.webp",
+    "role": "bath",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-primary-bath4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 16976,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/embrace-simplicity-261-primary-bath2.webp",
+    "role": "bath",
+    "source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-primary-bath2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 22748,
+    "format": "webp"
+  }
+]

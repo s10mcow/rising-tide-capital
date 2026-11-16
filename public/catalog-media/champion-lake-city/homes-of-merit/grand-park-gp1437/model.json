@@ -1,0 +1,30 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Grand Park",
+  "series_slug": "grand-park",
+  "model_name": "Grand Park GP1437",
+  "model_number": "GP1437",
+  "marketing_name": null,
+  "slug": "grand-park-gp1437",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Grand Park/Grand Park 1437",
+    "Homes of Merit/Grand Park/Grand Park 1437 - 2025 Tampa RV Supershow"
+  ],
+  "hero_source": "Homes of Merit/Grand Park/Grand Park 1437 - 2025 Tampa RV Supershow/WEB/261-grand-park-1437-exterior-1.jpg",
+  "floorplan_source": null,
+  "floorplan_kind": null,
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 20,
+  "has_features": false,
+  "features_source": null,
+  "notes": [],
+  "tour_only": false
+}

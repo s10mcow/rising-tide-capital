@@ -1,0 +1,182 @@
+[
+  {
+    "file": "gallery/cypress-manor-0603a-exterior-1.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Exterior-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 142282,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-exterior-2.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Exterior-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 148492,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 75338,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 74208,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 65314,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 49290,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Living-Room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 76258,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Living-Room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 77092,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-living-room-4.webp",
+    "role": "living",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Living-Room-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 73708,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-living-room-5.webp",
+    "role": "living",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Living-Room-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 69242,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-dining.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Dining.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 65570,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Primary-Bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 75514,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-primary-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Primary-Bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 73828,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-bedroom-3.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Bedroom-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 61216,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 59726,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-primary-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Primary-Bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 52712,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-primary-bath-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Primary-Bath-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46590,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/cypress-manor-0603a-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Cypress Manor/Cypress Manor 0603A/WEB/Cypress-Manor-0603A-Bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 39480,
+    "format": "webp"
+  }
+]

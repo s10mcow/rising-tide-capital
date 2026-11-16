@@ -1,0 +1,26 @@
+{
+  "source": "Virtual Tours - Lake City.xlsx",
+  "tours": [
+    {
+      "model_name_on_sheet": "RH1451Z",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=eYfFkue1DU7",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=eYfFkue1DU7' frameborder='0' allowfullscreen></iframe>"
+    },
+    {
+      "model_name_on_sheet": "RH1451Z (2)",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=ctQ68MGJvrX",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=ctQ68MGJvrX' frameborder='0' allowfullscreen allow='vr'></iframe>"
+    },
+    {
+      "model_name_on_sheet": "RH1451Z - Classic",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=DMvqizXxupx",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=DMvqizXxupx' frameborder='0' allowfullscreen allow='vr'></iframe>"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/sig4523e-exterior-11.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-exterior-11.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 97204,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-exterior-10.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-exterior-10.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 105950,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-exterior-7.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-exterior-7.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 60698,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/kristina-sig4523e-living-dining-kitchen-staged-corrected-da.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/Kristina-SIG4523E-Living-Dining-Kitchen-staged-corrected-DA.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 62784,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/kristina-sig4523e-kitchen-staged-ip.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/Kristina-SIG4523E-Kitchen-staged-IP.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 57454,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/kristina-sig4523e-dining-kitchen-staged-corrected-da.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/Kristina-SIG4523E-Dining-Kitchen-staged-corrected-DA.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 54340,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-kitchen-10.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-kitchen-10.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 57810,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-kitchen-8.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-kitchen-8.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 59342,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/kristina-sig4523e-living-room-2-staged-corrected2-ms.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/Kristina-SIG4523E-Living-room-2-staged-corrected2-MS.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 55758,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/kristina-sig4523e-living-room-1-staged-corrected2-ms.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/Kristina-SIG4523E-Living-room-1-staged-corrected2-MS.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 53964,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-living-room-4.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-living-room-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 50062,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-living-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46192,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-dining-room-3.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-dining-room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 39766,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-dining-room-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-dining-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 32180,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-dining-room-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-dining-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 29076,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/kristina-sig4523e-bedroom-staged-vd.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/Kristina-SIG4523E-Bedroom-staged-VD.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 52396,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-bedroom.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-bedroom.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 45300,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-master-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-master-bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34090,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-bathroom-3.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-bathroom-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 26084,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig4523e-master-bath-3.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/SIG4523E/WEB/SIG4523E-master-bath-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 18062,
+    "format": "webp"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "file": "gallery/prime-taylor-261-exterior-retouch.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-exterior-retouch.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 681,
+    "bytes": 133700,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 35296,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 34590,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 32540,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 33596,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-living-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 34686,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-living-room-4.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-living-room-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 33318,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-living-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 27484,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-living-room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 25338,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-dining-room-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-dining-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 34514,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-dining-room-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-dining-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 30240,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-bedrooms-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-bedrooms-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 25564,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-bedrooms-5.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-bedrooms-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 24774,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-bedrooms-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-bedrooms-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 21242,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-primary-bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 25428,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 23334,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-family-room-1.webp",
+    "role": "other",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-family-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 24616,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-taylor-261-family-room-2.webp",
+    "role": "other",
+    "source": "Homes of Merit/Prime/Prime Taylor 261/WEB/261-prime-taylor-261-family-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 682,
+    "bytes": 23420,
+    "format": "webp"
+  }
+]

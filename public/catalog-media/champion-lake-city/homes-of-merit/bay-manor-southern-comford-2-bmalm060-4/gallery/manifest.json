@@ -1,0 +1,82 @@
+[
+  {
+    "file": "gallery/baymanmod-southcomf2-606-4-mbed.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4/BayManMod-SouthComf2-606-4_MBed.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 48368,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/baymanmod-southcomf2-606-4-mbath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4/BayManMod-SouthComf2-606-4_MBath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 29038,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/baymanmod-southcomf2-606-4-mbath2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4/BayManMod-SouthComf2-606-4_MBath2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 37458,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/baymanmod-southcomf2-606-4-rangehood.webp",
+    "role": "other",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4/BayManMod-SouthComf2-606-4_Rangehood.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 1533,
+    "bytes": 173380,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/baymanmod-southcomf2-606-4-liv.webp",
+    "role": "other",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4/BayManMod-SouthComf2-606-4_Liv.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 79466,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/baymanmod-southcomf2-606-4-kit2.webp",
+    "role": "other",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4/BayManMod-SouthComf2-606-4_Kit2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 82578,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/baymanmod-southcomf2-606-4-kit3.webp",
+    "role": "other",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4/BayManMod-SouthComf2-606-4_Kit3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 75604,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/baymanmod-southcomf2-606-4-fridge.webp",
+    "role": "other",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4/BayManMod-SouthComf2-606-4_Fridge.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 69176,
+    "format": "webp"
+  }
+]

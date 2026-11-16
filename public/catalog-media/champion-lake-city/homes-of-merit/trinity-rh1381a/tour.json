@@ -1,0 +1,19 @@
+{
+  "source": "Virtual Tours - Lake City.xlsx",
+  "tours": [
+    {
+      "model_name_on_sheet": "RH1381 - Rustic Cottage",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=v82xExe9QrU",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=v82xExe9QrU' frameborder='0' allowfullscreen allow='vr'></iframe>"
+    },
+    {
+      "model_name_on_sheet": "RH1381A",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=2L7kzNZDkNu",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=2L7kzNZDkNu' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>"
+    }
+  ]
+}

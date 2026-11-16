@@ -1,0 +1,30 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Prime",
+  "series_slug": "prime",
+  "model_name": "Prime Monte 1676H32P06",
+  "model_number": "1676H32P06",
+  "marketing_name": "monte",
+  "slug": "prime-monte-1676h32p06",
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1153,
+  "dimensions": null,
+  "specs_source": "Homes of Merit/Prime/Prime 1676H32P06 Monte/PRIME 1676H32P06 LIT-1 25 0428_COLOR.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Prime/Prime Monte 261",
+    "Homes of Merit/Prime/Prime 1676H32P06 Monte"
+  ],
+  "hero_source": "Homes of Merit/Prime/Prime Monte 261/WEB/261-prime-monte-261-exterior-retouch.jpg",
+  "floorplan_source": "Homes of Merit/Prime/Prime 1676H32P06 Monte/PRIME 1676H32P06 LIT-1 25 0428_COLOR.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 17,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Prime Series/Prime Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

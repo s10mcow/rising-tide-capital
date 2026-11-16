@@ -1,0 +1,29 @@
+{
+  "brand": "Embrace",
+  "brand_slug": "embrace",
+  "series": "Embrace",
+  "series_slug": "embrace",
+  "model_name": "Embrace Sunlight",
+  "model_number": null,
+  "marketing_name": "sunlight",
+  "slug": "embrace-sunlight",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Embrace/Embrace Sunlight 261"
+  ],
+  "hero_source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Exterior 1.jpg",
+  "floorplan_source": null,
+  "floorplan_kind": null,
+  "tour_count": 1,
+  "video_count": 2,
+  "gallery_count": 13,
+  "has_features": false,
+  "features_source": null,
+  "notes": [],
+  "tour_only": false
+}

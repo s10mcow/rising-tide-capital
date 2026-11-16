@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Homes of Merit Community",
+  "series_slug": "homc",
+  "model_name": "Homes of Merit Community HC3362A",
+  "model_number": "HC3362A",
+  "marketing_name": null,
+  "slug": "homc-hc3362a",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Homes of Merit Community/HC3362A"
+  ],
+  "hero_source": "Homes of Merit/Homes of Merit Community/HC3362A/WEB/261-homes-of-merit-community-hc3362a-exterior-4.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Homes Of Merit Community (HOMC) Series/24' WIDES/HC3362A Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 1,
+  "video_count": 5,
+  "gallery_count": 19,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Homes Of Merit Community (HOMC) Series/HOMCS Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

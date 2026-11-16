@@ -1,0 +1,19 @@
+{
+  "source": "Virtual Tours - Lake City.xlsx",
+  "tours": [
+    {
+      "model_name_on_sheet": "P2868H42P01",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=YYGNMzKZEsa",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=YYGNMzKZEsa' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>"
+    },
+    {
+      "model_name_on_sheet": "Prime 2868H42P01",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=J2L1Yy8a8Cp",
+      "embed": "<iframe width=\"853\" height=\"480\" src=\"https://my.matterport.com/show/?m=J2L1Yy8a8Cp\" frameborder=\"0\" allowfullscreen allow=\"autoplay; fullscreen; web-share; xr-spatial-tracking;\"></iframe>"
+    }
+  ]
+}

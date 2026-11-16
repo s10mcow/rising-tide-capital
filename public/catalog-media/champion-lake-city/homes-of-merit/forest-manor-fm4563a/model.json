@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Forest Manor",
+  "series_slug": "forest-manor",
+  "model_name": "Forest Manor FM4563A",
+  "model_number": "FM4563A",
+  "marketing_name": null,
+  "slug": "forest-manor-fm4563a",
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1493,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Forest Manor/FM4563A-Colored.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Forest Manor 4563A"
+  ],
+  "hero_source": "Homes of Merit/Forest Manor 4563A/WEB/Forest-Manor-4563A-Exterior-1.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Forest Manor/FM4563A-Colored.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 0,
+  "gallery_count": 18,
+  "has_features": false,
+  "features_source": null,
+  "notes": [],
+  "tour_only": false
+}

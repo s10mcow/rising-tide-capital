@@ -1,0 +1,33 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Prime",
+  "series_slug": "prime",
+  "model_name": "Prime Apex 2856H32P01",
+  "model_number": "2856H32P01",
+  "marketing_name": "apex",
+  "slug": "prime-apex-2856h32p01",
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1493,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Sun Community/Prime/261-2856H32P01 L-101 1.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Prime/Prime 2856H32P01 [Lofthouse Community]",
+    "Homes of Merit/Prime/Prime 2856H32P01",
+    "Homes of Merit/Prime/Prime 2856H32P01 [2022]",
+    "Homes of Merit/Prime/Prime 2856H32P01 Apex",
+    "Homes of Merit/Prime/Prime Apex 261"
+  ],
+  "hero_source": "Homes of Merit/Prime/Prime Apex 261/WEB/261-prime-apex-261-exterior-retouch.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Sun Community/Prime/261-2856H32P01 L-101 1.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 3,
+  "video_count": 11,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Prime Series/Prime Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

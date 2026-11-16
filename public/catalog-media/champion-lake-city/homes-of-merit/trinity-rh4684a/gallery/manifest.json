@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/trinity-rh4684a-exterior-1.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-exterior-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 139860,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-exterior-2.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-exterior-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 150628,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 43524,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 37956,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 35858,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-kitchen-5.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-kitchen-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 33154,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 31552,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-living-room-5.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-living-room-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 46402,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-living-room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 41726,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-living-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 41250,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-entry.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-entry.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 37160,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-staged-dining-famiy-room.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-staged-dining-famiy-room.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 685,
+    "bytes": 45690,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-dining-area-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-dining-area-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 38294,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-dining-area-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-dining-area-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 39004,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-staged-primary-bedroom.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-staged-primary-bedroom.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 685,
+    "bytes": 46166,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-bedrooms-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-bedrooms-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 24716,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-primary-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-primary-bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 23836,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-primary-bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 21332,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-staged-primary-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-staged-primary-bath.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 685,
+    "bytes": 31566,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh4684a-primary-bath-5.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-primary-bath-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 96244,
+    "format": "webp"
+  }
+]

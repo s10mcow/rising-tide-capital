@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Cypress Manor",
+  "series_slug": "cypress-manor",
+  "model_name": "Cypress Manor C0764E",
+  "model_number": "C0764E",
+  "marketing_name": null,
+  "slug": "cypress-manor-c0764e",
+  "beds": 4,
+  "baths": 2,
+  "sqft": 2305,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Cypress Series/32' Wides/C0764E Blackline.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Cypress Manor/Cypress Manor 0764E"
+  ],
+  "hero_source": "Homes of Merit/Cypress Manor/Cypress Manor 0764E/WEB/261-cypress-manor-cypress-manor-0764e-exterior-1.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Cypress Series/32' Wides/C0764E Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Cypress Series/Cypress Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

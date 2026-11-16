@@ -1,0 +1,172 @@
+[
+  {
+    "file": "gallery/the-carlee-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 41934,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-kitchen-5.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Kitchen-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 40808,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 36910,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 36834,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34296,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-living-room-4.webp",
+    "role": "living",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Living-Room-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46676,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Living-Room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46230,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Living-Room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 42428,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Living-Room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 39104,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-dining.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Dining.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 37216,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-bedrooms-3.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Bedrooms-(3).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 30334,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-bedrooms-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Bedrooms-(2).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 31966,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-bedrooms-6.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Bedrooms-(6).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 25602,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-bedrooms-5.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Bedrooms-(5).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 23932,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-primary-bath-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Primary-Bath-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 26442,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 14762,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/the-carlee-primary-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Lake Manor/The Carlee/WEB/The-Carlee-Primary-Bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 11028,
+    "format": "webp"
+  }
+]

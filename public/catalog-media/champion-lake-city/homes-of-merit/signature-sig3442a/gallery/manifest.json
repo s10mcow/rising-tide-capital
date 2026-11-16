@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/signature-signature-3442a-exterior-1.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/Signature 3442A/WEB/261-signature-signature-3442a-exterior-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 101942,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-signature-3442a-exterior-3.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/Signature 3442A/WEB/261-signature-signature-3442a-exterior-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 99416,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-signature-3442a-exterior-2.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/Signature 3442A/WEB/261-signature-signature-3442a-exterior-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 685,
+    "bytes": 98042,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-kitchen-dining-5.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Kitchen-Dining-(5).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 47502,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-kitchen-dining-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Kitchen-Dining-(4).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 47558,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-kitchen-dining-6.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Kitchen-Dining-(6).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 44808,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-kitchen-dining-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Kitchen-Dining-(3).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 44178,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-kitchen-dining-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Kitchen-Dining-(1).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 43346,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-living-room-5.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Living-Room-(5).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 59624,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Living-Room-(3).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 58982,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Living-Room-(1).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 52780,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Living-Room-(2).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 50724,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-signature-3442a-dining-area-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/Signature 3442A/WEB/261-signature-signature-3442a-dining-area-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 38510,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-signature-3442a-dining-area-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/Signature 3442A/WEB/261-signature-signature-3442a-dining-area-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 684,
+    "bytes": 35658,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-signature-3442a-staged-porch.webp",
+    "role": "porch",
+    "source": "Homes of Merit/Signature/Signature 3442A/WEB/261-signature-signature-3442a-staged-porch.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 685,
+    "bytes": 89560,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-signature-3442a-staged-primary-bedroom.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/Signature 3442A/WEB/261-signature-signature-3442a-staged-primary-bedroom.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 684,
+    "bytes": 58752,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Primary-Bedroom-(1).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 80238,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-primary-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Primary-Bedroom-(2).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 75814,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3442a-bedroom-2-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Bedroom-2-(1).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 72006,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-signature-3442a-staged-primary-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/Signature 3442A/WEB/261-signature-signature-3442a-staged-primary-bath.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 684,
+    "bytes": 29066,
+    "format": "webp"
+  }
+]

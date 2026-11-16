@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Cypress Manor",
+  "series_slug": "cypress-manor",
+  "model_name": "Cypress Manor C5644A",
+  "model_number": "C5644A",
+  "marketing_name": null,
+  "slug": "cypress-manor-c5644a",
+  "beds": 4,
+  "baths": 2,
+  "sqft": 2252,
+  "dimensions": "64'-0\" x 45'-6\"",
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Cypress Manor/C5644A-Colored.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Cypress Manor/Cypress Manor 5644A"
+  ],
+  "hero_source": "Homes of Merit/Cypress Manor/Cypress Manor 5644A/WEB/Cypress-Manor-5644A-Exterior-1.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Cypress Manor/C5644A-Colored.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 2,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Cypress Series/Cypress Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

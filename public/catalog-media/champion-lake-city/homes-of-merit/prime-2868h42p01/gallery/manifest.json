@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/prime-2868h42p01-exterior-1.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-exterior-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 104962,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-kitchen-3-edit.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-kitchen-3-edit.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 47604,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 48264,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46966,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34570,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-kitchen-detail-sink.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-kitchen-detail-sink.jpg",
+    "staged_or_retouch": false,
+    "width": 800,
+    "height": 1200,
+    "bytes": 38710,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-entry.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-entry.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 78458,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-living-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 65562,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-living-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 54196,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-dining.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-dining.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 61976,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-primary-bedroom-3.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-primary-bedroom-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 75728,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-primary-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-primary-bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 69296,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-primary-bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 67930,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-bedrooms2b.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-bedrooms2b.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 57204,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-primary-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-primary-bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 36310,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 27286,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-primary-bath-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-primary-bath-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 28112,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-family-room-2.webp",
+    "role": "other",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-family-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 68764,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-family-room-3.webp",
+    "role": "other",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-family-room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 68554,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/prime-2868h42p01-family-room-1.webp",
+    "role": "other",
+    "source": "Homes of Merit/Prime/Prime 2868H42P01/WEB/261-prime-2868h42p01-family-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 64338,
+    "format": "webp"
+  }
+]

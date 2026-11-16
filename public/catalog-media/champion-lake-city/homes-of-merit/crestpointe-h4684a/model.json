@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Crestpointe",
+  "series_slug": "crestpointe",
+  "model_name": "Crestpointe H4684A",
+  "model_number": "H4684A",
+  "marketing_name": null,
+  "slug": "crestpointe-h4684a",
+  "beds": 4,
+  "baths": 2,
+  "sqft": 1813,
+  "dimensions": "26'-8\" x 68'-0\"",
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Crestpointe/H4684A-Colored.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Crestpointe H4684A"
+  ],
+  "hero_source": "Homes of Merit/Crestpointe H4684A/WEB/Crestpointe-H4684A--Exterior-3.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Crestpointe/H4684A-Colored.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 0,
+  "gallery_count": 17,
+  "has_features": false,
+  "features_source": null,
+  "notes": [],
+  "tour_only": false
+}

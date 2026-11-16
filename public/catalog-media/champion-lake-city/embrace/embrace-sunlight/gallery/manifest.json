@@ -1,0 +1,132 @@
+[
+  {
+    "file": "gallery/sunlight-261-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Kitchen 2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 42504,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Kitchen 4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 45698,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Kitchen 1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 35852,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Kitchen 3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 30544,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-kitchen-5.webp",
+    "role": "kitchen",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Kitchen 5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 31376,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-living-room-6.webp",
+    "role": "living",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Living Room 6.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 50014,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-living-room-7.webp",
+    "role": "living",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Living Room 7.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 45092,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-living-room-3.webp",
+    "role": "living",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Living Room 3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 37898,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-living-room-5.webp",
+    "role": "living",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Living Room 5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 38310,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-dining-1.webp",
+    "role": "dining",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Dining 1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 37722,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-dining-2.webp",
+    "role": "dining",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Dining 2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 36616,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-bath-1.webp",
+    "role": "bath",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Bath 1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 26822,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sunlight-261-bath-2.webp",
+    "role": "bath",
+    "source": "Embrace/Embrace Sunlight 261/WEB/Sunlight 261 Bath 2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 22998,
+    "format": "webp"
+  }
+]

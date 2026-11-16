@@ -1,0 +1,32 @@
+{
+  "brand": "Embrace",
+  "brand_slug": "embrace",
+  "series": "Embrace",
+  "series_slug": "embrace",
+  "model_name": "Embrace Cherish 2848H32053",
+  "model_number": "2848H32053",
+  "marketing_name": "cherish",
+  "slug": "embrace-cherish-2848h32053",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Embrace/Embrace Cherish 261",
+    "Embrace/Embrace Cherish"
+  ],
+  "hero_source": "Embrace/Embrace Cherish 261/WEB/261-embrace-cherish-261-exterior-retouch.jpg",
+  "floorplan_source": "Embrace/Embrace Cherish/261 2848H32053 VOG  Blackline - COLOR.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 18,
+  "has_features": false,
+  "features_source": null,
+  "notes": [
+    "Model number 2848H32053 was taken from the floor-plan filename '261 2848H32053 VOG  Blackline - COLOR.pdf' in the model folder, not from the photo filenames."
+  ],
+  "tour_only": false
+}

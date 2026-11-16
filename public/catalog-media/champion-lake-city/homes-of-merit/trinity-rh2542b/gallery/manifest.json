@@ -1,0 +1,132 @@
+[
+  {
+    "file": "gallery/rh2542b-exterior-7.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Exterior-7.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 130592,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-exterior-5.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Exterior-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 91404,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 33420,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 29652,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Living-Room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 48836,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Living-Room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 41922,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Living-Room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 40864,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-living-room-4.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Living-Room-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 38552,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Primary-Bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 31656,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-primary-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Primary-Bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 26876,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-bedroom.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Bedroom.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 22422,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 61166,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh2542b-primary-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Trinity/RH2542B/WEB/RH2542B-Primary-Bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 12848,
+    "format": "webp"
+  }
+]
