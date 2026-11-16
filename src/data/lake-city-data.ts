@@ -1,4 +1,4 @@
-import raw from "./lake-city-catalog.json";
+import raw from "./lake-city-catalog.ts";
 
 export type LakeCityTour = { href: string; label: string };
 
