@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import {
   CATALOG_DISCLAIMER,
   MANUFACTURERS,
+  brandOptions,
   catalog,
   catalogPath,
   filterPlans,
@@ -42,7 +43,11 @@ export default function CatalogPage({
   const groups = groupPlans(filtered, effective).filter(
     (group) => !active || group.id === active,
   );
-  const series = seriesOptions(plans, active);
+  const visibleGroups = query.brand
+    ? groups.filter((group) => group.plans.length > 0)
+    : groups;
+  const brands = brandOptions(plans, active);
+  const series = seriesOptions(plans, active, query.brand);
 
   function apply(next: Partial<CatalogQuery>, maker = active) {
     navigate(
@@ -146,6 +151,25 @@ export default function CatalogPage({
                 ))}
               </select>
             </label>
+            {brands.length > 0 ? (
+              <label>
+                Brand
+                <select
+                  name="brand"
+                  value={brands.includes(query.brand ?? "") ? query.brand : ""}
+                  onChange={(event) =>
+                    apply({ brand: event.target.value, series: "" })
+                  }
+                >
+                  <option value="">All</option>
+                  {brands.map((name) => (
+                    <option key={name} value={name}>
+                      {name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            ) : null}
             <label>
               Series
               <select
@@ -272,7 +296,10 @@ export default function CatalogPage({
             </label>
           </form>
           <p className="homes-disclaimer">{CATALOG_DISCLAIMER}</p>
-          {groups.map((group) => {
+          {visibleGroups.length > 0 ? null : (
+            <p className="catalog-empty">No floor plans match these filters.</p>
+          )}
+          {visibleGroups.map((group) => {
             const published = plans.some(
               (plan) => plan.manufacturer === group.id,
             );
@@ -284,6 +311,13 @@ export default function CatalogPage({
                 aria-labelledby={`${group.id}-heading`}
               >
                 <h2 id={`${group.id}-heading`}>{group.name}</h2>
+                {group.id === "champion" ? (
+                  <p className="catalog-plant-note">
+                    Homes of Merit and Embrace models from the Lake City,
+                    Florida plant are included with Champion. Filter by brand or
+                    series. Call for pricing.
+                  </p>
+                ) : null}
                 {group.plans.length > 0 ? (
                   <div className="catalog-grid">
                     {group.plans.map((plan) => (
