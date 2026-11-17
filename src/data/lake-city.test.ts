@@ -1,6 +1,14 @@
 import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { catalog, catalogSlug, filterPlans, planFactLine } from "./catalog";
+import {
+  brandOptions,
+  catalog,
+  catalogSlug,
+  filterPlans,
+  planFactLine,
+  seriesOptions,
+} from "./catalog";
+import { CATALOG_SLUG_REDIRECTS } from "./catalog-redirects";
 import { lakeCityPublications } from "./lake-city-data";
 
 const review = JSON.parse(
@@ -98,8 +106,8 @@ describe("Lake City Champion preview", () => {
       expect(plan, publication.packSlug).toBeTruthy();
       if (!plan) continue;
       expect(plan.plant).toBe("lake-city");
-      expect(plan.brand === "Homes of Merit" || plan.brand === "Embrace").toBe(
-        true,
+      expect(plan.brand).toBe(
+        publication.series === "Prime" ? "Prime" : publication.brand,
       );
       expect(plan.price).toBeNull();
       expect(plan.slug).toBe(
@@ -163,5 +171,117 @@ describe("Lake City Champion preview", () => {
     });
     expect(merit.length).toBeGreaterThan(embrace.length);
     expect(merit.every((plan) => plan.brand === "Homes of Merit")).toBe(true);
+  });
+
+  it("lists the four plant Prime model numbers under the Prime series", () => {
+    const expected = [
+      ["1666H32P01", "Prime 1666H32P01", "champion-prime-1666h32p01"],
+      ["2856H32P01", "Prime Apex 2856H32P01", "champion-prime-apex-2856h32p01"],
+      ["2868H42P01", "Prime 2868H42P01", "champion-prime-2868h42p01"],
+      ["2876H53P01", "Prime 2876H53P01", "champion-prime-2876h53p01"],
+    ] as const;
+    const primeSlugs = new Set(
+      filterPlans(catalog, {
+        q: "",
+        series: "Prime",
+        sort: "beds",
+        manufacturer: "champion",
+      }).map((plan) => plan.slug),
+    );
+    expect(primeSlugs.has("champion-prime-2448h32p02")).toBe(true);
+
+    const sitemap = readFileSync("public/sitemap.xml", "utf8");
+    const redirects = readFileSync("netlify.toml", "utf8");
+    for (const [modelNumber, model, slug] of expected) {
+      const plan = catalog.find((item) => item.modelNumber === modelNumber);
+      expect(plan, modelNumber).toMatchObject({
+        series: "Prime",
+        model,
+        slug,
+        price: null,
+        plant: "lake-city",
+        brand: "Prime",
+      });
+      expect(plan?.photos.length).toBeGreaterThan(0);
+      expect(plan?.floorPlanImage).toBeTruthy();
+      expect(plan?.floorPlanPdf).toBeTruthy();
+      expect(plan?.tours?.length).toBeGreaterThan(0);
+      expect(plan?.features.length).toBeGreaterThan(0);
+      expect(plan?.seriesFeatures?.length).toBeGreaterThan(0);
+      expect(primeSlugs.has(slug)).toBe(true);
+      expect(sitemap).toContain(`https://risingtidecapital.us/homes/${slug}`);
+      const oldPath = `/homes/champion-lake-manor-${modelNumber.toLowerCase()}`;
+      expect(sitemap).not.toContain(oldPath);
+      expect(CATALOG_SLUG_REDIRECTS[oldPath]).toBe(`/homes/${slug}`);
+      expect(redirects).toContain(`from = "${oldPath}"`);
+      expect(redirects).toContain(`to = "/homes/${slug}"`);
+      expect(redirects).toContain(`from = "${oldPath}/"`);
+    }
+
+    expect(
+      catalog.find((item) => item.modelNumber === "lake-manor-2856h42383"),
+    ).toMatchObject({
+      series: "Lake Manor",
+      model: "Lake Manor 2856H42383",
+      slug: "champion-lake-manor-2856h42383",
+    });
+    expect(
+      catalog.find((item) => item.slug === "champion-lake-manor-3260h32p03")
+        ?.series,
+    ).toBe("Lake Manor");
+
+    const lakeCityPrime = [
+      "champion-prime-1666h32p01",
+      "champion-prime-2448h32p02",
+      "champion-prime-2856h42p01",
+      "champion-prime-2860h32p01",
+      "champion-prime-2868h42p01",
+      "champion-prime-2876h53p01",
+      "champion-prime-apex-2856h32p01",
+      "champion-prime-daybreak",
+      "champion-prime-monte-1676h32p06",
+      "champion-prime-taylor-3272h42p03",
+    ];
+    const byBrand = filterPlans(catalog, {
+      q: "",
+      series: "",
+      brand: "Prime",
+      sort: "beds",
+      manufacturer: "champion",
+    }).map((plan) => plan.slug);
+    expect(byBrand).toHaveLength(10);
+    expect(byBrand.sort()).toEqual([...lakeCityPrime].sort());
+    expect(byBrand.every((slug) => primeSlugs.has(slug))).toBe(true);
+    expect(brandOptions(catalog, "champion")).toEqual([
+      "Embrace",
+      "Homes of Merit",
+      "Prime",
+    ]);
+    expect(brandOptions(catalog)).toEqual([
+      "Embrace",
+      "Homes of Merit",
+      "Prime",
+    ]);
+    expect(seriesOptions(catalog, "champion")).toContain("Prime");
+    expect(seriesOptions(catalog)).toContain("Prime");
+    const meritSlugs = filterPlans(catalog, {
+      q: "",
+      series: "",
+      brand: "Homes of Merit",
+      sort: "beds",
+      manufacturer: "champion",
+    }).map((plan) => plan.slug);
+    for (const slug of lakeCityPrime) {
+      expect(meritSlugs).not.toContain(slug);
+    }
+    expect(
+      filterPlans(catalog, {
+        q: "",
+        series: "",
+        brand: "Embrace",
+        sort: "beds",
+        manufacturer: "champion",
+      }).every((plan) => plan.brand === "Embrace" && plan.series === "Embrace"),
+    ).toBe(true);
   });
 });

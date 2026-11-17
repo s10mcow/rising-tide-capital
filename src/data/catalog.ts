@@ -58,7 +58,7 @@ export type CatalogPlan = {
    * that are not stored as separate width and length fields.
    */
   dimensionsText?: string;
-  /** Homes of Merit or Embrace for Lake City plant models. */
+  /** Homes of Merit, Embrace, or Prime for Lake City plant models. */
   brand?: string;
   /** Set when Lake City plant media is attached to this floor plan. */
   plant?: "lake-city";
@@ -94,7 +94,7 @@ export type CatalogQuery = {
   q: string;
   manufacturer?: ManufacturerId;
   series: string;
-  /** Homes of Merit or Embrace. Empty means every brand. */
+  /** Homes of Merit, Embrace, or Prime. Empty means every brand. */
   brand?: string;
   beds?: number;
   baths?: number;
@@ -2600,9 +2600,9 @@ const baseCatalog: readonly CatalogPlan[] = [
   }),
   definePlan({
     manufacturer: "champion",
-    series: "Lake Manor",
-    model: "Lake Manor 2856H32P01",
-    modelNumber: "lake-manor-2856h32p01",
+    series: "Prime",
+    model: "Prime Apex 2856H32P01",
+    modelNumber: "2856H32P01",
     beds: 3,
     baths: 2,
     sqft: 1490,
@@ -3057,9 +3057,9 @@ const baseCatalog: readonly CatalogPlan[] = [
   }),
   definePlan({
     manufacturer: "champion",
-    series: "Lake Manor",
-    model: "Lake Manor 2876H53P01",
-    modelNumber: "lake-manor-2876h53p01",
+    series: "Prime",
+    model: "Prime 2876H53P01",
+    modelNumber: "2876H53P01",
     beds: 5,
     baths: 3,
     sqft: 2026,
@@ -3286,9 +3286,9 @@ const baseCatalog: readonly CatalogPlan[] = [
   }),
   definePlan({
     manufacturer: "champion",
-    series: "Lake Manor",
-    model: "Lake Manor 2868H42P01",
-    modelNumber: "lake-manor-2868h42p01",
+    series: "Prime",
+    model: "Prime 2868H42P01",
+    modelNumber: "2868H42P01",
     beds: 4,
     baths: 3,
     sqft: 1809,
@@ -4713,9 +4713,9 @@ const baseCatalog: readonly CatalogPlan[] = [
   }),
   definePlan({
     manufacturer: "champion",
-    series: "Lake Manor",
-    model: "Lake Manor 1666H32P01",
-    modelNumber: "lake-manor-1666h32p01",
+    series: "Prime",
+    model: "Prime 1666H32P01",
+    modelNumber: "1666H32P01",
     beds: 3,
     baths: 2,
     sqft: 997,
@@ -5304,13 +5304,22 @@ function optionalCount(value: number | null): number | undefined {
   return value == null ? undefined : value;
 }
 
+/**
+ * Prime is a Champion line in the brand filter, separate from the other
+ * Homes of Merit series. The plant pack still records those models under
+ * Homes of Merit.
+ */
+function lakeCityBrand(publication: LakeCityPublication): string {
+  return publication.series === "Prime" ? "Prime" : publication.brand;
+}
+
 function applyLakeCityMedia(
   plan: CatalogPlan,
   publication: LakeCityPublication,
 ): CatalogPlan {
   return {
     ...plan,
-    brand: publication.brand,
+    brand: lakeCityBrand(publication),
     plant: "lake-city",
     photos: publication.photos.length > 0 ? publication.photos : plan.photos,
     floorPlanImage: publication.floorPlanImage ?? plan.floorPlanImage,
@@ -5381,7 +5390,7 @@ function mergeLakeCity(plans: readonly CatalogPlan[]): CatalogPlan[] {
       tours: publication.tours,
       seriesFeatures: lakeCityFeatures(publication.featureSetId),
       sourceUrl: "https://www.championhomes.com/",
-      brand: publication.brand,
+      brand: lakeCityBrand(publication),
       plant: "lake-city",
     });
   }

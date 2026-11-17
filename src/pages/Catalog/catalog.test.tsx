@@ -200,6 +200,65 @@ describe("floor plan catalog", () => {
     expect(container.querySelector(".dealer-license")).toBeNull();
   });
 
+  function selectOptions(name: string): string[] {
+    const select = container.querySelector(`select[name="${name}"]`);
+    expect(select).not.toBeNull();
+    return Array.from(select!.querySelectorAll("option")).map(
+      (option) => option.textContent ?? "",
+    );
+  }
+
+  it("lists Prime with Homes of Merit and Embrace in the brand filter", () => {
+    const primeModels = [
+      "Prime 1666H32P01",
+      "Prime 2448H32P02",
+      "Prime 2856H42P01",
+      "Prime 2860H32P01",
+      "Prime 2868H42P01",
+      "Prime 2876H53P01",
+      "Prime Apex 2856H32P01",
+      "Prime Daybreak",
+      "Prime Monte 1676H32P06",
+      "Prime Taylor 3272H42P03",
+    ];
+    for (const path of ["/homes", "/homes/champion"]) {
+      render(path);
+      expect(selectOptions("brand")).toEqual([
+        "All",
+        "Embrace",
+        "Homes of Merit",
+        "Prime",
+      ]);
+      expect(selectOptions("series")).toContain("Prime");
+    }
+
+    render("/homes/champion?brand=Prime");
+    const titles = Array.from(
+      container.querySelectorAll(".catalog-card h3"),
+    ).map((heading) => heading.textContent);
+    expect(titles).toEqual(expect.arrayContaining(primeModels));
+    expect(titles).toHaveLength(primeModels.length);
+    expect(container.textContent).not.toContain("Prime Grand 043");
+    expect(container.textContent).not.toContain("Embrace Serenity");
+    expect(container.textContent).not.toContain("Lake Manor 3260H32P03");
+
+    render("/homes/champion?series=Prime");
+    for (const model of primeModels) {
+      expect(container.textContent).toContain(model);
+    }
+    expect(container.textContent).toContain("Prime Grand 043");
+
+    render("/homes/champion?brand=Homes%20of%20Merit");
+    expect(container.textContent).toContain("Lake Manor 3260H32P03");
+    expect(container.textContent).not.toContain("Prime 1666H32P01");
+    expect(container.textContent).not.toContain("Embrace Serenity");
+
+    render("/homes/champion?brand=Embrace");
+    expect(container.textContent).toContain("Embrace Serenity 2864H42A7C");
+    expect(container.textContent).not.toContain("Prime 1666H32P01");
+    expect(container.textContent).not.toContain("Lake Manor 3260H32P03");
+  });
+
   it("keeps the floor plan and in-stock links in navigation", () => {
     renderNode(<CatalogRoute />);
     expect(container.querySelector('a[href="/homes"]')).not.toBeNull();
