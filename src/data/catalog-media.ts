@@ -805,7 +805,7 @@ export const catalogMedia: Record<string, CatalogMedia> = {
   "champion-liberty-3264528-admiral": {
     photo: "/catalog-media/champion-liberty-3264528-admiral.webp",
   },
-  "champion-lake-manor-2876h53p01": {
+  "champion-prime-2876h53p01": {
     floorPlan: "/catalog-media/champion-lake-manor-2876h53p01-plan.webp",
   },
   "champion-cypress-manor-0643a": {
@@ -820,11 +820,11 @@ export const catalogMedia: Record<string, CatalogMedia> = {
     floorPlan:
       "/catalog-media/champion-cypress-manor-cedarbrooke-c0603b-plan.webp",
   },
-  "champion-lake-manor-2856h32p01": {
+  "champion-prime-apex-2856h32p01": {
     photo: "/catalog-media/champion-lake-manor-2856h32p01.webp",
     floorPlan: "/catalog-media/champion-lake-manor-2856h32p01-plan.webp",
   },
-  "champion-lake-manor-2868h42p01": {
+  "champion-prime-2868h42p01": {
     floorPlan: "/catalog-media/champion-lake-manor-2868h42p01-plan.webp",
   },
   "champion-riverview-4684a": {
@@ -1122,7 +1122,7 @@ export const catalogMedia: Record<string, CatalogMedia> = {
     photo: "/catalog-media/champion-grand-slam-1676401.webp",
     floorPlan: "/catalog-media/champion-grand-slam-1676401-plan.webp",
   },
-  "champion-lake-manor-1666h32p01": {
+  "champion-prime-1666h32p01": {
     floorPlan: "/catalog-media/champion-lake-manor-1666h32p01-plan.webp",
   },
   "champion-prime-spire-043": {

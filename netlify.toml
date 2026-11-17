@@ -50,6 +50,56 @@
   status = 301
   force = true
 
+# Lake City Prime models previously published under Lake Manor slugs.
+# These must stay above the SPA rewrite so the old URLs return 301.
+[[redirects]]
+  from = "/homes/champion-lake-manor-1666h32p01"
+  to = "/homes/champion-prime-1666h32p01"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/homes/champion-lake-manor-1666h32p01/"
+  to = "/homes/champion-prime-1666h32p01"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/homes/champion-lake-manor-2856h32p01"
+  to = "/homes/champion-prime-apex-2856h32p01"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/homes/champion-lake-manor-2856h32p01/"
+  to = "/homes/champion-prime-apex-2856h32p01"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/homes/champion-lake-manor-2868h42p01"
+  to = "/homes/champion-prime-2868h42p01"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/homes/champion-lake-manor-2868h42p01/"
+  to = "/homes/champion-prime-2868h42p01"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/homes/champion-lake-manor-2876h53p01"
+  to = "/homes/champion-prime-2876h53p01"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/homes/champion-lake-manor-2876h53p01/"
+  to = "/homes/champion-prime-2876h53p01"
+  status = 301
+  force = true
+
 # SPA fallback - Must not interfere with Netlify Functions
 [[redirects]]
   from = "/*"
