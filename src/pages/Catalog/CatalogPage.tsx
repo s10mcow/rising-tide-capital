@@ -313,9 +313,9 @@ export default function CatalogPage({
                 <h2 id={`${group.id}-heading`}>{group.name}</h2>
                 {group.id === "champion" ? (
                   <p className="catalog-plant-note">
-                    Homes of Merit and Embrace models from the Lake City,
-                    Florida plant are included with Champion. Filter by brand or
-                    series. Call for pricing.
+                    Homes of Merit, Embrace, and Prime models from the Lake
+                    City, Florida plant are included with Champion. Filter by
+                    brand or series. Call for pricing.
                   </p>
                 ) : null}
                 {group.plans.length > 0 ? (

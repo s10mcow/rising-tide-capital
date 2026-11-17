@@ -58,7 +58,7 @@ export type CatalogPlan = {
    * that are not stored as separate width and length fields.
    */
   dimensionsText?: string;
-  /** Homes of Merit or Embrace for Lake City plant models. */
+  /** Homes of Merit, Embrace, or Prime for Lake City plant models. */
   brand?: string;
   /** Set when Lake City plant media is attached to this floor plan. */
   plant?: "lake-city";
@@ -94,7 +94,7 @@ export type CatalogQuery = {
   q: string;
   manufacturer?: ManufacturerId;
   series: string;
-  /** Homes of Merit or Embrace. Empty means every brand. */
+  /** Homes of Merit, Embrace, or Prime. Empty means every brand. */
   brand?: string;
   beds?: number;
   baths?: number;
@@ -5304,13 +5304,22 @@ function optionalCount(value: number | null): number | undefined {
   return value == null ? undefined : value;
 }
 
+/**
+ * Prime is a Champion line in the brand filter, separate from the other
+ * Homes of Merit series. The plant pack still records those models under
+ * Homes of Merit.
+ */
+function lakeCityBrand(publication: LakeCityPublication): string {
+  return publication.series === "Prime" ? "Prime" : publication.brand;
+}
+
 function applyLakeCityMedia(
   plan: CatalogPlan,
   publication: LakeCityPublication,
 ): CatalogPlan {
   return {
     ...plan,
-    brand: publication.brand,
+    brand: lakeCityBrand(publication),
     plant: "lake-city",
     photos: publication.photos.length > 0 ? publication.photos : plan.photos,
     floorPlanImage: publication.floorPlanImage ?? plan.floorPlanImage,
@@ -5381,7 +5390,7 @@ function mergeLakeCity(plans: readonly CatalogPlan[]): CatalogPlan[] {
       tours: publication.tours,
       seriesFeatures: lakeCityFeatures(publication.featureSetId),
       sourceUrl: "https://www.championhomes.com/",
-      brand: publication.brand,
+      brand: lakeCityBrand(publication),
       plant: "lake-city",
     });
   }
