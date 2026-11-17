@@ -124,13 +124,15 @@ function planImage(plan: CatalogPlan): string {
 function metadataForPlan(plan: CatalogPlan, path: string) {
   const maker = manufacturerById(plan.manufacturer).name;
   const dimensions = planDimensions(plan);
-  const description = `${plan.model} by ${maker}, ${plan.series}. ${
-    plan.beds
-  } bedrooms, ${formatBaths(plan.baths)} bathrooms, ${plan.sqft} sq ft${
-    dimensions ? `, ${dimensions}` : ""
-  }${
-    plan.sectionLabel ? `, ${plan.sectionLabel}` : ""
-  }. Manufacturer floor plan, not an in-stock home. Call for pricing.`;
+  const specs: string[] = [];
+  if (plan.beds != null) specs.push(`${plan.beds} bedrooms`);
+  if (plan.baths != null) specs.push(`${formatBaths(plan.baths)} bathrooms`);
+  if (plan.sqft != null) specs.push(`${plan.sqft} sq ft`);
+  if (dimensions) specs.push(dimensions);
+  if (plan.sectionLabel) specs.push(plan.sectionLabel);
+  const specSentence = specs.length > 0 ? `${specs.join(", ")}. ` : "";
+  const brand = plan.brand ? `, ${plan.brand}` : "";
+  const description = `${plan.model} by ${maker}${brand}, ${plan.series}. ${specSentence}Manufacturer floor plan, not an in-stock home. Call for pricing.`;
   return {
     title: `${plan.model} | Floor Plans | Rising Tide Capital Partners`,
     description,

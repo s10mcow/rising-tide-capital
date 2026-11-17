@@ -5,6 +5,12 @@
  * Prices are not listed. Slice of Life reference prices are not included.
  */
 import { catalogMedia } from "./catalog-media.ts";
+import {
+  lakeCityFeatureSets,
+  lakeCityPublications,
+  type LakeCityFeatureSection,
+  type LakeCityPublication,
+} from "./lake-city-data.ts";
 
 export const MANUFACTURERS = [
   {
@@ -41,9 +47,24 @@ export type CatalogPlan = {
   series: string;
   model: string;
   modelNumber: string;
-  beds: number;
-  baths: number;
-  sqft: number;
+  /** Present only when the manufacturer states a bedroom count. */
+  beds?: number;
+  /** Present only when the manufacturer states a bathroom count. */
+  baths?: number;
+  /** Present only when the manufacturer states a square footage. */
+  sqft?: number;
+  /**
+   * Floor-plan dimension string, used when the drawing states dimensions
+   * that are not stored as separate width and length fields.
+   */
+  dimensionsText?: string;
+  /** Homes of Merit or Embrace for Lake City plant models. */
+  brand?: string;
+  /** Set when Lake City plant media is attached to this floor plan. */
+  plant?: "lake-city";
+  floorPlanPdf?: string | null;
+  tours?: readonly { href: string; label: string }[];
+  seriesFeatures?: readonly LakeCityFeatureSection[];
   /** Omitted when the manufacturer does not publish exterior dimensions. */
   widthFeet?: number;
   widthInches?: number;
@@ -73,6 +94,8 @@ export type CatalogQuery = {
   q: string;
   manufacturer?: ManufacturerId;
   series: string;
+  /** Homes of Merit or Embrace. Empty means every brand. */
+  brand?: string;
   beds?: number;
   baths?: number;
   sections?: SectionCount;
@@ -83,6 +106,9 @@ export type CatalogQuery = {
 
 export const CATALOG_DISCLAIMER =
   "Images and specifications are from the manufacturer, are for illustration, and may show optional features. Prices, availability and specs subject to change; confirmed at time of sale.";
+
+export const SERIES_FEATURES_LABEL =
+  "Series standard features — options and decor vary by model; confirm with dealer";
 
 const SECTION_VALUES: readonly SectionCount[] = [
   "single",
@@ -150,7 +176,30 @@ export function formatBaths(baths: number): string {
   return Number.isInteger(baths) ? String(baths) : String(baths);
 }
 
+export function planLineage(plan: CatalogPlan, makerName: string): string {
+  const parts = [makerName];
+  if (plan.brand) parts.push(plan.brand);
+  if (!plan.brand || plan.brand !== plan.series) parts.push(plan.series);
+  return parts.join(" / ");
+}
+
+export function matterportTourSrc(href: string): string | null {
+  try {
+    const url = new URL(href);
+    if (url.protocol !== "https:" || url.hostname !== "my.matterport.com") {
+      return null;
+    }
+    if (url.pathname !== "/show/") return null;
+    const id = url.searchParams.get("m");
+    if (!id || !/^[A-Za-z0-9]+$/.test(id)) return null;
+    return `https://my.matterport.com/show/?m=${id}`;
+  } catch {
+    return null;
+  }
+}
+
 export function planDimensions(plan: CatalogPlan): string | null {
+  if (plan.dimensionsText) return plan.dimensionsText;
   const { widthFeet, widthInches, lengthFeet, lengthInches } = plan;
   if (
     widthFeet == null ||
@@ -164,11 +213,10 @@ export function planDimensions(plan: CatalogPlan): string | null {
 }
 
 export function planFactLine(plan: CatalogPlan): string {
-  const facts = [
-    `${plan.beds} beds`,
-    `${formatBaths(plan.baths)} baths`,
-    formatSqft(plan.sqft),
-  ];
+  const facts: string[] = [];
+  if (plan.beds != null) facts.push(`${plan.beds} beds`);
+  if (plan.baths != null) facts.push(`${formatBaths(plan.baths)} baths`);
+  if (plan.sqft != null) facts.push(formatSqft(plan.sqft));
   const dimensions = planDimensions(plan);
   if (dimensions) facts.push(dimensions);
   return facts.join(" | ");
@@ -192,7 +240,7 @@ export function definePlan(input: CatalogPlanInput): CatalogPlan {
   };
 }
 
-export const catalog: readonly CatalogPlan[] = [
+const baseCatalog: readonly CatalogPlan[] = [
   definePlan({
     manufacturer: "cavco",
     series: "Alpha",
@@ -5245,6 +5293,103 @@ export const catalog: readonly CatalogPlan[] = [
   }),
 ];
 
+function lakeCityFeatures(
+  id: string | null,
+): readonly LakeCityFeatureSection[] {
+  if (!id) return [];
+  return lakeCityFeatureSets[id] ?? [];
+}
+
+function optionalCount(value: number | null): number | undefined {
+  return value == null ? undefined : value;
+}
+
+function applyLakeCityMedia(
+  plan: CatalogPlan,
+  publication: LakeCityPublication,
+): CatalogPlan {
+  return {
+    ...plan,
+    brand: publication.brand,
+    plant: "lake-city",
+    photos: publication.photos.length > 0 ? publication.photos : plan.photos,
+    floorPlanImage: publication.floorPlanImage ?? plan.floorPlanImage,
+    floorPlanPdf: publication.floorPlanPdf,
+    tours: publication.tours,
+    seriesFeatures: lakeCityFeatures(publication.featureSetId),
+  };
+}
+
+function mergeLakeCity(plans: readonly CatalogPlan[]): CatalogPlan[] {
+  const enrichments = new Map<string, LakeCityPublication>();
+  for (const publication of lakeCityPublications) {
+    if (publication.action !== "enrich" || !publication.matchModelNumber) {
+      continue;
+    }
+    if (enrichments.has(publication.matchModelNumber)) {
+      throw new Error(
+        `Duplicate Lake City enrichment for ${publication.matchModelNumber}`,
+      );
+    }
+    enrichments.set(publication.matchModelNumber, publication);
+  }
+
+  const applied = new Set<string>();
+  const next = plans.map((plan) => {
+    if (plan.manufacturer !== "champion") return plan;
+    const publication = enrichments.get(plan.modelNumber);
+    if (!publication) return plan;
+    applied.add(plan.modelNumber);
+    return applyLakeCityMedia(plan, publication);
+  });
+  for (const modelNumber of enrichments.keys()) {
+    if (!applied.has(modelNumber)) {
+      throw new Error(
+        `Lake City enrichment ${modelNumber} does not match a Champion floor plan.`,
+      );
+    }
+  }
+
+  const slugs = new Set(next.map((plan) => plan.slug));
+  for (const publication of lakeCityPublications) {
+    if (publication.action !== "add") continue;
+    const slug = catalogSlug({
+      manufacturer: "champion",
+      series: publication.series,
+      model: publication.modelName,
+      modelNumber: publication.modelNumber ?? undefined,
+    });
+    if (slugs.has(slug)) {
+      throw new Error(`Lake City slug collision: ${slug}`);
+    }
+    slugs.add(slug);
+    next.push({
+      slug,
+      manufacturer: "champion",
+      series: publication.series,
+      model: publication.modelName,
+      modelNumber: publication.modelNumber ?? "",
+      beds: optionalCount(publication.beds),
+      baths: optionalCount(publication.baths),
+      sqft: optionalCount(publication.sqft),
+      dimensionsText: publication.dimensionsText ?? undefined,
+      price: null,
+      features: [],
+      photos: publication.photos,
+      floorPlanImage: publication.floorPlanImage,
+      floorPlanPdf: publication.floorPlanPdf,
+      tours: publication.tours,
+      seriesFeatures: lakeCityFeatures(publication.featureSetId),
+      sourceUrl: "https://www.championhomes.com/",
+      brand: publication.brand,
+      plant: "lake-city",
+    });
+  }
+  return next;
+}
+
+export const catalog: readonly CatalogPlan[] = mergeLakeCity(baseCatalog);
+
 export function getPlanBySlug(
   slug: string,
   plans: readonly CatalogPlan[] = catalog,
@@ -5268,6 +5413,7 @@ export function parseCatalogQuery(params: URLSearchParams): CatalogQuery {
       ? manufacturerValue
       : undefined,
     series: params.get("series") ?? "",
+    brand: params.get("brand") ?? "",
     beds: optionalNumber(params.get("beds")),
     baths: optionalNumber(params.get("baths")),
     sections: SECTION_VALUES.find((item) => item === sectionsValue),
@@ -5282,6 +5428,7 @@ export function catalogSearchParams(query: CatalogQuery): URLSearchParams {
   if (query.q) params.set("q", query.q);
   if (query.manufacturer) params.set("manufacturer", query.manufacturer);
   if (query.series) params.set("series", query.series);
+  if (query.brand) params.set("brand", query.brand);
   if (query.beds !== undefined) params.set("beds", String(query.beds));
   if (query.baths !== undefined) params.set("baths", String(query.baths));
   if (query.sections) params.set("sections", query.sections);
@@ -5304,11 +5451,25 @@ export function catalogPath(
 export function seriesOptions(
   plans: readonly CatalogPlan[],
   manufacturer?: ManufacturerId,
+  brand?: string,
 ): string[] {
   const names = new Set<string>();
   for (const plan of plans) {
-    if (!manufacturer || plan.manufacturer === manufacturer)
-      names.add(plan.series);
+    if (manufacturer && plan.manufacturer !== manufacturer) continue;
+    if (brand && plan.brand !== brand) continue;
+    names.add(plan.series);
+  }
+  return [...names].sort((a, b) => a.localeCompare(b));
+}
+
+export function brandOptions(
+  plans: readonly CatalogPlan[],
+  manufacturer?: ManufacturerId,
+): string[] {
+  const names = new Set<string>();
+  for (const plan of plans) {
+    if (manufacturer && plan.manufacturer !== manufacturer) continue;
+    if (plan.brand) names.add(plan.brand);
   }
   return [...names].sort((a, b) => a.localeCompare(b));
 }
@@ -5322,11 +5483,28 @@ export function filterPlans(
     if (query.manufacturer && plan.manufacturer !== query.manufacturer)
       return false;
     if (query.series && plan.series !== query.series) return false;
+    if (query.brand && plan.brand !== query.brand) return false;
     if (query.sections && plan.sections !== query.sections) return false;
-    if (query.beds !== undefined && plan.beds < query.beds) return false;
-    if (query.baths !== undefined && plan.baths < query.baths) return false;
-    if (query.sqftMin !== undefined && plan.sqft < query.sqftMin) return false;
-    if (query.sqftMax !== undefined && plan.sqft > query.sqftMax) return false;
+    if (
+      query.beds !== undefined &&
+      (plan.beds == null || plan.beds < query.beds)
+    )
+      return false;
+    if (
+      query.baths !== undefined &&
+      (plan.baths == null || plan.baths < query.baths)
+    )
+      return false;
+    if (
+      query.sqftMin !== undefined &&
+      (plan.sqft == null || plan.sqft < query.sqftMin)
+    )
+      return false;
+    if (
+      query.sqftMax !== undefined &&
+      (plan.sqft == null || plan.sqft > query.sqftMax)
+    )
+      return false;
     if (!q) return true;
     const maker = manufacturerById(plan.manufacturer).name.toLowerCase();
     const haystack = [plan.model, plan.modelNumber ?? "", plan.series, maker]
@@ -5336,17 +5514,32 @@ export function filterPlans(
   });
 }
 
+function compareOptionalNumber(
+  a: number | undefined,
+  b: number | undefined,
+  direction: 1 | -1,
+): number {
+  if (a == null && b == null) return 0;
+  if (a == null) return 1;
+  if (b == null) return -1;
+  return (a - b) * direction;
+}
+
 function comparePlans(sort: CatalogSort) {
   return (a: CatalogPlan, b: CatalogPlan) => {
     if (sort === "sqft-asc" || sort === "sqft-desc") {
       const direction = sort === "sqft-asc" ? 1 : -1;
       return (
-        (a.sqft - b.sqft) * direction ||
-        (a.beds - b.beds) * direction ||
+        compareOptionalNumber(a.sqft, b.sqft, direction) ||
+        compareOptionalNumber(a.beds, b.beds, direction) ||
         a.model.localeCompare(b.model)
       );
     }
-    return a.beds - b.beds || a.sqft - b.sqft || a.model.localeCompare(b.model);
+    return (
+      compareOptionalNumber(a.beds, b.beds, 1) ||
+      compareOptionalNumber(a.sqft, b.sqft, 1) ||
+      a.model.localeCompare(b.model)
+    );
   };
 }
 
@@ -5378,10 +5571,18 @@ export function similarPlans(
     )
     .slice()
     .sort((a, b) => {
-      const bedGap =
-        Math.abs(a.beds - plan.beds) - Math.abs(b.beds - plan.beds);
+      const distance = (
+        value: number | undefined,
+        target: number | undefined,
+      ) => {
+        if (value == null || target == null) {
+          return value == null && target == null ? 0 : 1_000_000;
+        }
+        return Math.abs(value - target);
+      };
       return (
-        bedGap || Math.abs(a.sqft - plan.sqft) - Math.abs(b.sqft - plan.sqft)
+        distance(a.beds, plan.beds) - distance(b.beds, plan.beds) ||
+        distance(a.sqft, plan.sqft) - distance(b.sqft, plan.sqft)
       );
     })
     .slice(0, limit);

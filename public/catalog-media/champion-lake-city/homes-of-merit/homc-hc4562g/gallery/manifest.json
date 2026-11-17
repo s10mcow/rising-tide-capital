@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/homes-of-merit-community-4562g-exterior-1.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-exterior-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 91270,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-exterior-3.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-exterior-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 93666,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-exterior-5.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-exterior-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 23408,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 36608,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 38032,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 38040,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 30448,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-kitchen-detail.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-kitchen-detail.jpg",
+    "staged_or_retouch": false,
+    "width": 800,
+    "height": 1200,
+    "bytes": 25748,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-living-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 63418,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-living-room-4.webp",
+    "role": "living",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-living-room-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 58144,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-living-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 54870,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-living-room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 52348,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-dining-room-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-dining-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 40828,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-dining-room-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-dining-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 42264,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-primary-bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 55940,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-primary-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-primary-bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 56334,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-primary-bedroom-3.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-primary-bedroom-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 44668,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-primary-bedroom-detail.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-primary-bedroom-detail.jpg",
+    "staged_or_retouch": false,
+    "width": 800,
+    "height": 1200,
+    "bytes": 60620,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-primary-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-primary-bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34498,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/homes-of-merit-community-4562g-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Homes of Merit Community/HOMC 4562G/WEB/261-homes-of-merit-community-4562g-bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 28686,
+    "format": "webp"
+  }
+]

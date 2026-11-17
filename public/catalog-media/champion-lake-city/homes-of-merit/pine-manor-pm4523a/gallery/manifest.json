@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/pm4523a-exterior-3.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Exterior-(3).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 185858,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pine-manor-4523a-exterior-2.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A [2025]/WEB/261-pine-manor-4523a-exterior-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 98292,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-kitchen-edits-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Kitchen-Edits-(4).jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 88048,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-kitchen-edits-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Kitchen-Edits-(2).jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 83994,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-kitchen-edits-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Kitchen-Edits-(1).jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 81130,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-kitchen-edits-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Kitchen-Edits-(3).jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 71640,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-kitchen-edits-5.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Kitchen-Edits-(5).jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 73832,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Living-Room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 104770,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-entry.webp",
+    "role": "living",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Entry.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 81366,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pine-manor-4523a-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A [2025]/WEB/261-pine-manor-4523a-living-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 70240,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pine-manor-4523a-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A [2025]/WEB/261-pine-manor-4523a-living-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 66270,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-dining-edits-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Dining-Edits-(1).jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 97058,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-dining-edits-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Dining-Edits-(2).jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 84194,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-dining-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Dining-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 97068,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-bedrooms-11.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Bedrooms-(11).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 88004,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-bedrooms-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Bedrooms-(1).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 72842,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-bedrooms-6.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Bedrooms-(6).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 68958,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-bedrooms-10.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Bedrooms-(10).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 71344,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-primary-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Primary-Bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 63838,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/pm4523a-primary-bath-3.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Primary-Bath-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 61364,
+    "format": "webp"
+  }
+]

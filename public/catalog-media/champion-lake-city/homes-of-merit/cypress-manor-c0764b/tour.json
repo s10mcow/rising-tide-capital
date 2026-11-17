@@ -1,0 +1,26 @@
+{
+  "source": "Virtual Tours - Lake City.xlsx",
+  "tours": [
+    {
+      "model_name_on_sheet": "Cypress Manor 0764B",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=ceDaTUrTga6",
+      "embed": "<iframe width=\"853\" height=\"480\" src=\"https://my.matterport.com/show/?m=ceDaTUrTga6\" frameborder=\"0\" allowfullscreen></iframe>"
+    },
+    {
+      "model_name_on_sheet": "Cypress Manor C0764B",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=Hy5xFpFh5th",
+      "embed": "<iframe width=\"853\" height=\"480\" src=\"https://my.matterport.com/show/?m=Hy5xFpFh5th\" frameborder=\"0\" allowfullscreen></iframe>"
+    },
+    {
+      "model_name_on_sheet": "Cypress Manor 0764B",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=iFuYjJpoDo8",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=iFuYjJpoDo8' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>"
+    }
+  ]
+}

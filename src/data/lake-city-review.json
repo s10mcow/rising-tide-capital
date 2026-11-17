@@ -1,0 +1,318 @@
+{
+  "held": [
+    {
+      "packSlug": "aph-aph100",
+      "brand": "Homes of Merit",
+      "series": "APH",
+      "modelName": "APH APH100",
+      "modelNumber": "APH100",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "aph-aph101",
+      "brand": "Homes of Merit",
+      "series": "APH",
+      "modelName": "APH APH101",
+      "modelNumber": "APH101",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "aph-aph239l",
+      "brand": "Homes of Merit",
+      "series": "APH",
+      "modelName": "APH APH239L",
+      "modelNumber": "APH239L",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "aph-aph404",
+      "brand": "Homes of Merit",
+      "series": "APH",
+      "modelName": "APH APH404",
+      "modelNumber": "APH404",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "crestpointe-h0604a",
+      "brand": "Homes of Merit",
+      "series": "Crestpointe",
+      "modelName": "Crestpointe H0604A",
+      "modelNumber": "H0604A",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "crestpointe-h4483a",
+      "brand": "Homes of Merit",
+      "series": "Crestpointe",
+      "modelName": "Crestpointe H4483A",
+      "modelNumber": "H4483A",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "crestpointe-h4563b",
+      "brand": "Homes of Merit",
+      "series": "Crestpointe",
+      "modelName": "Crestpointe H4563B",
+      "modelNumber": "H4563B",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "crossings-cl0643c",
+      "brand": "Homes of Merit",
+      "series": "Crossings Limited",
+      "modelName": "Crossings Limited CL0643C",
+      "modelNumber": "CL0643C",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "crossings-cl0764a",
+      "brand": "Homes of Merit",
+      "series": "Crossings Limited",
+      "modelName": "Crossings Limited CL0764A",
+      "modelNumber": "CL0764A",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "embrace-cherish-2848h32053",
+      "brand": "Embrace",
+      "series": "Embrace",
+      "modelName": "Embrace Cherish 2848H32053",
+      "modelNumber": "2848H32053",
+      "reasons": [
+        "Embrace Cherish model number 2848H32053 comes from a color floor-plan filename, not from the Cherish photo filenames."
+      ]
+    },
+    {
+      "packSlug": "grand-park-gp1371b",
+      "brand": "Homes of Merit",
+      "series": "Grand Park",
+      "modelName": "Grand Park GP1371B",
+      "modelNumber": "GP1371B",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "grand-park-gp1371d",
+      "brand": "Homes of Merit",
+      "series": "Grand Park",
+      "modelName": "Grand Park GP1371D",
+      "modelNumber": "GP1371D",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "grand-park-gp1371e",
+      "brand": "Homes of Merit",
+      "series": "Grand Park",
+      "modelName": "Grand Park GP1371E",
+      "modelNumber": "GP1371E",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "homc-hc4562b",
+      "brand": "Homes of Merit",
+      "series": "Homes of Merit Community",
+      "modelName": "Homes of Merit Community HC4562B",
+      "modelNumber": "HC4562B",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "homc-hc522a",
+      "brand": "Homes of Merit",
+      "series": "Homes of Merit Community",
+      "modelName": "Homes of Merit Community HC522A",
+      "modelNumber": "HC522A",
+      "reasons": [
+        "HC522A may be a typo for HC4522A or HC3522A. It was not merged into either model.",
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "lake-manor-the-carlee",
+      "brand": "Homes of Merit",
+      "series": "Lake Manor",
+      "modelName": "The Carlee",
+      "modelNumber": null,
+      "reasons": [
+        "The Carlee series is unconfirmed. The color floor plan is filed under Cypress Manor and the photos under Lake Manor."
+      ]
+    },
+    {
+      "packSlug": "model-2444",
+      "brand": "Homes of Merit",
+      "series": "Model 2444",
+      "modelName": "Model 2444",
+      "modelNumber": "2444",
+      "reasons": [
+        "Model 2444 series is unconfirmed. The pack uses a Lake Manor rendering and Lake Manor series features because of a color-plan filename."
+      ]
+    },
+    {
+      "packSlug": "other-1461z",
+      "brand": "Homes of Merit",
+      "series": "other",
+      "modelName": "1461Z",
+      "modelNumber": null,
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "other-co683b",
+      "brand": "Homes of Merit",
+      "series": "other",
+      "modelName": "CO683B",
+      "modelNumber": null,
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "other-villa",
+      "brand": "Homes of Merit",
+      "series": "other",
+      "modelName": "Villa",
+      "modelNumber": null,
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "other-vista",
+      "brand": "Homes of Merit",
+      "series": "other",
+      "modelName": "Vista",
+      "modelNumber": null,
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "park-model-horseshoe-cove-park-model-rv",
+      "brand": "Homes of Merit",
+      "series": "Park Model",
+      "modelName": "Horseshoe Cove - Park Model RV",
+      "modelNumber": null,
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "signature-sig4523a",
+      "brand": "Homes of Merit",
+      "series": "Signature",
+      "modelName": "Signature SIG4523A",
+      "modelNumber": "SIG4523A",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "trinity-rh1361a",
+      "brand": "Homes of Merit",
+      "series": "Trinity",
+      "modelName": "Trinity RH1361A",
+      "modelNumber": "RH1361A",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "trinity-rh1451z",
+      "brand": "Homes of Merit",
+      "series": "Trinity",
+      "modelName": "Trinity RH1451Z",
+      "modelNumber": "RH1451Z",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "trinity-rh2682a",
+      "brand": "Homes of Merit",
+      "series": "Trinity",
+      "modelName": "Trinity RH2682A",
+      "modelNumber": "RH2682A",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "trinity-rh2683a",
+      "brand": "Homes of Merit",
+      "series": "Trinity",
+      "modelName": "Trinity RH2683A",
+      "modelNumber": "RH2683A",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    },
+    {
+      "packSlug": "willow-manor-w0764b20",
+      "brand": "Homes of Merit",
+      "series": "Willow Manor",
+      "modelName": "Willow Manor W0764B20",
+      "modelNumber": "W0764B20",
+      "reasons": [
+        "Tour-only pack with no hero, gallery, or floor plan, so there is nothing visual to publish."
+      ]
+    }
+  ],
+  "notes": [
+    "Not merged (model numbers differ): new Embrace / Embrace Daylight 1437H11297 (1437H11297) stays separate from existing Embrace Daylight (embrace-daylight).",
+    "Not merged (model numbers differ): new Embrace / Embrace Sunlight (no plant model number) stays separate from existing Embrace Sunlight 052 (embrace-sunlight-052).",
+    "Not merged (model numbers differ): new Embrace / Embrace Sunlight (no plant model number) stays separate from existing Embrace Sunlight 261 (embrace-sunlight-261).",
+    "Not merged (plant code is not the exact catalog model number): Cypress Manor / Cypress Manor C0643A (C0643A) stays separate from Cypress Manor / Cypress Manor 0643A (cypress-manor-0643a).",
+    "Not merged (plant code is not the exact catalog model number): Cypress Manor / Cypress Manor C0764B (C0764B) stays separate from Cypress Manor / Cypress Manor 0764B (cypress-manor-0764b).",
+    "Not merged (plant code is not the exact catalog model number): Cypress Manor / Cypress Manor C0764E (C0764E) stays separate from Cypress Manor / Cypress Manor 0764E (cypress-manor-0764e).",
+    "Not merged (plant code is not the exact catalog model number): Cypress Manor / Cypress Manor C4563E (C4563E) stays separate from Cypress Manor / Cypress Manor 4563E (cypress-manor-4563e).",
+    "Not merged (plant code is not the exact catalog model number): Cypress Manor / Cypress Manor C4643A (C4643A) stays separate from Cypress Manor / Cypress Manor 4643A (cypress-manor-4643a).",
+    "Not merged (plant code is not the exact catalog model number): Cypress Manor / Cypress Manor C5644A (C5644A) stays separate from Cypress Manor / Cypress Manor 5644A (cypress-manor-5644a).",
+    "Not merged (plant code is not the exact catalog model number): Homes of Merit Community / Homes of Merit Community HC4562G (HC4562G) stays separate from Homes of Merit Community / HOMC 4562G (homc-4562g).",
+    "Not merged (plant code is not the exact catalog model number): Homes of Merit Community / Homes of Merit Community HC4563E (HC4563E) stays separate from Homes of Merit Community / HOMC 4563E (homc-4563e).",
+    "Not merged (plant code is not the exact catalog model number): Pine Manor / Pine Manor PM0483A (PM0483A) stays separate from Pine Manor / Pine Manor 0483A (pine-manor-0483a).",
+    "Not merged (plant code is not the exact catalog model number): Pine Manor / Pine Manor PM0764D (PM0764D) stays separate from Pine Manor / Pine Manor 0764D (pine-manor-0764d).",
+    "Not merged (plant code is not the exact catalog model number): Pine Manor / Pine Manor PM4523A (PM4523A) stays separate from Pine Manor / Pine Manor 4523A (pine-manor-4523a).",
+    "Enriched existing Lake Manor / Lake Manor 1666H32P01 (lake-manor-1666h32p01) with Lake City pack prime-1666h32p01 (Prime / 1666H32P01). The model numbers match; the plant folder uses a different series name.",
+    "Dropped the unconfirmed P256H42P01 tour from prime-2856h42p01. The confirmed Prime 2856H42P01 tour is the only one published for that model.",
+    "Enriched existing Lake Manor / Lake Manor 2868H42P01 (lake-manor-2868h42p01) with Lake City pack prime-2868h42p01 (Prime / 2868H42P01). The model numbers match; the plant folder uses a different series name.",
+    "Enriched existing Lake Manor / Lake Manor 2876H53P01 (lake-manor-2876h53p01) with Lake City pack prime-2876h53p01 (Prime / 2876H53P01). The model numbers match; the plant folder uses a different series name.",
+    "Enriched existing Lake Manor / Lake Manor 2856H32P01 (lake-manor-2856h32p01) with Lake City pack prime-apex-2856h32p01 (Prime / 2856H32P01). The model numbers match; the plant folder uses a different series name.",
+    "Not merged (model numbers differ): new Prime / Prime Daybreak (no plant model number) stays separate from existing Prime Daybreak 261 (prime-daybreak-261).",
+    "Not merged (plant code is not the exact catalog model number): Riverview / Riverview R4603A (R4603A) stays separate from Riverview / Riverview 4603A (riverview-4603a).",
+    "Not merged (plant code is not the exact catalog model number): Riverview / Riverview R4684A (R4684A) stays separate from Riverview / Riverview 4684A (riverview-4684a).",
+    "Not merged (plant code is not the exact catalog model number): Signature / Signature SIG3442A (SIG3442A) stays separate from Signature Community / Signature 3442A (signature-3442a).",
+    "Not merged (plant code is not the exact catalog model number): Signature / Signature SIG4523E (SIG4523E) stays separate from Signature Community / Signature 4523E (signature-4523e).",
+    "Not merged (plant code is not the exact catalog model number): Signature / Signature SIG4563C (SIG4563C) stays separate from Signature Community / Signature 4563C (signature-4563c)."
+  ],
+  "summary": {
+    "packs": 96,
+    "added": 49,
+    "enriched": 19,
+    "held": 28
+  }
+}

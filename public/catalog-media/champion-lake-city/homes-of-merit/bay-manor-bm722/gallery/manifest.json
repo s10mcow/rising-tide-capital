@@ -1,0 +1,112 @@
+[
+  {
+    "file": "gallery/bay-manor-modular-bm722-kitchen-sink.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-kitchen-sink.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 119984,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-kitchen-backsplash.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-kitchen-backsplash.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 102608,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 66256,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 52016,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 54204,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-living-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 61736,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-living-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 57454,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-master-bedroom.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-master-bedroom.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 23984,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-master-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-master-bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 1537,
+    "bytes": 62770,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-master-bath-shower.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-master-bath-shower.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 1537,
+    "bytes": 56964,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/bay-manor-modular-bm722-master-bath-vanity.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Bay Manor Modular/Photos & Videos/BM722 - 2016 Spring Show/Bay-Manor-Modular-BM722-master-bath-vanity.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 37502,
+    "format": "webp"
+  }
+]

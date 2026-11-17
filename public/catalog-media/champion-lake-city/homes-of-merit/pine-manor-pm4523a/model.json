@@ -1,0 +1,30 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Pine Manor",
+  "series_slug": "pine-manor",
+  "model_name": "Pine Manor PM4523A",
+  "model_number": "PM4523A",
+  "marketing_name": null,
+  "slug": "pine-manor-pm4523a",
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1387,
+  "dimensions": "28'-8\" x 52'-0\"",
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Pine Manor/PM4523A-Colored.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Pine Manor/Pine Manor 4523A",
+    "Homes of Merit/Pine Manor/Pine Manor 4523A [2025]"
+  ],
+  "hero_source": "Homes of Merit/Pine Manor/Pine Manor 4523A/WEB/PM4523A-Exterior-(4).jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Pine Manor/PM4523A-Colored.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 2,
+  "video_count": 6,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Pine Manor Series/Pine Manor Standard Features.docx",
+  "notes": [],
+  "tour_only": false
+}

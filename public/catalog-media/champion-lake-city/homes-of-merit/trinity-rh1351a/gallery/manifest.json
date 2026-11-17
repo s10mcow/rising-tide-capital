@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/rh1351a-exterior-9.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH1351A/WEB/RH1351A-Exterior-9.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 129890,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh1351a-exterior-8.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH1351A/WEB/RH1351A-Exterior-8.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 129536,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh1351a-exterior-10.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH1351A/WEB/RH1351A-Exterior-10.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 134290,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH1351A - 2025 Tampa RV Supershow/WEB/261-trinity-rh1351a-kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 50306,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH1351A [2025]/WEB/261-trinity-rh1351a-kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46952,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH1351A - 2025 Tampa RV Supershow/WEB/261-trinity-rh1351a-kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 45698,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-kitchen-4-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH1351A [2025]/WEB/261-trinity-rh1351a-kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 45580,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-kitchen-1-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH1351A - 2025 Tampa RV Supershow/WEB/261-trinity-rh1351a-kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 44192,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-living-room-3-staged.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH1351A [2025]/WEB/261-trinity-rh1351a-living-room-3-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 50754,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-living-room-1-staged.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH1351A [2025]/WEB/261-trinity-rh1351a-living-room-1-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 48452,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-living-room-2-staged.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH1351A [2025]/WEB/261-trinity-rh1351a-living-room-2-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46608,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh1351a-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH1351A/WEB/RH1351A-Living-Room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 40936,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh1351a-dining.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Trinity/RH1351A/WEB/RH1351A-Dining.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 42122,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-dining-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Trinity/RH1351A - 2025 Tampa RV Supershow/WEB/261-trinity-rh1351a-dining-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 41458,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-dining-1-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Trinity/RH1351A [2025]/WEB/261-trinity-rh1351a-dining-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 35514,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-primary-bedroom-staged.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH1351A [2025]/WEB/261-trinity-rh1351a-primary-bedroom-staged.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 45792,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh1351a-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH1351A/WEB/RH1351A-Bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 56198,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH1351A - 2025 Tampa RV Supershow/WEB/261-trinity-rh1351a-primary-bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 45764,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/trinity-rh1351a-primary-bedroom-4.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH1351A [2025]/WEB/261-trinity-rh1351a-primary-bedroom-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34858,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh1351a-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Trinity/RH1351A/WEB/RH1351A-Bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 33574,
+    "format": "webp"
+  }
+]

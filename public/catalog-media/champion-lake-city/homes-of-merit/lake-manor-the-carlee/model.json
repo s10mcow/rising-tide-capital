@@ -1,0 +1,31 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Lake Manor",
+  "series_slug": "lake-manor",
+  "model_name": "The Carlee",
+  "model_number": null,
+  "marketing_name": "the carlee",
+  "slug": "lake-manor-the-carlee",
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1387,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Cypress Manor/the carlee color.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Lake Manor/The Carlee"
+  ],
+  "hero_source": null,
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Cypress Manor/the carlee color.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 0,
+  "video_count": 3,
+  "gallery_count": 17,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Lake Manor Series/Lake Manor Standard Features-2026.docx",
+  "notes": [
+    "The Carlee color floor plan sits under Cypress Manor color plans, while photos are under Lake Manor. Confirm series before publishing."
+  ],
+  "tour_only": false
+}

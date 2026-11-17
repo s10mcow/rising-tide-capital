@@ -276,6 +276,16 @@ describe("published floor plans", () => {
         expect(item.floorPlanImage.startsWith("/catalog-media/")).toBe(true);
         expect(existsSync(`public${item.floorPlanImage}`)).toBe(true);
       }
+      if (item.floorPlanPdf) {
+        expect(item.floorPlanPdf.startsWith("/catalog-media/")).toBe(true);
+        expect(item.floorPlanPdf.endsWith(".pdf")).toBe(true);
+        expect(existsSync(`public${item.floorPlanPdf}`)).toBe(true);
+      }
+      for (const tour of item.tours ?? []) {
+        expect(tour.href).toMatch(
+          /^https:\/\/my\.matterport\.com\/show\/\?m=[A-Za-z0-9]+$/,
+        );
+      }
       expect(item.slug).toBe(
         catalogSlug({
           manufacturer: item.manufacturer,
@@ -286,15 +296,20 @@ describe("published floor plans", () => {
       );
       expect(slugs.has(item.slug)).toBe(false);
       slugs.add(item.slug);
-      expect(item.beds).toBeGreaterThan(0);
-      expect(item.baths).toBeGreaterThan(0);
-      expect(item.sqft).toBeGreaterThan(0);
+      if (item.beds != null) expect(item.beds).toBeGreaterThan(0);
+      else expect(item.plant).toBe("lake-city");
+      if (item.baths != null) expect(item.baths).toBeGreaterThan(0);
+      else expect(item.plant).toBe("lake-city");
+      if (item.sqft != null) expect(item.sqft).toBeGreaterThan(0);
+      else expect(item.plant).toBe("lake-city");
       if (item.widthFeet != null) {
         expect(item.widthFeet).toBeGreaterThan(0);
         expect(item.lengthFeet).toBeGreaterThan(0);
         expect(item.widthInches).not.toBeUndefined();
         expect(item.lengthInches).not.toBeUndefined();
         expect(planDimensions(item)).toMatch(/'/);
+      } else if (item.dimensionsText) {
+        expect(planDimensions(item)).toBe(item.dimensionsText);
       } else {
         expect(planDimensions(item)).toBeNull();
       }

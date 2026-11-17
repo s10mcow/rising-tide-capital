@@ -1,0 +1,30 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Prime",
+  "series_slug": "prime",
+  "model_name": "Prime Taylor 3272H42P03",
+  "model_number": "3272H42P03",
+  "marketing_name": "taylor",
+  "slug": "prime-taylor-3272h42p03",
+  "beds": 4,
+  "baths": 2,
+  "sqft": 2184,
+  "dimensions": null,
+  "specs_source": "Homes of Merit/Prime/Prime 3272H42P03 Taylor/PRIME 3272H42P03 LIT-1 25 0401 - COLOR.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Prime/Prime Taylor 261",
+    "Homes of Merit/Prime/Prime 3272H42P03 Taylor"
+  ],
+  "hero_source": "Homes of Merit/Prime/Prime 3272H42P03 Taylor/WEB/261-prime-taylor-3272H42P03-exterior-retouch-1.jpg",
+  "floorplan_source": "Homes of Merit/Prime/Prime 3272H42P03 Taylor/PRIME 3272H42P03 LIT-1 25 0401 - COLOR.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 18,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Prime Series/Prime Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Homes of Merit Community",
+  "series_slug": "homc",
+  "model_name": "Homes of Merit Community HC4563H",
+  "model_number": "HC4563H",
+  "marketing_name": null,
+  "slug": "homc-hc4563h",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Homes of Merit Community/HC4563H"
+  ],
+  "hero_source": "Homes of Merit/Homes of Merit Community/HC4563H/WEB/261-homes-of-merit-community-hc4563h-community-drone-4.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Homes Of Merit Community (HOMC) Series/28' WIDES/HC4563H Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Homes Of Merit Community (HOMC) Series/HOMCS Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

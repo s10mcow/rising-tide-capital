@@ -1,0 +1,192 @@
+[
+  {
+    "file": "gallery/sig3482c-exterior-4.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-exterior-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 127840,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-exterior-12.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-exterior-12.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 125360,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-kitchen-1-vs.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-kitchen-1-VS.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 53444,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-kitchen-island.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-kitchen-island.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 50126,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 49674,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 47850,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46722,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-living-room-1-vs.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-living-room-1-VS.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 59474,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-living-room-3-vs.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-living-room-3-VS.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 53976,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-living-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 49032,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-living-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 48580,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-dining-room-1-vs.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-dining-room-1-VS.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 75438,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-dining-room-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-dining-room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 54654,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-dining-room-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-dining-room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 44714,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-bedroom-1-vs.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-bedroom-1-VS.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 69766,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 44802,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-master-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-master-bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 38118,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-bathroom-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-bathroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 27736,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/sig3482c-bathroom-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/SIG3482C/WEB/SIG3482C-bathroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 19242,
+    "format": "webp"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "source": "Virtual Tours - Lake City.xlsx",
+  "tours": [
+    {
+      "model_name_on_sheet": "Riverview R4603A",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=h8JQyATzVQG",
+      "embed": "<iframe width=\"853\" height=\"480\" src=\"https://my.matterport.com/show/?m=h8JQyATzVQG\" frameborder=\"0\" allowfullscreen></iframe>"
+    },
+    {
+      "model_name_on_sheet": "R4603A",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=RJa1FXDV4yF",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=RJa1FXDV4yF' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>"
+    }
+  ]
+}

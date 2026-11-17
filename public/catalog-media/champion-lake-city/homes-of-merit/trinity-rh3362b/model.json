@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Trinity",
+  "series_slug": "trinity",
+  "model_name": "Trinity RH3362B",
+  "model_number": "RH3362B",
+  "marketing_name": null,
+  "slug": "trinity-rh3362b",
+  "beds": 2,
+  "baths": 2,
+  "sqft": 840,
+  "dimensions": "23'-4\" x 36'-0\"",
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Trinity Series/RH3362B Blackline.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Trinity/RH3362B"
+  ],
+  "hero_source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Exterior-6.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Trinity Series/RH3362B Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 2,
+  "video_count": 0,
+  "gallery_count": 17,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Trinity Series/TRINITY Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

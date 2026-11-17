@@ -1,0 +1,12 @@
+{
+  "source": "Virtual Tours - Lake City.xlsx",
+  "tours": [
+    {
+      "model_name_on_sheet": "HC4443C 55",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=1eDiXXodSDa",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=1eDiXXodSDa' frameborder='0' allowfullscreen allow='vr'></iframe>"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "file": "gallery/model-2444-exterior-6.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Exterior-(6).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 122910,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-exterior-8.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Exterior-(8).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 150356,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-exterior-7.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Exterior-(7).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 107164,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 40054,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34384,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-kitchen.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Kitchen.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 23988,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Living-Room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 58932,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Living-Room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 50564,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-dining.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Dining.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 39540,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-primary-bedroom.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Primary-Bedroom.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 35826,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-bedroom-3a.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Bedroom-3a.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 42798,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34680,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-bedroom-2b.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Bedroom-2b.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 36690,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-primary-bath-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Primary-Bath-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 34340,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-bath-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Bath-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 24450,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 24534,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-community-3.webp",
+    "role": "other",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Community-(3).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 113320,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-community-2.webp",
+    "role": "other",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Community-(2).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 78564,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/model-2444-community-1.webp",
+    "role": "other",
+    "source": "Homes of Merit/Model 2444/WEB/Model-2444-Community-(1).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 70108,
+    "format": "webp"
+  }
+]

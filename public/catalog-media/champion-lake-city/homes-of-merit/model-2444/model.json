@@ -1,0 +1,32 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Model 2444",
+  "series_slug": "model-2444",
+  "model_name": "Model 2444",
+  "model_number": "2444",
+  "marketing_name": null,
+  "slug": "model-2444",
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1027,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/2444 - Lake City.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Model 2444"
+  ],
+  "hero_source": "Champion Dealer Box/Lake Manor/Renderings/HR/Lake City_Lake Manor_2444-H22-036_HR.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/2444 - Lake City.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 3,
+  "gallery_count": 19,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Lake Manor Series/Lake Manor Standard Features-2026.docx",
+  "notes": [
+    "Hero is a Lake Manor rendering (no strong landscaped photo found).",
+    "Lake Manor series features attached because of the \u20182444 - Lake City\u2019 floor plan and Lake Manor renderings. Confirm series before publishing."
+  ],
+  "tour_only": false
+}

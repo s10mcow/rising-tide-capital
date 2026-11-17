@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Prime",
+  "series_slug": "prime",
+  "model_name": "Prime 2876H53P01",
+  "model_number": "2876H53P01",
+  "marketing_name": null,
+  "slug": "prime-2876h53p01",
+  "beds": 5,
+  "baths": 3,
+  "sqft": 2027,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Sun Community/Prime/2876H53P01 1-5-2021-L-101.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Prime/Prime 2876H53P01"
+  ],
+  "hero_source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Exterior-(3).jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Sun Community/Prime/2876H53P01 1-5-2021-L-101.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 2,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Prime Series/Prime Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

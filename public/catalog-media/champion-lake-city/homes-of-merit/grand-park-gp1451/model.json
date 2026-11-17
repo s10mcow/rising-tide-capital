@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Grand Park",
+  "series_slug": "grand-park",
+  "model_name": "Grand Park GP1451",
+  "model_number": "GP1451",
+  "marketing_name": null,
+  "slug": "grand-park-gp1451",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Grand Park/Grand Park 1451"
+  ],
+  "hero_source": "Homes of Merit/Grand Park/Grand Park 1451/WEB/261-grand-park-1451-exterior-3.jpg",
+  "floorplan_source": null,
+  "floorplan_kind": null,
+  "tour_count": 1,
+  "video_count": 0,
+  "gallery_count": 18,
+  "has_features": false,
+  "features_source": null,
+  "notes": [],
+  "tour_only": false
+}

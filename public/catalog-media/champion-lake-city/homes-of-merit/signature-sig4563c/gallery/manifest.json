@@ -1,0 +1,152 @@
+[
+  {
+    "file": "gallery/signature-4563c-exterior-9.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Exterior-9.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 113680,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-exterior-11.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Exterior-11.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 126358,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 33060,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 22486,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Living-Room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 49328,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Living-Room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 46782,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-living-room-4.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Living-Room-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 30972,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Living-Room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 26748,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-dining-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Dining-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 43466,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-dining-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Dining-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 40396,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-primary-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Primary-Bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 40958,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-primary-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Primary-Bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 35160,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 20336,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-primary-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Primary-Bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 21072,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/signature-4563c-primary-bath-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Signature/Signature 4563C/WEB/Signature-4563C-Primary-Bath-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 15540,
+    "format": "webp"
+  }
+]

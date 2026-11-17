@@ -1,0 +1,32 @@
+{
+  "brand": "Embrace",
+  "brand_slug": "embrace",
+  "series": "Embrace",
+  "series_slug": "embrace",
+  "model_name": "Embrace Daylight 1437H11297",
+  "model_number": "1437H11297",
+  "marketing_name": "daylight",
+  "slug": "embrace-daylight-1437h11297",
+  "beds": 1,
+  "baths": 1,
+  "sqft": 493,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Embrace Series/Blacklines/EMBRACE ULTRA (DRYWALL)/1437H11297 Blackline.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Embrace/Embrace Daylight - Plant",
+    "Embrace/Embrace Daylight"
+  ],
+  "hero_source": "Embrace/Embrace Daylight/WEB/261-embrace-daylight-exterior-1.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Embrace Series/Blacklines/EMBRACE ULTRA (DRYWALL)/1437H11297 Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Embrace Series/Embrace Ultra Standard Features.docx",
+  "notes": [
+    "Daylight assigned Embrace Ultra features because walkthrough filenames in the Embrace Daylight folder use model code 1437H11297, which is filed under Embrace Ultra (Drywall) blacklines."
+  ],
+  "tour_only": false
+}

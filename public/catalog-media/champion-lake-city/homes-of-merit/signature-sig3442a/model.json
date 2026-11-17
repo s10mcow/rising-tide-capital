@@ -1,0 +1,30 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Signature",
+  "series_slug": "signature",
+  "model_name": "Signature SIG3442A",
+  "model_number": "SIG3442A",
+  "marketing_name": null,
+  "slug": "signature-sig3442a",
+  "beds": 2,
+  "baths": 2,
+  "sqft": 1027,
+  "dimensions": "23'-4\" x 44'-0\"",
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Riverview/Signature Series/SIG3442A-Colored.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Homes of Merit/Signature/SIG3442A",
+    "Homes of Merit/Signature/Signature 3442A"
+  ],
+  "hero_source": "Homes of Merit/Signature/SIG3442A/WEB/SIG3442A-Exterior-(11).jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/COLOR/Riverview/Signature Series/SIG3442A-Colored.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 2,
+  "video_count": 8,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Signature Series/Signature Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

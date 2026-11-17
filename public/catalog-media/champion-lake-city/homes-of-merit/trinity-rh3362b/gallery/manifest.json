@@ -1,0 +1,172 @@
+[
+  {
+    "file": "gallery/rh3362b-exterior-2.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Exterior-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 112864,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-exterior-5.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Exterior-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 126580,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-kitchen-1.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Kitchen-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 58642,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-kitchen-3.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Kitchen-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 56378,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 53570,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Living-Room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 62266,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Living-Room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 62634,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Living-Room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 57352,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-dining.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Dining.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 47040,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 82532,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-master-bedroom-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Master-Bedroom-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 79814,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-master-bedroom-2.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Master-Bedroom-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 63926,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-master-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Master-Bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 42950,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-bath.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Bath.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 38328,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-model-6.webp",
+    "role": "other",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Model-6.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 142812,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-model-4.webp",
+    "role": "other",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Model-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 130416,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/rh3362b-model-8.webp",
+    "role": "other",
+    "source": "Homes of Merit/Trinity/RH3362B/WEB/RH3362B-Model-8.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 130874,
+    "format": "webp"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Bay Manor Modular",
+  "series_slug": "bay-manor",
+  "model_name": "Southern Comford 2 BMALM060-4",
+  "model_number": null,
+  "marketing_name": null,
+  "slug": "bay-manor-southern-comford-2-bmalm060-4",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Bay Manor Modular/Photos & Videos/Southern Comford 2 BMALM060-4"
+  ],
+  "hero_source": null,
+  "floorplan_source": null,
+  "floorplan_kind": null,
+  "tour_count": 0,
+  "video_count": 1,
+  "gallery_count": 8,
+  "has_features": false,
+  "features_source": null,
+  "notes": [],
+  "tour_only": false
+}

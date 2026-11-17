@@ -1,0 +1,202 @@
+[
+  {
+    "file": "gallery/p2876h53p01-exterior-2.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Exterior-(2).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 165510,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-exterior-5.webp",
+    "role": "exterior",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Exterior-(5).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 177634,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-kitchen-edit.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Kitchen-Edit.jpg",
+    "staged_or_retouch": true,
+    "width": 1024,
+    "height": 683,
+    "bytes": 82576,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-kitchen-5.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Kitchen-5.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 82010,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-kitchen-4.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Kitchen-4.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 87598,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-kitchen-2.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Kitchen-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 62242,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-kitchen-6.webp",
+    "role": "kitchen",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Kitchen-6.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 58750,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-living-room-2.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Living-Room-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 106622,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-living-room-1.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Living-Room-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 100694,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-living-room-3.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Living-Room-3.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 99618,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-entry.webp",
+    "role": "living",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Entry.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 87610,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-dining-1.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Dining-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 89172,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-dining-2.webp",
+    "role": "dining",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Dining-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 85798,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-bedrooms-1.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Bedrooms-(1).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 102434,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-bedrooms-13.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Bedrooms-(13).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 85758,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-bedrooms-3.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Bedrooms-(3).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 88890,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-bedrooms-4.webp",
+    "role": "bedroom",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Bedrooms-(4).jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 88448,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-primary-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Primary-Bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 73658,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-primary-bath-1.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Primary-Bath-1.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 67204,
+    "format": "webp"
+  },
+  {
+    "file": "gallery/p2876h53p01-bath-2.webp",
+    "role": "bath",
+    "source": "Homes of Merit/Prime/Prime 2876H53P01/WEB/P2876H53P01-Bath-2.jpg",
+    "staged_or_retouch": false,
+    "width": 1024,
+    "height": 683,
+    "bytes": 60242,
+    "format": "webp"
+  }
+]

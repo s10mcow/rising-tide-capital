@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Prime",
+  "series_slug": "prime",
+  "model_name": "Prime 2448H32P02",
+  "model_number": "2448H32P02",
+  "marketing_name": null,
+  "slug": "prime-2448h32p02",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Prime/P2448H32P02 Alt 1"
+  ],
+  "hero_source": "Homes of Merit/Prime/P2448H32P02 Alt 1/WEB/P2448H32P02 Alt 1 Exterior (5).jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Prime Series/Prime Double-Wides (24')/2448H32P02 Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 1,
+  "video_count": 1,
+  "gallery_count": 17,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Prime Series/Prime Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

@@ -1,0 +1,30 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Cypress Manor",
+  "series_slug": "cypress-manor",
+  "model_name": "Cypress Manor C0723C",
+  "model_number": "C0723C",
+  "marketing_name": "stirling",
+  "slug": "cypress-manor-c0723c",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Cypress Manor/Cypress Manor C0723C (Stirling)",
+    "Homes of Merit/Cypress Manor/Cypress Manor 0723C"
+  ],
+  "hero_source": "Homes of Merit/Cypress Manor/Cypress Manor 0723C/WEB/261-cypress-manor-0723c-exterior-retouch.jpg",
+  "floorplan_source": "Homes of Merit/Cypress Manor/Cypress Manor C0723C (Stirling)/261 C0723C (2X6) Blackline - COLOR.pdf",
+  "floorplan_kind": "color",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 19,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Cypress Series/Cypress Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

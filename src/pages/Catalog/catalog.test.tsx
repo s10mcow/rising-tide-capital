@@ -4,7 +4,12 @@ import { createRoot } from "react-dom/client";
 import type { Root } from "react-dom/client";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
-import { CATALOG_DISCLAIMER, catalogSlug } from "@/data/catalog";
+import {
+  CATALOG_DISCLAIMER,
+  SERIES_FEATURES_LABEL,
+  catalog,
+  catalogSlug,
+} from "@/data/catalog";
 import CatalogRoute from "./CatalogRoute";
 
 const JENKINS = catalogSlug({
@@ -143,6 +148,56 @@ describe("floor plan catalog", () => {
     expect(container.textContent).not.toContain("DH/1154962/1");
     expect(container.querySelector(".dealer-license")).toBeNull();
     expect(container.querySelector(".catalog-spec-card")).toBeNull();
+  });
+
+  it("shows Lake City gallery, tour, and Embrace models without prices", () => {
+    render("/homes/champion?brand=Homes%20of%20Merit");
+    expect(container.textContent).toContain("Homes of Merit");
+    expect(container.textContent).toContain("RH1351A");
+    expect(container.textContent).not.toContain("Embrace Serenity");
+    expect(container.textContent).not.toMatch(/\$\d/);
+
+    render("/homes/champion-trinity-rh1351a");
+    expect(container.textContent).toContain("Homes of Merit");
+    expect(container.textContent).toContain("Call for pricing");
+    expect(container.textContent).toContain(SERIES_FEATURES_LABEL);
+    expect(container.textContent).toContain("Download floor plan (PDF)");
+    expect(container.querySelector("iframe")).toBeNull();
+    const lazy = container.querySelectorAll(
+      ".catalog-gallery img[loading='lazy']",
+    );
+    expect(lazy.length).toBeGreaterThan(1);
+    const loadTour = Array.from(container.querySelectorAll("button")).find(
+      (button) => button.textContent?.includes("Load 3D tour"),
+    );
+    expect(loadTour).toBeTruthy();
+    act(() => {
+      loadTour?.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+    });
+    expect(container.querySelector("iframe")?.getAttribute("src")).toMatch(
+      /^https:\/\/my\.matterport\.com\/show\/\?m=[A-Za-z0-9]+$/,
+    );
+    expect(container.textContent).not.toContain("DwgJSgkjXF2");
+
+    const tourOnly = catalog.find(
+      (plan) =>
+        plan.plant === "lake-city" &&
+        plan.photos.length === 0 &&
+        (plan.tours?.length ?? 0) > 0,
+    );
+    expect(tourOnly).toBeTruthy();
+    render(`/homes/${tourOnly?.slug}`);
+    expect(container.textContent).toContain("Photo not shown");
+    expect(container.textContent).toContain("Load 3D tour");
+    expect(container.querySelector("iframe")).toBeNull();
+
+    render("/homes/champion-embrace-serenity-2864h42a7c");
+    expect(container.textContent).toContain("Embrace");
+    expect(container.textContent).toContain("Embrace Serenity 2864H42A7C");
+    expect(container.textContent).toContain("1,707 sq ft");
+    expect(container.textContent).toContain("Call for pricing");
+    expect(container.textContent).not.toMatch(/\$\d/);
+    expect(container.querySelector(".dealer-license")).toBeNull();
   });
 
   it("keeps the floor plan and in-stock links in navigation", () => {

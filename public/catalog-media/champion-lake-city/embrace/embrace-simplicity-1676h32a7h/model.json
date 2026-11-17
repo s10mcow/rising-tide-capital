@@ -1,0 +1,29 @@
+{
+  "brand": "Embrace",
+  "brand_slug": "embrace",
+  "series": "Embrace",
+  "series_slug": "embrace",
+  "model_name": "Embrace Simplicity 1676H32A7H",
+  "model_number": "1676H32A7H",
+  "marketing_name": "simplicity",
+  "slug": "embrace-simplicity-1676h32a7h",
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1153,
+  "dimensions": null,
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Embrace Series/Blacklines/EMBRACE ULTRA (DRYWALL)/1676H32A7H Blackline.pdf",
+  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "photo_source_folders": [
+    "Embrace/Embrace Simplicity 1676H32A7H VOG"
+  ],
+  "hero_source": "Embrace/Embrace Simplicity 1676H32A7H VOG/WEB/261-embrace-simplicity-261-exterior4.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Embrace Series/Blacklines/EMBRACE ULTRA (DRYWALL)/1676H32A7H Blackline.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 17,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Embrace Series/Embrace VOG Standard Features.docx",
+  "notes": [],
+  "tour_only": false
+}

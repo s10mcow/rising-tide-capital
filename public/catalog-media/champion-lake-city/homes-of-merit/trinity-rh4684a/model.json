@@ -1,0 +1,29 @@
+{
+  "brand": "Homes of Merit",
+  "brand_slug": "homes-of-merit",
+  "series": "Trinity",
+  "series_slug": "trinity",
+  "model_name": "Trinity RH4684A",
+  "model_number": "RH4684A",
+  "marketing_name": null,
+  "slug": "trinity-rh4684a",
+  "beds": null,
+  "baths": null,
+  "sqft": null,
+  "dimensions": null,
+  "specs_source": null,
+  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "photo_source_folders": [
+    "Homes of Merit/Trinity/RH4684A"
+  ],
+  "hero_source": "Homes of Merit/Trinity/RH4684A/WEB/261-trinity-rh4684a-exterior-3.jpg",
+  "floorplan_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Trinity Series/RH4684A Blacklne.pdf",
+  "floorplan_kind": "blackline",
+  "tour_count": 1,
+  "video_count": 4,
+  "gallery_count": 20,
+  "has_features": true,
+  "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Trinity Series/TRINITY Standard Features-2026.docx",
+  "notes": [],
+  "tour_only": false
+}

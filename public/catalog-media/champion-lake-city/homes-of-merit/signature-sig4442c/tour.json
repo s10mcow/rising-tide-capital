@@ -1,0 +1,19 @@
+{
+  "source": "Virtual Tours - Lake City.xlsx",
+  "tours": [
+    {
+      "model_name_on_sheet": "Signature Series - SIG 4442C",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=L7FQmjgkZd4",
+      "embed": "<iframe width=\"853\" height=\"480\" src=\"https://my.matterport.com/show/?m=L7FQmjgkZd4\" frameborder=\"0\" allowfullscreen></iframe>"
+    },
+    {
+      "model_name_on_sheet": "SIG4442C",
+      "factory": "Lake City",
+      "factory_no": 261,
+      "link": "https://my.matterport.com/show/?m=uu6qwNXmBNB",
+      "embed": "<iframe width='853' height='480' src='https://my.matterport.com/show/?m=uu6qwNXmBNB' frameborder='0' allowfullscreen allow='vr'></iframe>"
+    }
+  ]
+}
