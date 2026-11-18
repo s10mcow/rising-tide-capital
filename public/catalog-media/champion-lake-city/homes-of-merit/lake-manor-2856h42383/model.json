@@ -7,12 +7,12 @@
   "model_number": "2856H42383",
   "marketing_name": null,
   "slug": "lake-manor-2856h42383",
-  "beds": 3,
+  "beds": null,
   "baths": 2,
   "sqft": 1493,
   "dimensions": null,
   "specs_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Lake Manor Series/28' WIDES/2856H42383 Blackline.pdf",
-  "specs_note": "Extracted from the packed floor-plan PDF text.",
+  "specs_note": "Champion Lake City LAKE MANOR 11.2.2026 and the model drawing.",
   "photo_source_folders": [
     "Homes of Merit/Lake Manor/LM2856H42383",
     "Homes of Merit/Lake Manor/Lake Manor 2856H42383"
@@ -26,5 +26,6 @@
   "has_features": true,
   "features_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Lake Manor Series/Lake Manor Standard Features-2026.docx",
   "notes": [],
-  "tour_only": false
+  "tour_only": false,
+  "configuration_note": "The drawing shows three bedrooms. Champion’s dealer sheet lists four. Confirm the bedroom count when ordering."
 }

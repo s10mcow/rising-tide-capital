@@ -104,9 +104,7 @@ describe("floor plan catalog", () => {
     expect(multiCard?.textContent).toContain("Multi-Section");
     expect(multiCard?.textContent).not.toMatch(/\d+'/);
     render("/homes/champion?sections=double");
-    expect(container.textContent).toContain(
-      "No floor plans match these filters.",
-    );
+    expect(container.textContent).toContain("P2456H32P02");
     expect(container.textContent).not.toContain("Crestpointe H4684A");
   });
 
@@ -140,6 +138,17 @@ describe("floor plan catalog", () => {
         ),
       ),
     ).toBe(false);
+  });
+
+  it("explains the disputed Lake Manor bedroom count beside its specs", () => {
+    render("/homes/champion-lake-manor-2856h42383");
+    const specs = container.querySelector(".catalog-spec-card");
+    expect(specs?.textContent).toContain("1,493 sq ft");
+    expect(specs?.textContent).toContain("The drawing shows three bedrooms.");
+    expect(specs?.textContent).toContain("dealer sheet lists four");
+    expect(
+      Array.from(specs!.querySelectorAll("dt"), (label) => label.textContent),
+    ).not.toContain("Beds");
   });
 
   it("shows a contact path when the slug is not a published plan", () => {
@@ -237,7 +246,10 @@ describe("floor plan catalog", () => {
       container.querySelectorAll(".catalog-card h3"),
     ).map((heading) => heading.textContent);
     expect(titles).toEqual(expect.arrayContaining(primeModels));
-    expect(titles).toHaveLength(primeModels.length);
+    expect(titles).toContain("Prime P2456H32P02");
+    expect(titles).toHaveLength(
+      catalog.filter((plan) => plan.brand === "Prime").length,
+    );
     expect(container.textContent).not.toContain("Prime Grand 043");
     expect(container.textContent).not.toContain("Embrace Serenity");
     expect(container.textContent).not.toContain("Lake Manor 3260H32P03");

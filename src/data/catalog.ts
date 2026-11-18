@@ -1,10 +1,11 @@
 /**
  * Orderable manufacturer floor plans for Florida and the Southeast.
- * Specs are copied from each maker's public page. Photos and floor plans are
- * local copies of that same model's manufacturer images when a match was found.
+ * Specs come from the manufacturer's model page or the factory drawing and
+ * dealer series sheet for the same model. Media is served locally.
  * Prices are not listed. Slice of Life reference prices are not included.
  */
 import { catalogMedia } from "./catalog-media.ts";
+import { lakeCityDealerSeries } from "./lake-city-dealer-models.ts";
 import {
   lakeCityFeatureSets,
   lakeCityPublications,
@@ -53,6 +54,8 @@ export type CatalogPlan = {
   baths?: number;
   /** Present only when the manufacturer states a square footage. */
   sqft?: number;
+  /** Explains model-specific options or which area the displayed drawing includes. */
+  configurationNote?: string;
   /**
    * Floor-plan dimension string, used when the drawing states dimensions
    * that are not stored as separate width and length fields.
@@ -235,7 +238,9 @@ export function definePlan(input: CatalogPlanInput): CatalogPlan {
     slug,
     price: null,
     photos: media?.photo ? [media.photo] : [],
-    floorPlanImage: media?.floorPlan ?? null,
+    floorPlanImage: input.floorPlanPdf
+      ? input.floorPlanPdf.replace(/\.pdf$/, ".webp")
+      : media?.floorPlan ?? null,
     features: input.features ?? [],
   };
 }
@@ -2438,6 +2443,8 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Homes of Merit Community",
     model: "HOMC 4563E",
     modelNumber: "homc-4563e",
+    floorPlanPdf:
+      "/catalog-media/champion-lake-city/homes-of-merit/homc-hc4563e/floorplan.pdf",
     beds: 3,
     baths: 2,
     sqft: 1493,
@@ -2605,7 +2612,7 @@ const baseCatalog: readonly CatalogPlan[] = [
     modelNumber: "2856H32P01",
     beds: 3,
     baths: 2,
-    sqft: 1490,
+    sqft: 1493,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Kitchen Island", "Utility Room"],
@@ -2719,6 +2726,8 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Pine Manor",
     model: "Pine Manor 0764D",
     modelNumber: "pine-manor-0764d",
+    floorPlanPdf:
+      "/catalog-media/champion-lake-city/homes-of-merit/pine-manor-pm0764d/floorplan.pdf",
     beds: 4,
     baths: 2,
     sqft: 2305,
@@ -2739,6 +2748,8 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Cypress Manor",
     model: "Cypress Manor 0764E",
     modelNumber: "cypress-manor-0764e",
+    floorPlanPdf:
+      "/catalog-media/champion-lake-city/homes-of-merit/cypress-manor-c0764e/floorplan.pdf",
     beds: 4,
     baths: 2,
     sqft: 2305,
@@ -2908,9 +2919,13 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Cypress Manor",
     model: "Cypress Manor 5644A",
     modelNumber: "cypress-manor-5644a",
+    floorPlanPdf:
+      "/catalog-media/champion-lake-city/homes-of-merit/cypress-manor-c5644a/floorplan.pdf",
+    configurationNote:
+      "The current standard has 2,253 sq ft of conditioned space and an 87 sq ft porch. The earlier floor plan shown here is labeled 2,252 sq ft.",
     beds: 4,
     baths: 2,
-    sqft: 2252,
+    sqft: 2340,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: [
@@ -2962,9 +2977,11 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Cypress Manor",
     model: "Cypress Manor C0723C",
     modelNumber: "cypress-manor-c0723c",
+    configurationNote:
+      "The illustrated 2×6-wall plan shows 2 baths and 2,175 sq ft. The series sheet lists 2½ baths and 2,184 sq ft. Confirm the wall type and layout when ordering.",
     beds: 3,
     baths: 2,
-    sqft: 2184,
+    sqft: 2175,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: [
@@ -3062,7 +3079,7 @@ const baseCatalog: readonly CatalogPlan[] = [
     modelNumber: "2876H53P01",
     beds: 5,
     baths: 3,
-    sqft: 2026,
+    sqft: 2027,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Kitchen Island", "Utility Room"],
@@ -3276,9 +3293,10 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Lake Manor",
     model: "Lake Manor 2856H42383",
     modelNumber: "lake-manor-2856h42383",
-    beds: 4,
+    configurationNote:
+      "The drawing shows three bedrooms. Champion’s dealer sheet lists four. Confirm the bedroom count when ordering.",
     baths: 2,
-    sqft: 1809,
+    sqft: 1493,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Kitchen Island", "Utility Room"],
@@ -3290,8 +3308,8 @@ const baseCatalog: readonly CatalogPlan[] = [
     model: "Prime 2868H42P01",
     modelNumber: "2868H42P01",
     beds: 4,
-    baths: 3,
-    sqft: 1809,
+    baths: 2,
+    sqft: 1813,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Utility Room", "Kitchen Island"],
@@ -3583,6 +3601,8 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Signature Community",
     model: "Signature 4563C",
     modelNumber: "signature-4563c",
+    configurationNote:
+      "Champion shows two- and three-bedroom layouts on this drawing. The illustrated area is 1,493 sq ft.",
     beds: 3,
     baths: 2,
     sqft: 1493,
@@ -3778,6 +3798,8 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Pine Manor",
     model: "Pine Manor 0483A",
     modelNumber: "pine-manor-0483a",
+    floorPlanPdf:
+      "/catalog-media/champion-lake-city/homes-of-merit/pine-manor-pm0483a/floorplan.pdf",
     beds: 3,
     baths: 2,
     sqft: 1456,
@@ -4222,7 +4244,7 @@ const baseCatalog: readonly CatalogPlan[] = [
     modelNumber: "lake-manor-2848h32p02",
     beds: 3,
     baths: 2,
-    sqft: 1278,
+    sqft: 1280,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Kitchen Island", "Utility Room"],
@@ -4354,7 +4376,7 @@ const baseCatalog: readonly CatalogPlan[] = [
     modelNumber: "lake-manor-2844h32p01",
     beds: 3,
     baths: 2,
-    sqft: 1170,
+    sqft: 1173,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Utility Room"],
@@ -4582,7 +4604,7 @@ const baseCatalog: readonly CatalogPlan[] = [
     modelNumber: "lake-manor-2840h32p01",
     beds: 3,
     baths: 2,
-    sqft: 1064,
+    sqft: 1067,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Utility Room"],
@@ -4638,8 +4660,8 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Trinity",
     model: "RH2683D",
     modelNumber: "rh2683d",
-    beds: 3,
-    baths: 3,
+    beds: 2,
+    baths: 2,
     sqft: 1031,
     sections: "single",
     sectionLabel: "Single-Section",
@@ -4651,9 +4673,11 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Lake Manor",
     model: "Lake Manor 2444H22036",
     modelNumber: "lake-manor-2444h22036",
+    configurationNote:
+      "The total includes 890 sq ft of conditioned space and a 137 sq ft porch.",
     beds: 2,
     baths: 2,
-    sqft: 1025,
+    sqft: 1027,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Porch/Outdoor Living Area", "Utility Room"],
@@ -4664,9 +4688,11 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Lake Manor",
     model: "Lake Manor 2846H22140",
     modelNumber: "lake-manor-2846h22140",
+    configurationNote:
+      "The home has 933 sq ft, or 1,013 sq ft with the optional 80 sq ft porch.",
     beds: 2,
     baths: 2,
-    sqft: 1013,
+    sqft: 933,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: [
@@ -4684,6 +4710,8 @@ const baseCatalog: readonly CatalogPlan[] = [
     series: "Homes of Merit Community",
     model: "HC4522B",
     modelNumber: "hc4522b",
+    configurationNote:
+      "The illustrated plan totals 1,013 sq ft, including 933 sq ft of conditioned space and an 80 sq ft porch. Confirm the configuration when ordering.",
     beds: 2,
     baths: 2,
     sqft: 1013,
@@ -4718,7 +4746,7 @@ const baseCatalog: readonly CatalogPlan[] = [
     modelNumber: "1666H32P01",
     beds: 3,
     baths: 2,
-    sqft: 997,
+    sqft: 1001,
     sections: "single",
     sectionLabel: "Single-Section",
     features: ["Utility Room"],
@@ -4821,7 +4849,7 @@ const baseCatalog: readonly CatalogPlan[] = [
     modelNumber: "lake-manor-2440h22036",
     beds: 2,
     baths: 2,
-    sqft: 932,
+    sqft: 933,
     sections: "multi",
     sectionLabel: "Multi-Section",
     features: ["Utility Room"],
@@ -5319,11 +5347,15 @@ function applyLakeCityMedia(
 ): CatalogPlan {
   return {
     ...plan,
+    beds: publication.beds ?? plan.beds,
+    baths: publication.baths ?? plan.baths,
+    sqft: publication.sqft ?? plan.sqft,
+    configurationNote: publication.configurationNote ?? plan.configurationNote,
     brand: lakeCityBrand(publication),
     plant: "lake-city",
     photos: publication.photos.length > 0 ? publication.photos : plan.photos,
     floorPlanImage: publication.floorPlanImage ?? plan.floorPlanImage,
-    floorPlanPdf: publication.floorPlanPdf,
+    floorPlanPdf: publication.floorPlanPdf ?? plan.floorPlanPdf,
     tours: publication.tours,
     seriesFeatures: lakeCityFeatures(publication.featureSetId),
   };
@@ -5381,6 +5413,7 @@ function mergeLakeCity(plans: readonly CatalogPlan[]): CatalogPlan[] {
       beds: optionalCount(publication.beds),
       baths: optionalCount(publication.baths),
       sqft: optionalCount(publication.sqft),
+      configurationNote: publication.configurationNote,
       dimensionsText: publication.dimensionsText ?? undefined,
       price: null,
       features: [],
@@ -5397,7 +5430,32 @@ function mergeLakeCity(plans: readonly CatalogPlan[]): CatalogPlan[] {
   return next;
 }
 
-export const catalog: readonly CatalogPlan[] = mergeLakeCity(baseCatalog);
+const dealerPlans = lakeCityDealerSeries.flatMap(
+  ({ series, brand, finish, models }) =>
+    models.map(({ code, sections, beds, baths, sqft, note }): CatalogPlan => {
+      const model = [series, finish, code].filter(Boolean).join(" ");
+      return definePlan({
+        manufacturer: "champion",
+        series,
+        model,
+        modelNumber: code,
+        brand,
+        plant: "lake-city",
+        beds,
+        baths,
+        sqft,
+        sections,
+        sectionLabel: sections === "single" ? "Single-wide" : "Double-wide",
+        configurationNote: note,
+        sourceUrl: "https://www.championhomes.com/",
+      });
+    }),
+);
+
+export const catalog: readonly CatalogPlan[] = [
+  ...mergeLakeCity(baseCatalog),
+  ...dealerPlans,
+];
 
 export function getPlanBySlug(
   slug: string,

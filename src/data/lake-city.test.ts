@@ -10,6 +10,7 @@ import {
 } from "./catalog";
 import { CATALOG_SLUG_REDIRECTS } from "./catalog-redirects";
 import { lakeCityPublications } from "./lake-city-data";
+import { lakeCityDealerSeries } from "./lake-city-dealer-models";
 
 const review = JSON.parse(
   readFileSync("src/data/lake-city-review.json", "utf8"),
@@ -32,11 +33,11 @@ describe("Lake City Champion preview", () => {
     expect(review.summary).toEqual({
       packs: 96,
       added: 49,
-      enriched: 19,
-      held: 28,
+      enriched: 20,
+      held: 27,
     });
-    expect(lakeCityPublications).toHaveLength(68);
-    expect(review.held).toHaveLength(28);
+    expect(lakeCityPublications).toHaveLength(69);
+    expect(review.held).toHaveLength(27);
     const publishedSlugs = new Set(
       lakeCityPublications.map((item) => item.packSlug),
     );
@@ -49,7 +50,6 @@ describe("Lake City Champion preview", () => {
     expect(catalogText).not.toContain("rh1351zll");
     expect(catalogText).not.toContain(BLOCKED_TOUR);
     expect(catalogText).toContain(CONFIRMED_PRIME_TOUR);
-    expect(catalogText).not.toContain("2848H32053");
     expect(catalogText).not.toContain("HC522A");
     expect(catalog.find((item) => item.model === "Model 2444")).toBeUndefined();
     expect(catalog.find((item) => item.model === "The Carlee")?.plant).toBe(
@@ -58,14 +58,21 @@ describe("Lake City Champion preview", () => {
     expect(catalog.find((item) => item.model === "The Carlee")?.tours).toBe(
       undefined,
     );
-    expect(
-      catalog.find((item) => item.modelNumber === "embrace-cherish-261")?.plant,
-    ).toBeUndefined();
+    const cherish = catalog.find(
+      (item) => item.modelNumber === "embrace-cherish-261",
+    );
+    expect(cherish).toMatchObject({
+      plant: "lake-city",
+      beds: 3,
+      baths: 2,
+      sqft: 1280,
+    });
+    expect(cherish?.configurationNote).toContain("EV2848H32053");
+    expect(cherish?.floorPlanPdf).toMatch(/cherish-2848h32053/);
 
     for (const required of [
       "model-2444",
       "lake-manor-the-carlee",
-      "embrace-cherish-2848h32053",
       "homc-hc522a",
     ]) {
       expect(heldSlugs.has(required)).toBe(true);
@@ -75,7 +82,6 @@ describe("Lake City Champion preview", () => {
     );
     expect(heldBySlug.get("model-2444")).toMatch(/unconfirmed/i);
     expect(heldBySlug.get("lake-manor-the-carlee")).toMatch(/unconfirmed/i);
-    expect(heldBySlug.get("embrace-cherish-2848h32053")).toMatch(/2848H32053/);
     expect(heldBySlug.get("homc-hc522a")).toMatch(/typo/i);
     expect(
       review.held.filter((item) =>
@@ -249,8 +255,12 @@ describe("Lake City Champion preview", () => {
       sort: "beds",
       manufacturer: "champion",
     }).map((plan) => plan.slug);
-    expect(byBrand).toHaveLength(10);
-    expect(byBrand.sort()).toEqual([...lakeCityPrime].sort());
+    const dealerPrime = lakeCityDealerSeries
+      .filter((group) => group.brand === "Prime")
+      .flatMap((group) =>
+        group.models.map(({ code }) => `champion-prime-${code.toLowerCase()}`),
+      );
+    expect(byBrand.sort()).toEqual([...lakeCityPrime, ...dealerPrime].sort());
     expect(byBrand.every((slug) => primeSlugs.has(slug))).toBe(true);
     expect(brandOptions(catalog, "champion")).toEqual([
       "Embrace",
@@ -283,5 +293,55 @@ describe("Lake City Champion preview", () => {
         manufacturer: "champion",
       }).every((plan) => plan.brand === "Embrace" && plan.series === "Embrace"),
     ).toBe(true);
+  });
+});
+
+describe("Champion factory reconciliation", () => {
+  it("uses the model drawing for searchable specifications and explains disputed configurations", () => {
+    const bySlug = new Map(catalog.map((plan) => [plan.slug, plan]));
+    expect(bySlug.get("champion-pine-manor-pm0483a")?.sqft).toBe(1456);
+    expect(bySlug.get("champion-prime-2868h42p01")).toMatchObject({
+      beds: 4,
+      baths: 2,
+      sqft: 1813,
+    });
+    expect(bySlug.get("champion-trinity-rh2683d")).toMatchObject({
+      beds: 2,
+      baths: 2,
+      sqft: 1031,
+    });
+    const cypress = bySlug.get("champion-cypress-manor-5644a");
+    expect(cypress?.sqft).toBe(2340);
+    expect(cypress?.configurationNote).toContain("2,252 sq ft");
+    const disputed = bySlug.get("champion-lake-manor-2856h42383");
+    expect(disputed?.beds).toBeUndefined();
+    expect(disputed?.sqft).toBe(1493);
+    expect(disputed?.configurationNote).toMatch(/three bedrooms.*lists four/);
+    expect(
+      bySlug.get("champion-signature-sig3482a")?.configurationNote,
+    ).toMatch(/1,120.*68 sq ft porch/);
+  });
+
+  it("lists each verified dealer model once and provides a sitemap entry and working links for any published artwork", () => {
+    const sitemap = readFileSync("public/sitemap.xml", "utf8");
+    for (const { models, series } of lakeCityDealerSeries) {
+      for (const { code } of models) {
+        const matches = catalog.filter(
+          (plan) =>
+            plan.manufacturer === "champion" &&
+            plan.series === series &&
+            plan.modelNumber === code,
+        );
+        expect(matches, code).toHaveLength(1);
+        const [plan] = matches;
+        for (const asset of [plan.floorPlanImage, plan.floorPlanPdf]) {
+          if (asset) expect(existsSync(`public${asset}`)).toBe(true);
+        }
+        expect(sitemap).toContain(`/homes/${plan.slug}</loc>`);
+      }
+    }
+    expect(
+      catalog.find((plan) => plan.modelNumber === "P2456H32P02"),
+    ).toMatchObject({ beds: 3, baths: 2, sqft: 1307 });
   });
 });
