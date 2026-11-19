@@ -1381,9 +1381,9 @@ const lakeCityCatalog = {
       series: "Cypress Manor",
       modelName: "Cypress Manor C0643B",
       modelNumber: "C0643B",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 3,
+      baths: 2,
+      sqft: 1941,
       dimensionsText: null,
       photos: [],
       floorPlanImage:
@@ -1407,9 +1407,11 @@ const lakeCityCatalog = {
       series: "Cypress Manor",
       modelName: "Cypress Manor C0723C",
       modelNumber: "C0723C",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 3,
+      baths: 2,
+      sqft: 2175,
+      configurationNote:
+        "The illustrated 2×6-wall plan shows 2 baths and 2,175 sq ft. The series sheet lists 2½ baths and 2,184 sq ft. Confirm the wall type and layout when ordering.",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/cypress-manor-c0723c/hero.webp",
@@ -1454,9 +1456,9 @@ const lakeCityCatalog = {
       series: "Cypress Manor",
       modelName: "Cypress Manor C0764B",
       modelNumber: "C0764B",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 4,
+      baths: 2,
+      sqft: 2305,
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/cypress-manor-c0764b/hero.webp",
@@ -1558,9 +1560,9 @@ const lakeCityCatalog = {
       series: "Cypress Manor",
       modelName: "Cypress Manor C4563E",
       modelNumber: "C4563E",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 3,
+      baths: 2,
+      sqft: 1493,
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/cypress-manor-c4563e/hero.webp",
@@ -1610,9 +1612,9 @@ const lakeCityCatalog = {
       series: "Cypress Manor",
       modelName: "Cypress Manor C4643A",
       modelNumber: "C4643A",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 3,
+      baths: 2,
+      sqft: 1707,
       dimensionsText: null,
       photos: [],
       floorPlanImage:
@@ -1638,7 +1640,9 @@ const lakeCityCatalog = {
       modelNumber: "C5644A",
       beds: 4,
       baths: 2,
-      sqft: 2252,
+      sqft: 2340,
+      configurationNote:
+        "The current standard has 2,253 sq ft of conditioned space and an 87 sq ft porch. The earlier floor plan shown here is labeled 2,252 sq ft.",
       dimensionsText: "64'-0\" x 45'-6\"",
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/cypress-manor-c5644a/hero.webp",
@@ -1702,6 +1706,54 @@ const lakeCityCatalog = {
       featureSetId: "72dfcfc1",
     },
     {
+      action: "enrich",
+      slug: "champion-embrace-cherish-261",
+      matchModelNumber: "embrace-cherish-261",
+      packSlug: "embrace-cherish-2848h32053",
+      brand: "Embrace",
+      series: "Embrace",
+      modelName: "Embrace Cherish 2848H32053",
+      modelNumber: "2848H32053",
+      beds: 3,
+      baths: 2,
+      sqft: 1280,
+      configurationNote:
+        "The drawing shows the VOG finish. Champion lists this layout in both Ultra (E2848H32053) and VOG (EV2848H32053).",
+      dimensionsText: null,
+      photos: [
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/hero.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-kitchen-1.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-kitchen-5.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-kitchen-4.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-kitchen-3.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-kitchen-2.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-living-room-4.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-living-room-1.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-living-room-2.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-living-room-3.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-dining-area-3.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-dining-area-1.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-dining-area-2.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-bedrooms-4.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-primary-bedroom-1.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-bedrooms-1.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-bedrooms-3.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-primary-bath.webp",
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/gallery/embrace-cherish-261-bath.webp",
+      ],
+      floorPlanImage:
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/floorplan.webp",
+      floorPlanPdf:
+        "/catalog-media/champion-lake-city/embrace/embrace-cherish-2848h32053/floorplan.pdf",
+      tours: [
+        {
+          href: "https://my.matterport.com/show/?m=Kn7h1zsRjF1",
+          label: "Embrace Cherish 261",
+        },
+      ],
+      featureSetId: null,
+    },
+    {
       action: "add",
       slug: "champion-embrace-daylight-1437h11297",
       matchModelNumber: null,
@@ -1761,6 +1813,8 @@ const lakeCityCatalog = {
       beds: 3,
       baths: 2,
       sqft: 1387,
+      configurationNote:
+        "The drawing shows the Ultra finish. Champion lists this layout in both Ultra (E2852H32A7N) and VOG (EV2852H32A7N).",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/embrace/embrace-opportunity-2852h32a7n/hero.webp",
@@ -1809,6 +1863,8 @@ const lakeCityCatalog = {
       beds: 4,
       baths: 2,
       sqft: 1707,
+      configurationNote:
+        "The drawing shows the Ultra finish. Champion lists this layout in both Ultra (E2864H42A7C) and VOG (EV2864H42A7C).",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/embrace/embrace-serenity-2864h42a7c/hero.webp",
@@ -1853,6 +1909,8 @@ const lakeCityCatalog = {
       beds: 3,
       baths: 2,
       sqft: 1153,
+      configurationNote:
+        "The drawing shows the Ultra finish. Champion lists this layout in both Ultra (E1676H32A7H) and VOG (EV1676H32A7H).",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/embrace/embrace-simplicity-1676h32a7h/hero.webp",
@@ -2117,9 +2175,11 @@ const lakeCityCatalog = {
       series: "Homes of Merit Community",
       modelName: "Homes of Merit Community HC3522A",
       modelNumber: "HC3522A",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 2,
+      baths: 2,
+      sqft: 1214,
+      configurationNote:
+        "The total includes 1,075 sq ft of conditioned space and a 139 sq ft porch.",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/homc-hc3522a/hero.webp",
@@ -2258,7 +2318,9 @@ const lakeCityCatalog = {
       modelNumber: "HC4522B",
       beds: 2,
       baths: 2,
-      sqft: 933,
+      sqft: 1013,
+      configurationNote:
+        "The illustrated plan totals 1,013 sq ft, including 933 sq ft of conditioned space and an 80 sq ft porch. Confirm the configuration when ordering.",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/homc-hc4522b/hero.webp",
@@ -2449,9 +2511,11 @@ const lakeCityCatalog = {
       series: "Homes of Merit Community",
       modelName: "Homes of Merit Community HC4563B",
       modelNumber: "HC4563B",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 3,
+      baths: 2,
+      sqft: 1493,
+      configurationNote:
+        "The total includes 1,415 sq ft of conditioned space and a 78 sq ft porch.",
       dimensionsText: null,
       photos: [],
       floorPlanImage:
@@ -2475,9 +2539,11 @@ const lakeCityCatalog = {
       series: "Homes of Merit Community",
       modelName: "Homes of Merit Community HC4563C",
       modelNumber: "HC4563C",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 3,
+      baths: 2,
+      sqft: 1493,
+      configurationNote:
+        "Champion shows two- and three-bedroom layouts on this drawing. The illustrated area is 1,493 sq ft.",
       dimensionsText: null,
       photos: [],
       floorPlanImage:
@@ -2597,9 +2663,11 @@ const lakeCityCatalog = {
       series: "Homes of Merit Community",
       modelName: "Homes of Merit Community HC8502A",
       modelNumber: "HC8502A",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 2,
+      baths: 2,
+      sqft: 1000,
+      configurationNote:
+        "The total includes 861 sq ft of conditioned space and a 139 sq ft porch.",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/homc-hc8502a/hero.webp",
@@ -2645,9 +2713,11 @@ const lakeCityCatalog = {
       series: "Lake Manor",
       modelName: "Lake Manor 2846H22140 Sawgrass",
       modelNumber: "2846H22140",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 2,
+      baths: 2,
+      sqft: 933,
+      configurationNote:
+        "The home has 933 sq ft, or 1,013 sq ft with the optional 80 sq ft porch.",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/lake-manor-sawgrass-2846h22140/hero.webp",
@@ -2688,9 +2758,11 @@ const lakeCityCatalog = {
       series: "Lake Manor",
       modelName: "Lake Manor 2856H42383",
       modelNumber: "2856H42383",
-      beds: 3,
+      beds: null,
       baths: 2,
       sqft: 1493,
+      configurationNote:
+        "The drawing shows three bedrooms. Champion’s dealer sheet lists four. Confirm the bedroom count when ordering.",
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/lake-manor-2856h42383/hero.webp",
@@ -2834,7 +2906,7 @@ const lakeCityCatalog = {
       modelNumber: "PM0483A",
       beds: 3,
       baths: 2,
-      sqft: 456,
+      sqft: 1456,
       dimensionsText: null,
       photos: [],
       floorPlanImage:
@@ -2860,7 +2932,7 @@ const lakeCityCatalog = {
       modelNumber: "PM0764D",
       beds: 4,
       baths: 2,
-      sqft: null,
+      sqft: 2305,
       dimensionsText: null,
       photos: [],
       floorPlanImage:
@@ -2984,9 +3056,9 @@ const lakeCityCatalog = {
       series: "Prime",
       modelName: "Prime 2448H32P02",
       modelNumber: "2448H32P02",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 3,
+      baths: 2,
+      sqft: 1120,
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/prime-2448h32p02/hero.webp",
@@ -3029,9 +3101,9 @@ const lakeCityCatalog = {
       series: "Prime",
       modelName: "Prime 2856H42P01",
       modelNumber: "2856H42P01",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 4,
+      baths: 2,
+      sqft: 1493,
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/prime-2856h42p01/hero.webp",
@@ -3077,9 +3149,9 @@ const lakeCityCatalog = {
       series: "Prime",
       modelName: "Prime 2860H32P01",
       modelNumber: "2860H32P01",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 3,
+      baths: 2,
+      sqft: 1600,
       dimensionsText: null,
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/prime-2860h32p01/hero.webp",
@@ -3603,6 +3675,8 @@ const lakeCityCatalog = {
       beds: 2,
       baths: 2,
       sqft: 1188,
+      configurationNote:
+        "The total includes 1,120 sq ft of conditioned space and a 68 sq ft porch.",
       dimensionsText: null,
       photos: [],
       floorPlanImage:
@@ -3671,9 +3745,9 @@ const lakeCityCatalog = {
       series: "Signature",
       modelName: "Signature SIG4442C",
       modelNumber: "SIG4442C",
-      beds: null,
-      baths: null,
-      sqft: null,
+      beds: 2,
+      baths: 2,
+      sqft: 1174,
       dimensionsText: null,
       photos: [],
       floorPlanImage:
@@ -3703,7 +3777,8 @@ const lakeCityCatalog = {
       modelNumber: "SIG4443D",
       beds: 3,
       baths: 2,
-      sqft: null,
+      sqft: 1174,
+      configurationNote: "The drawing gives 1,174 sq ft of conditioned space.",
       dimensionsText: "26'-8\" x 44'-0\"",
       photos: [],
       floorPlanImage:
@@ -3782,6 +3857,8 @@ const lakeCityCatalog = {
       beds: 3,
       baths: 2,
       sqft: 1493,
+      configurationNote:
+        "Champion shows two- and three-bedroom layouts on this drawing. The illustrated area is 1,493 sq ft.",
       dimensionsText: "26'-8\" x 56'-0\" micro",
       photos: [
         "/catalog-media/champion-lake-city/homes-of-merit/signature-sig4563c/hero.webp",
@@ -4098,6 +4175,7 @@ const lakeCityCatalog = {
     beds: number | null;
     baths: number | null;
     sqft: number | null;
+    configurationNote?: string;
     dimensionsText: string | null;
     photos: string[];
     floorPlanImage: string | null;

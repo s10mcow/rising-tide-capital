@@ -213,11 +213,6 @@ function holdReasons(entry, files) {
       "The Carlee series is unconfirmed. The color floor plan is filed under Cypress Manor and the photos under Lake Manor.",
     );
   }
-  if (number === "2848h32053" || slug === "embrace-cherish-2848h32053") {
-    reasons.push(
-      "Embrace Cherish model number 2848H32053 comes from a color floor-plan filename, not from the Cherish photo filenames.",
-    );
-  }
   if (number === "hc522a" || slug.includes("hc522a")) {
     reasons.push(
       "HC522A may be a typo for HC4522A or HC3522A. It was not merged into either model.",
@@ -338,6 +333,9 @@ for (const row of manifest.models) {
     beds: positiveNumber(model.beds),
     baths: positiveNumber(model.baths),
     sqft: positiveNumber(model.sqft),
+    ...(model.configuration_note
+      ? { configurationNote: model.configuration_note }
+      : {}),
     dimensionsText:
       typeof model.dimensions === "string" && model.dimensions.trim()
         ? model.dimensions.trim()
@@ -349,7 +347,12 @@ for (const row of manifest.models) {
     featureSetId,
   };
 
-  const matches = exactModelMatch(entry.modelNumber);
+  const matches = exactModelMatch(
+    model.catalog_match_model_number ?? entry.modelNumber,
+  );
+  if (model.catalog_match_model_number && matches.length !== 1) {
+    throw new Error(`Missing or ambiguous catalog match for ${entry.packSlug}`);
+  }
   if (matches.length === 1) {
     const existing = matches[0];
     publications.push({
@@ -493,6 +496,7 @@ const lakeCityCatalog = ${JSON.stringify(
     beds: number | null;
     baths: number | null;
     sqft: number | null;
+    configurationNote?: string;
     dimensionsText: string | null;
     photos: string[];
     floorPlanImage: string | null;
@@ -512,6 +516,13 @@ writeFileSync(
 
 const sitemapPath = join(root, "public/sitemap.xml");
 const sitemap = readFileSync(sitemapPath, "utf8");
+const sitemapDates = new Map(
+  Array.from(
+    sitemap.matchAll(/<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g),
+    (match) => [match[1], match[2]],
+  ),
+);
+const today = new Date().toISOString().slice(0, 10);
 const urls = [
   "https://risingtidecapital.us/homes/champion?brand=Homes%20of%20Merit",
   "https://risingtidecapital.us/homes/champion?brand=Embrace",
@@ -523,7 +534,9 @@ const block = [
   "  <!-- lake-city-preview-start -->",
   ...urls.map(
     (loc) =>
-      `  <url><loc>${loc}</loc><lastmod>2026-11-16</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`,
+      `  <url><loc>${loc}</loc><lastmod>${
+        sitemapDates.get(loc) ?? today
+      }</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`,
   ),
   "  <!-- lake-city-preview-end -->",
 ].join("\n");

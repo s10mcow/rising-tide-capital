@@ -23,7 +23,9 @@ All originals remain in the Champion dealer Box share (`Lake City  FL`). This st
 - **RH1351ZLL** is not packed.
 - Photo packs with no hero (no usable exterior in the share): Bay Manor BM722, Southern Comfort 2 (BMALM060-4), The Carlee (interiors only).
 - Photo packs with no floor plan in the share: Embrace Sunlight, Grand Park 1437 and 1451, HOMC HC4443C and HC4543E, Prime Daybreak, Signature SIG3482C, Southern Comfort 2.
-- See `index.csv` / `index.json` for the full asset matrix, and the `uncertain` list in `index.json` for matching caveats (Cherish model number, P256 typo tour, HC522A, The Carlee series, Model 2444 series).
+- See `index.csv` / `index.json` for the full asset matrix, and the `uncertain` list in `index.json` for matching caveats (P256 typo tour, HC522A, The Carlee series, Model 2444 series).
+
+The November 18 review matched Cherish 261 to 2848H32053. Champion identifies the model number in the exterior and main-image filenames on its [Cherish product page](https://www.championhomes.com/models/embrace-cherish-261). The VOG drawing carries the same number.
 
 ## Staging notes
 

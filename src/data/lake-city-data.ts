@@ -19,6 +19,7 @@ export type LakeCityPublication = {
   beds: number | null;
   baths: number | null;
   sqft: number | null;
+  configurationNote?: string;
   dimensionsText: string | null;
   photos: string[];
   floorPlanImage: string | null;

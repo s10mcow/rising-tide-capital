@@ -285,6 +285,7 @@ export default function CatalogDetail({
                   <dd>Call for pricing</dd>
                 </div>
               </dl>
+              {plan.configurationNote && <p>{plan.configurationNote}</p>}
               <a className="site-button dark" href="#home-inquiry">
                 Request info <span aria-hidden="true">↗</span>
               </a>

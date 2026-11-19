@@ -91,16 +91,6 @@
       ]
     },
     {
-      "packSlug": "embrace-cherish-2848h32053",
-      "brand": "Embrace",
-      "series": "Embrace",
-      "modelName": "Embrace Cherish 2848H32053",
-      "modelNumber": "2848H32053",
-      "reasons": [
-        "Embrace Cherish model number 2848H32053 comes from a color floor-plan filename, not from the Cherish photo filenames."
-      ]
-    },
-    {
       "packSlug": "grand-park-gp1371b",
       "brand": "Homes of Merit",
       "series": "Grand Park",
@@ -308,7 +298,7 @@
   "summary": {
     "packs": 96,
     "added": 49,
-    "enriched": 19,
-    "held": 28
+    "enriched": 20,
+    "held": 27
   }
 }

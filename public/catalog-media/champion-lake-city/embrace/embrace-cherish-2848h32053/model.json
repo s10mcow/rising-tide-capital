@@ -7,12 +7,12 @@
   "model_number": "2848H32053",
   "marketing_name": "cherish",
   "slug": "embrace-cherish-2848h32053",
-  "beds": null,
-  "baths": null,
-  "sqft": null,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1280,
   "dimensions": null,
-  "specs_source": null,
-  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "specs_source": "Embrace/Embrace Cherish/261 2848H32053 VOG  Blackline - COLOR.pdf",
+  "specs_note": "The factory drawing and the November 2026 Embrace series sheets agree on the room counts and area.",
   "photo_source_folders": [
     "Embrace/Embrace Cherish 261",
     "Embrace/Embrace Cherish"
@@ -26,7 +26,9 @@
   "has_features": false,
   "features_source": null,
   "notes": [
-    "Model number 2848H32053 was taken from the floor-plan filename '261 2848H32053 VOG  Blackline - COLOR.pdf' in the model folder, not from the photo filenames."
+    "Champion names the 261-embrace-2848h32053-cherish-exterior and main-image assets on https://www.championhomes.com/models/embrace-cherish-261. The title block on the VOG drawing confirms 2848H32053."
   ],
-  "tour_only": false
+  "tour_only": false,
+  "configuration_note": "The drawing shows the VOG finish. Champion lists this layout in both Ultra (E2848H32053) and VOG (EV2848H32053).",
+  "catalog_match_model_number": "embrace-cherish-261"
 }

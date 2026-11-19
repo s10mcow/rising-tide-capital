@@ -7,12 +7,12 @@
   "model_number": "2448H32P02",
   "marketing_name": null,
   "slug": "prime-2448h32p02",
-  "beds": null,
-  "baths": null,
-  "sqft": null,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1120,
   "dimensions": null,
-  "specs_source": null,
-  "specs_note": "Beds, baths, square footage, and dimensions are included only when a source file states them. Blank fields were not guessed.",
+  "specs_source": "Champion Dealer Box/Blacklines-Per Series/BLACKLINE/Prime Series/Prime Double-Wides (24')/2448H32P02 Blackline.pdf",
+  "specs_note": "Champion Lake City PRIME 11.2.2026 and the model drawing.",
   "photo_source_folders": [
     "Homes of Merit/Prime/P2448H32P02 Alt 1"
   ],
